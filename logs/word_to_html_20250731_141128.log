@@ -1,0 +1,97 @@
+2025-07-31 14:11:28,634 - logger - INFO - ============================================================
+2025-07-31 14:11:28,635 - logger - INFO - Mammoth Word to HTML Converter
+2025-07-31 14:11:28,635 - logger - INFO - ============================================================
+2025-07-31 14:11:28,642 - mammoth_converter - INFO - Found 45 documents
+2025-07-31 14:11:28,643 - mammoth_converter - INFO - Converting [1]: الكيمياء الحيوية (بانتظار الترجمة).docx
+2025-07-31 14:11:30,296 - mammoth_converter - ERROR - Error converting D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\مقالات بعد الاخراج\الكيمياء الحيوية (بانتظار الترجمة).docx: 'MammothConverter' object has no attribute 'image_counter'
+2025-07-31 14:11:30,303 - mammoth_converter - INFO - Converting [2]: الكيمياء الحيوية (بانتظار الترجمة).docx
+2025-07-31 14:11:31,974 - mammoth_converter - ERROR - Error converting D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\مقالات بعد الاخراج\test\الكيمياء الحيوية (بانتظار الترجمة).docx: 'MammothConverter' object has no attribute 'image_counter'
+2025-07-31 14:11:31,976 - mammoth_converter - INFO - Converting [3]: التناص (جاهزة للنشر).docx
+2025-07-31 14:11:32,623 - mammoth_converter - ERROR - Error converting D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\مقالات بعد الاخراج\الآداب واللغات\التناص (جاهزة للنشر).docx: 'MammothConverter' object has no attribute 'image_counter'
+2025-07-31 14:11:32,625 - mammoth_converter - INFO - Converting [4]: المعاجم العربية التراثية (جاهزة للنشر).docx
+2025-07-31 14:11:34,419 - mammoth_converter - ERROR - Error converting D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\مقالات بعد الاخراج\الآداب واللغات\المعاجم العربية التراثية (جاهزة للنشر).docx: 'MammothConverter' object has no attribute 'image_counter'
+2025-07-31 14:11:34,425 - mammoth_converter - INFO - Converting [5]: أمين الخولي (جاهزة للنشر) .docx
+2025-07-31 14:11:35,983 - mammoth_converter - ERROR - Error converting D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\مقالات بعد الاخراج\الآداب واللغات\أمين الخولي (جاهزة للنشر) .docx: 'MammothConverter' object has no attribute 'image_counter'
+2025-07-31 14:11:35,987 - mammoth_converter - INFO - Converting [6]: إلياس زيات (جاهزة للنشر).docx
+2025-07-31 14:11:36,395 - mammoth_converter - ERROR - Error converting D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\مقالات بعد الاخراج\الآداب واللغات\إلياس زيات (جاهزة للنشر).docx: 'MammothConverter' object has no attribute 'image_counter'
+2025-07-31 14:11:36,396 - mammoth_converter - INFO - Converting [7]: حسن العطار (جاهزة للنشر).docx
+2025-07-31 14:11:36,941 - mammoth_converter - ERROR - Error converting D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\مقالات بعد الاخراج\الآداب واللغات\حسن العطار (جاهزة للنشر).docx: 'MammothConverter' object has no attribute 'image_counter'
+2025-07-31 14:11:36,943 - mammoth_converter - INFO - Converting [8]: حسن فتحي (جاهزة للنشر).docx
+2025-07-31 14:11:37,416 - mammoth_converter - ERROR - Error converting D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\مقالات بعد الاخراج\الآداب واللغات\حسن فتحي (جاهزة للنشر).docx: 'MammothConverter' object has no attribute 'image_counter'
+2025-07-31 14:11:37,417 - mammoth_converter - INFO - Converting [9]: سليم النقاش (جاهزة للنشر)  .docx
+2025-07-31 14:11:37,839 - mammoth_converter - ERROR - Error converting D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\مقالات بعد الاخراج\الآداب واللغات\سليم النقاش (جاهزة للنشر)  .docx: 'MammothConverter' object has no attribute 'image_counter'
+2025-07-31 14:11:37,840 - mammoth_converter - INFO - Converting [10]: غالب هلسا (جاهزة للنشر).docx
+2025-07-31 14:11:38,434 - mammoth_converter - ERROR - Error converting D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\مقالات بعد الاخراج\الآداب واللغات\غالب هلسا (جاهزة للنشر).docx: 'MammothConverter' object has no attribute 'image_counter'
+2025-07-31 14:11:38,435 - mammoth_converter - INFO - Converting [11]: كتاب العين (جاهزة للنشر).docx
+2025-07-31 14:11:39,056 - mammoth_converter - ERROR - Error converting D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\مقالات بعد الاخراج\الآداب واللغات\كتاب العين (جاهزة للنشر).docx: 'MammothConverter' object has no attribute 'image_counter'
+2025-07-31 14:11:39,058 - mammoth_converter - INFO - Converting [12]: ابن ماجه (جاهز للنشر).docx
+2025-07-31 14:11:39,417 - mammoth_converter - ERROR - Error converting D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\مقالات بعد الاخراج\الاسلام وعلومه\ابن ماجه (جاهز للنشر).docx: 'MammothConverter' object has no attribute 'image_counter'
+2025-07-31 14:11:39,418 - mammoth_converter - INFO - Converting [13]: الطبيعيات في علم الكلام (جاهزة للنشر).docx
+2025-07-31 14:11:40,574 - mammoth_converter - ERROR - Error converting D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\مقالات بعد الاخراج\الاسلام وعلومه\الطبيعيات في علم الكلام (جاهزة للنشر).docx: 'MammothConverter' object has no attribute 'image_counter'
+2025-07-31 14:11:40,581 - mammoth_converter - INFO - Converting [14]: أبو يعلى الفراء (جاهزة للنشر).docx
+2025-07-31 14:11:41,291 - mammoth_converter - ERROR - Error converting D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\مقالات بعد الاخراج\الاسلام وعلومه\أبو يعلى الفراء (جاهزة للنشر).docx: 'MammothConverter' object has no attribute 'image_counter'
+2025-07-31 14:11:41,296 - mammoth_converter - INFO - Converting [15]: حسين الجسر (جاهزة للنشر).docx
+2025-07-31 14:11:41,625 - mammoth_converter - ERROR - Error converting D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\مقالات بعد الاخراج\الاسلام وعلومه\حسين الجسر (جاهزة للنشر).docx: 'MammothConverter' object has no attribute 'image_counter'
+2025-07-31 14:11:41,631 - mammoth_converter - INFO - Converting [16]: مسعر بن كدام (جاهزة للنشر).docx
+2025-07-31 14:11:42,305 - mammoth_converter - ERROR - Error converting D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\مقالات بعد الاخراج\الاسلام وعلومه\مسعر بن كدام (جاهزة للنشر).docx: 'MammothConverter' object has no attribute 'image_counter'
+2025-07-31 14:11:42,307 - mammoth_converter - INFO - Converting [17]: السلع العامة (جاهزة للنشر).docx
+2025-07-31 14:11:43,343 - mammoth_converter - ERROR - Error converting D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\مقالات بعد الاخراج\الاقتصاد والمال\السلع العامة (جاهزة للنشر).docx: 'MammothConverter' object has no attribute 'image_counter'
+2025-07-31 14:11:43,349 - mammoth_converter - INFO - Converting [18]: التشابه (جاهزة للنشر) .docx
+2025-07-31 14:11:44,446 - mammoth_converter - ERROR - Error converting D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\مقالات بعد الاخراج\الرياضيات والفيزياء\التشابه (جاهزة للنشر) .docx: 'MammothConverter' object has no attribute 'image_counter'
+2025-07-31 14:11:44,448 - mammoth_converter - INFO - Converting [19]: الدائرة (جاهزة للنشر).docx
+2025-07-31 14:11:45,915 - mammoth_converter - ERROR - Error converting D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\مقالات بعد الاخراج\الرياضيات والفيزياء\الدائرة (جاهزة للنشر).docx: 'MammothConverter' object has no attribute 'image_counter'
+2025-07-31 14:11:45,917 - mammoth_converter - INFO - Converting [20]: الدالة واحد لواحد (جاهزة للنشر).docx
+2025-07-31 14:11:46,425 - mammoth_converter - ERROR - Error converting D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\مقالات بعد الاخراج\الرياضيات والفيزياء\الدالة واحد لواحد (جاهزة للنشر).docx: 'MammothConverter' object has no attribute 'image_counter'
+2025-07-31 14:11:46,431 - mammoth_converter - INFO - Converting [21]: العدد الأولي (جاهزة للنشر).docx
+2025-07-31 14:11:48,228 - mammoth_converter - ERROR - Error converting D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\مقالات بعد الاخراج\الرياضيات والفيزياء\العدد الأولي (جاهزة للنشر).docx: 'MammothConverter' object has no attribute 'image_counter'
+2025-07-31 14:11:48,233 - mammoth_converter - INFO - Converting [22]: الفضاء المتري (جاهزة للنشر).docx
+2025-07-31 14:11:49,475 - mammoth_converter - ERROR - Error converting D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\مقالات بعد الاخراج\الرياضيات والفيزياء\الفضاء المتري (جاهزة للنشر).docx: 'MammothConverter' object has no attribute 'image_counter'
+2025-07-31 14:11:49,477 - mammoth_converter - INFO - Converting [23]: إستر أزهري (جاهزة للنشر).docx
+2025-07-31 14:11:50,364 - mammoth_converter - ERROR - Error converting D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\مقالات بعد الاخراج\تاريخ وجغرافيا\إستر أزهري (جاهزة للنشر).docx: 'MammothConverter' object has no attribute 'image_counter'
+2025-07-31 14:11:50,365 - mammoth_converter - INFO - Converting [24]: بولينا حسون (جاهزة للنشر).docx
+2025-07-31 14:11:50,966 - mammoth_converter - ERROR - Error converting D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\مقالات بعد الاخراج\تاريخ وجغرافيا\بولينا حسون (جاهزة للنشر).docx: 'MammothConverter' object has no attribute 'image_counter'
+2025-07-31 14:11:50,968 - mammoth_converter - INFO - Converting [25]: جمعية العهد (جاهزة للنشر).docx
+2025-07-31 14:11:52,608 - mammoth_converter - ERROR - Error converting D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\مقالات بعد الاخراج\تاريخ وجغرافيا\جمعية العهد (جاهزة للنشر).docx: 'MammothConverter' object has no attribute 'image_counter'
+2025-07-31 14:11:52,611 - mammoth_converter - INFO - Converting [26]: زينب فواز (جاهزة للنشر).docx
+2025-07-31 14:11:52,992 - mammoth_converter - ERROR - Error converting D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\مقالات بعد الاخراج\تاريخ وجغرافيا\زينب فواز (جاهزة للنشر).docx: 'MammothConverter' object has no attribute 'image_counter'
+2025-07-31 14:11:52,998 - mammoth_converter - INFO - Converting [27]: ساطع الحصري (جاهزة للنشر).docx
+2025-07-31 14:11:54,845 - mammoth_converter - ERROR - Error converting D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\مقالات بعد الاخراج\تاريخ وجغرافيا\ساطع الحصري (جاهزة للنشر).docx: 'MammothConverter' object has no attribute 'image_counter'
+2025-07-31 14:11:54,849 - mammoth_converter - INFO - Converting [28]: سوق عكاظ (جاهزة للنشر).docx
+2025-07-31 14:11:55,907 - mammoth_converter - ERROR - Error converting D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\مقالات بعد الاخراج\تاريخ وجغرافيا\سوق عكاظ (جاهزة للنشر).docx: 'MammothConverter' object has no attribute 'image_counter'
+2025-07-31 14:11:55,909 - mammoth_converter - INFO - Converting [29]: صفقة الأسلحة التشيكية (جاهزة للنشر).docx
+2025-07-31 14:11:56,285 - mammoth_converter - ERROR - Error converting D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\مقالات بعد الاخراج\تاريخ وجغرافيا\صفقة الأسلحة التشيكية (جاهزة للنشر).docx: 'MammothConverter' object has no attribute 'image_counter'
+2025-07-31 14:11:56,287 - mammoth_converter - INFO - Converting [30]: مجلي نصراوين (جاهزة للنشر).docx
+2025-07-31 14:11:56,702 - mammoth_converter - ERROR - Error converting D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\مقالات بعد الاخراج\تاريخ وجغرافيا\مجلي نصراوين (جاهزة للنشر).docx: 'MammothConverter' object has no attribute 'image_counter'
+2025-07-31 14:11:56,708 - mammoth_converter - INFO - Converting [31]: مريانا مراش (جاهزة للنشر).docx
+2025-07-31 14:11:57,041 - mammoth_converter - ERROR - Error converting D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\مقالات بعد الاخراج\تاريخ وجغرافيا\مريانا مراش (جاهزة للنشر).docx: 'MammothConverter' object has no attribute 'image_counter'
+2025-07-31 14:11:57,042 - mammoth_converter - INFO - Converting [32]: مسلم بن مسلم الجرمي (جاهزة للنشر).docx
+2025-07-31 14:11:57,403 - mammoth_converter - ERROR - Error converting D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\مقالات بعد الاخراج\تاريخ وجغرافيا\مسلم بن مسلم الجرمي (جاهزة للنشر).docx: 'MammothConverter' object has no attribute 'image_counter'
+2025-07-31 14:11:57,404 - mammoth_converter - INFO - Converting [33]: نعمان قساطلي (جاهزة للنشر).docx
+2025-07-31 14:11:57,880 - mammoth_converter - ERROR - Error converting D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\مقالات بعد الاخراج\تاريخ وجغرافيا\نعمان قساطلي (جاهزة للنشر).docx: 'MammothConverter' object has no attribute 'image_counter'
+2025-07-31 14:11:57,881 - mammoth_converter - INFO - Converting [34]: هارون بن يحيى (جاهزة للنشر).docx
+2025-07-31 14:11:58,283 - mammoth_converter - ERROR - Error converting D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\مقالات بعد الاخراج\تاريخ وجغرافيا\هارون بن يحيى (جاهزة للنشر).docx: 'MammothConverter' object has no attribute 'image_counter'
+2025-07-31 14:11:58,284 - mammoth_converter - INFO - Converting [35]: هنا كسباني (جاهزة للنشر).docx
+2025-07-31 14:11:58,688 - mammoth_converter - ERROR - Error converting D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\مقالات بعد الاخراج\تاريخ وجغرافيا\هنا كسباني (جاهزة للنشر).docx: 'MammothConverter' object has no attribute 'image_counter'
+2025-07-31 14:11:58,689 - mammoth_converter - INFO - Converting [36]: ياسين الهاشمي (جاهزة للنشر).docx
+2025-07-31 14:12:00,569 - mammoth_converter - ERROR - Error converting D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\مقالات بعد الاخراج\تاريخ وجغرافيا\ياسين الهاشمي (جاهزة للنشر).docx: 'MammothConverter' object has no attribute 'image_counter'
+2025-07-31 14:12:00,571 - mammoth_converter - INFO - Converting [37]: الصيدلة (جاهزة للنشر).docx
+2025-07-31 14:12:01,622 - mammoth_converter - ERROR - Error converting D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\مقالات بعد الاخراج\طب وصيدلة\الصيدلة (جاهزة للنشر).docx: 'MammothConverter' object has no attribute 'image_counter'
+2025-07-31 14:12:01,624 - mammoth_converter - INFO - Converting [38]: المكملات الغذائية (جاهزة للنشر).docx
+2025-07-31 14:12:02,496 - mammoth_converter - ERROR - Error converting D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\مقالات بعد الاخراج\طب وصيدلة\المكملات الغذائية (جاهزة للنشر).docx: 'MammothConverter' object has no attribute 'image_counter'
+2025-07-31 14:12:02,497 - mammoth_converter - INFO - Converting [39]: البروتينات - (جاهزة للنشر).docx
+2025-07-31 14:12:02,890 - mammoth_converter - ERROR - Error converting D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\مقالات بعد الاخراج\علوم الأحياء والكيمياء\البروتينات - (جاهزة للنشر).docx: 'MammothConverter' object has no attribute 'image_counter'
+2025-07-31 14:12:02,891 - mammoth_converter - INFO - Converting [40]: الدورة الشهرية (جاهزة للنشر).docx
+2025-07-31 14:12:03,289 - mammoth_converter - ERROR - Error converting D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\مقالات بعد الاخراج\علوم الأحياء والكيمياء\الدورة الشهرية (جاهزة للنشر).docx: 'MammothConverter' object has no attribute 'image_counter'
+2025-07-31 14:12:03,290 - mammoth_converter - INFO - Converting [41]: الغشاء الخلوي-مترجم (جاهزة للنشر).docx
+2025-07-31 14:12:04,181 - mammoth_converter - ERROR - Error converting D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\مقالات بعد الاخراج\علوم الأحياء والكيمياء\الغشاء الخلوي-مترجم (جاهزة للنشر).docx: 'MammothConverter' object has no attribute 'image_counter'
+2025-07-31 14:12:04,182 - mammoth_converter - INFO - Converting [42]: النواتج الطبيعية (جاهزة للنشر).docx
+2025-07-31 14:12:06,385 - mammoth_converter - ERROR - Error converting D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\مقالات بعد الاخراج\علوم الأحياء والكيمياء\النواتج الطبيعية (جاهزة للنشر).docx: 'MammothConverter' object has no attribute 'image_counter'
+2025-07-31 14:12:06,392 - mammoth_converter - INFO - Converting [43]: فيروس كورونا (جاهزة للنشر).docx
+2025-07-31 14:12:07,284 - mammoth_converter - ERROR - Error converting D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\مقالات بعد الاخراج\علوم الأحياء والكيمياء\فيروس كورونا (جاهزة للنشر).docx: 'MammothConverter' object has no attribute 'image_counter'
+2025-07-31 14:12:07,287 - mammoth_converter - INFO - Converting [44]: لينا ماري عبيد (جاهزة للنشر).docx
+2025-07-31 14:12:08,500 - mammoth_converter - ERROR - Error converting D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\مقالات بعد الاخراج\علوم الأحياء والكيمياء\لينا ماري عبيد (جاهزة للنشر).docx: 'MammothConverter' object has no attribute 'image_counter'
+2025-07-31 14:12:08,504 - mammoth_converter - INFO - Converting [45]: يوسف عوني حنّون (جاهزة للنشر).docx
+2025-07-31 14:12:09,638 - mammoth_converter - ERROR - Error converting D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\مقالات بعد الاخراج\علوم الأحياء والكيمياء\يوسف عوني حنّون (جاهزة للنشر).docx: 'MammothConverter' object has no attribute 'image_counter'
+2025-07-31 14:12:09,640 - logger - INFO - ============================================================
+2025-07-31 14:12:09,640 - logger - INFO - Conversion completed!
+2025-07-31 14:12:09,641 - logger - INFO - ============================================================

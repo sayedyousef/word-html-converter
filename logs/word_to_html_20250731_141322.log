@@ -1,0 +1,29 @@
+2025-07-31 14:13:22,857 - logger - INFO - ============================================================
+2025-07-31 14:13:22,857 - logger - INFO - Mammoth Word to HTML Converter
+2025-07-31 14:13:22,857 - logger - INFO - ============================================================
+2025-07-31 14:13:22,859 - mammoth_converter - INFO - Found 45 documents
+2025-07-31 14:13:22,860 - mammoth_converter - INFO - Converting [1]: الكيمياء الحيوية (بانتظار الترجمة).docx
+2025-07-31 14:13:24,530 - mammoth_converter - ERROR - Error converting D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\مقالات بعد الاخراج\الكيمياء الحيوية (بانتظار الترجمة).docx: 'MammothConverter' object has no attribute 'image_counter'
+2025-07-31 14:13:24,546 - mammoth_converter - INFO - Converting [2]: الكيمياء الحيوية (بانتظار الترجمة).docx
+2025-07-31 14:13:26,226 - mammoth_converter - ERROR - Error converting D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\مقالات بعد الاخراج\test\الكيمياء الحيوية (بانتظار الترجمة).docx: 'MammothConverter' object has no attribute 'image_counter'
+2025-07-31 14:13:26,234 - mammoth_converter - INFO - Converting [3]: التناص (جاهزة للنشر).docx
+2025-07-31 14:13:26,801 - mammoth_converter - ERROR - Error converting D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\مقالات بعد الاخراج\الآداب واللغات\التناص (جاهزة للنشر).docx: 'MammothConverter' object has no attribute 'image_counter'
+2025-07-31 14:13:26,803 - mammoth_converter - INFO - Converting [4]: المعاجم العربية التراثية (جاهزة للنشر).docx
+2025-07-31 14:13:28,591 - mammoth_converter - ERROR - Error converting D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\مقالات بعد الاخراج\الآداب واللغات\المعاجم العربية التراثية (جاهزة للنشر).docx: 'MammothConverter' object has no attribute 'image_counter'
+2025-07-31 14:13:28,597 - mammoth_converter - INFO - Converting [5]: أمين الخولي (جاهزة للنشر) .docx
+2025-07-31 14:13:30,120 - mammoth_converter - ERROR - Error converting D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\مقالات بعد الاخراج\الآداب واللغات\أمين الخولي (جاهزة للنشر) .docx: 'MammothConverter' object has no attribute 'image_counter'
+2025-07-31 14:13:30,124 - mammoth_converter - INFO - Converting [6]: إلياس زيات (جاهزة للنشر).docx
+2025-07-31 14:13:30,525 - mammoth_converter - ERROR - Error converting D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\مقالات بعد الاخراج\الآداب واللغات\إلياس زيات (جاهزة للنشر).docx: 'MammothConverter' object has no attribute 'image_counter'
+2025-07-31 14:13:30,526 - mammoth_converter - INFO - Converting [7]: حسن العطار (جاهزة للنشر).docx
+2025-07-31 14:13:31,074 - mammoth_converter - ERROR - Error converting D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\مقالات بعد الاخراج\الآداب واللغات\حسن العطار (جاهزة للنشر).docx: 'MammothConverter' object has no attribute 'image_counter'
+2025-07-31 14:13:31,076 - mammoth_converter - INFO - Converting [8]: حسن فتحي (جاهزة للنشر).docx
+2025-07-31 14:13:31,552 - mammoth_converter - ERROR - Error converting D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\مقالات بعد الاخراج\الآداب واللغات\حسن فتحي (جاهزة للنشر).docx: 'MammothConverter' object has no attribute 'image_counter'
+2025-07-31 14:13:31,553 - mammoth_converter - INFO - Converting [9]: سليم النقاش (جاهزة للنشر)  .docx
+2025-07-31 14:13:31,962 - mammoth_converter - ERROR - Error converting D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\مقالات بعد الاخراج\الآداب واللغات\سليم النقاش (جاهزة للنشر)  .docx: 'MammothConverter' object has no attribute 'image_counter'
+2025-07-31 14:13:31,964 - mammoth_converter - INFO - Converting [10]: غالب هلسا (جاهزة للنشر).docx
+2025-07-31 14:13:32,557 - mammoth_converter - ERROR - Error converting D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\مقالات بعد الاخراج\الآداب واللغات\غالب هلسا (جاهزة للنشر).docx: 'MammothConverter' object has no attribute 'image_counter'
+2025-07-31 14:13:32,560 - mammoth_converter - INFO - Converting [11]: كتاب العين (جاهزة للنشر).docx
+2025-07-31 14:13:33,247 - mammoth_converter - ERROR - Error converting D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\مقالات بعد الاخراج\الآداب واللغات\كتاب العين (جاهزة للنشر).docx: 'MammothConverter' object has no attribute 'image_counter'
+2025-07-31 14:13:33,249 - mammoth_converter - INFO - Converting [12]: ابن ماجه (جاهز للنشر).docx
+2025-07-31 14:13:33,609 - mammoth_converter - ERROR - Error converting D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\مقالات بعد الاخراج\الاسلام وعلومه\ابن ماجه (جاهز للنشر).docx: 'MammothConverter' object has no attribute 'image_counter'
+2025-07-31 14:13:33,610 - mammoth_converter - INFO - Converting [13]: الطبيعيات في علم الكلام (جاهزة للنشر).docx

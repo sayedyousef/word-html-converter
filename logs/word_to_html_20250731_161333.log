@@ -1,0 +1,894 @@
+2025-07-31 16:13:33,945 - logger - INFO - ============================================================
+2025-07-31 16:13:33,946 - logger - INFO - Mammoth Word to HTML Converter
+2025-07-31 16:13:33,946 - logger - INFO - ============================================================
+2025-07-31 16:13:33,954 - mammoth_converter - INFO - Found 45 documents
+2025-07-31 16:13:33,955 - mammoth_converter - INFO - Converting [1]: الكيمياء الحيوية (بانتظار الترجمة).docx
+2025-07-31 16:13:38,059 - mammoth_converter - WARNING - الكيمياء الحيوية (بانتظار الترجمة).docx: Message(type='warning', message='An unrecognised element was ignored: {http://schemas.openxmlformats.org/officeDocument/2006/math}oMath')
+2025-07-31 16:13:38,060 - mammoth_converter - WARNING - الكيمياء الحيوية (بانتظار الترجمة).docx: Message(type='warning', message='An unrecognised element was ignored: {http://schemas.openxmlformats.org/officeDocument/2006/math}oMathPara')
+2025-07-31 16:13:38,060 - mammoth_converter - WARNING - الكيمياء الحيوية (بانتظار الترجمة).docx: Message(type='warning', message='Unrecognised paragraph style: List Paragraph (Style ID: ListParagraph)')
+2025-07-31 16:13:38,060 - mammoth_converter - WARNING - الكيمياء الحيوية (بانتظار الترجمة).docx: Message(type='warning', message='Unrecognised run style: anchor-text (Style ID: anchor-text)')
+2025-07-31 16:13:38,061 - mammoth_converter - INFO - === EQUATION DIAGNOSIS ===
+2025-07-31 16:13:40,838 - mammoth_converter - INFO - 
+Math operators: Found 50 matches
+2025-07-31 16:13:40,839 - mammoth_converter - INFO -   [1] عالم الكيمياء إدوارد بوخنر، الحاصل على نوبل عام 1907، أثناء احدى تجاربه - المصدر: جامعة فورتسبورغ
+2025-07-31 16:13:40,839 - mammoth_converter - INFO -   [2] الكيمياء الحيوية (البيوكيمياء أو الكيمياء البيولوجية) فرع من فروع العلوم الدقيقة التي تهدف إلى دراسة
+2025-07-31 16:13:40,840 - mammoth_converter - INFO -   [3] الدراسات البيوكيميائية في أجسام الحيوانات المخبرية (in vivo) أو خارجها (in vitro)
+2025-07-31 16:13:41,124 - mammoth_converter - INFO - 
+Fractions: Found 2 matches
+2025-07-31 16:13:41,125 - mammoth_converter - INFO -   [1] كما أتاحت التطورات في مجال تقنيات التأيُّن، مثل التفاظ/ تأيين الليزر بمساعدة المصفوفة (Matrix-assist
+2025-07-31 16:13:41,125 - mammoth_converter - INFO -   [2] McIlwain, Henry. “Biochemistry and Neurochemistry in the 1800s: their Origins in Comparative Animal 
+2025-07-31 16:13:43,956 - mammoth_converter - INFO - 
+Greek letters: Found 7 matches
+2025-07-31 16:13:43,957 - mammoth_converter - INFO -   [1] وقد اختلفت الآراء حول بدايات حقل الكيمياء الحيوية، فالملاحظات التي وضعها أنطوان لاڤوازييه (Antoine L
+2025-07-31 16:13:43,957 - mammoth_converter - INFO -   [2] ڤينسنز كليتزينسكي (1826-1882) - المصدر: Wien Museum
+2025-07-31 16:13:43,957 - mammoth_converter - INFO -   [3] أما الدهون، ثاني العائلات الجزيئية، فهي جزيئات كارهة للماء (Hydrophobic) تكوّن أغشية الخلايا (Cell m
+2025-07-31 16:13:43,957 - mammoth_converter - INFO - 
+=== IN HTML OUTPUT ===
+2025-07-31 16:13:43,962 - mammoth_converter - INFO -   Found 8 equations
+2025-07-31 16:13:43,967 - mammoth_converter - INFO - Saved: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\001_الكيمياء الحيوية (بانتظار الترجمة)\الكيمياء الحيوية (بانتظار الترجمة).html
+2025-07-31 16:13:43,967 - mammoth_converter - INFO - Converting [2]: الكيمياء الحيوية (بانتظار الترجمة).docx
+2025-07-31 16:13:50,313 - mammoth_converter - WARNING - الكيمياء الحيوية (بانتظار الترجمة).docx: Message(type='warning', message='An unrecognised element was ignored: {http://schemas.openxmlformats.org/officeDocument/2006/math}oMath')
+2025-07-31 16:13:50,315 - mammoth_converter - WARNING - الكيمياء الحيوية (بانتظار الترجمة).docx: Message(type='warning', message='An unrecognised element was ignored: {http://schemas.openxmlformats.org/officeDocument/2006/math}oMathPara')
+2025-07-31 16:13:50,315 - mammoth_converter - WARNING - الكيمياء الحيوية (بانتظار الترجمة).docx: Message(type='warning', message='Unrecognised paragraph style: List Paragraph (Style ID: ListParagraph)')
+2025-07-31 16:13:50,316 - mammoth_converter - WARNING - الكيمياء الحيوية (بانتظار الترجمة).docx: Message(type='warning', message='Unrecognised run style: anchor-text (Style ID: anchor-text)')
+2025-07-31 16:13:50,317 - mammoth_converter - INFO - === EQUATION DIAGNOSIS ===
+2025-07-31 16:13:52,969 - mammoth_converter - INFO - 
+Math operators: Found 50 matches
+2025-07-31 16:13:52,969 - mammoth_converter - INFO -   [1] عالم الكيمياء إدوارد بوخنر، الحاصل على نوبل عام 1907، أثناء احدى تجاربه - المصدر: جامعة فورتسبورغ
+2025-07-31 16:13:52,970 - mammoth_converter - INFO -   [2] الكيمياء الحيوية (البيوكيمياء أو الكيمياء البيولوجية) فرع من فروع العلوم الدقيقة التي تهدف إلى دراسة
+2025-07-31 16:13:52,970 - mammoth_converter - INFO -   [3] الدراسات البيوكيميائية في أجسام الحيوانات المخبرية (in vivo) أو خارجها (in vitro)
+2025-07-31 16:13:53,218 - mammoth_converter - INFO - 
+Fractions: Found 2 matches
+2025-07-31 16:13:53,219 - mammoth_converter - INFO -   [1] كما أتاحت التطورات في مجال تقنيات التأيُّن، مثل التفاظ/ تأيين الليزر بمساعدة المصفوفة (Matrix-assist
+2025-07-31 16:13:53,220 - mammoth_converter - INFO -   [2] McIlwain, Henry. “Biochemistry and Neurochemistry in the 1800s: their Origins in Comparative Animal 
+2025-07-31 16:13:55,626 - mammoth_converter - INFO - 
+Greek letters: Found 7 matches
+2025-07-31 16:13:55,627 - mammoth_converter - INFO -   [1] وقد اختلفت الآراء حول بدايات حقل الكيمياء الحيوية، فالملاحظات التي وضعها أنطوان لاڤوازييه (Antoine L
+2025-07-31 16:13:55,627 - mammoth_converter - INFO -   [2] ڤينسنز كليتزينسكي (1826-1882) - المصدر: Wien Museum
+2025-07-31 16:13:55,627 - mammoth_converter - INFO -   [3] أما الدهون، ثاني العائلات الجزيئية، فهي جزيئات كارهة للماء (Hydrophobic) تكوّن أغشية الخلايا (Cell m
+2025-07-31 16:13:55,628 - mammoth_converter - INFO - 
+=== IN HTML OUTPUT ===
+2025-07-31 16:13:55,631 - mammoth_converter - INFO -   Found 8 equations
+2025-07-31 16:13:55,633 - mammoth_converter - INFO - Saved: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\test\002_الكيمياء الحيوية (بانتظار الترجمة)\الكيمياء الحيوية (بانتظار الترجمة).html
+2025-07-31 16:13:55,634 - mammoth_converter - INFO - Converting [3]: التناص (جاهزة للنشر).docx
+2025-07-31 16:13:57,888 - mammoth_converter - WARNING - التناص (جاهزة للنشر).docx: Message(type='warning', message='Unrecognised paragraph style: List Paragraph (Style ID: ListParagraph)')
+2025-07-31 16:13:57,890 - mammoth_converter - INFO - === EQUATION DIAGNOSIS ===
+2025-07-31 16:13:59,035 - mammoth_converter - INFO - 
+Math operators: Found 26 matches
+2025-07-31 16:13:59,035 - mammoth_converter - INFO -   [1] التناصُّ (أو التداخل النصيّ، أو التفاعل النصيّ، أو تداخل النصوص) هو مصطلحٌ نقديٌّ، يشيرُ إلى أن هناك
+2025-07-31 16:13:59,035 - mammoth_converter - INFO -   [2] فعبارة "أبانا الذي في المباحث" تتناص مع مفتتح الصلاة الإنجيلية "أبانا الذي في السماوات" (مَتَّى، الف
+2025-07-31 16:13:59,036 - mammoth_converter - INFO -   [3] وفق تصور باختين للعلاقات النصيّة، فإن التناص ظاهرة طبيعية؛ إذ لا يمكن بناء نصّ ما دون أن يدخل في علا
+2025-07-31 16:13:59,113 - mammoth_converter - INFO - 
+Fractions: Found 3 matches
+2025-07-31 16:13:59,113 - mammoth_converter - INFO -   [1] على خلاف حداثة عُمْر مصطلح التناصّ، فإن المفهوم الذي يشير إليه، أي العلاقات بين النصوص، حظي باهتمام 
+2025-07-31 16:13:59,113 - mammoth_converter - INFO -   [2] يقطين، سعيد. انفتاح النص الروائي: النص والسياق. ط 2. بيروت/ الدار البيضاء: المركز الثقافي العربي، 20
+2025-07-31 16:13:59,114 - mammoth_converter - INFO -   [3] Allen, Ghraham. Intertextuality. London/New York: Routledge, 2011.
+2025-07-31 16:14:00,113 - mammoth_converter - INFO - 
+Greek letters: Found 1 matches
+2025-07-31 16:14:00,114 - mammoth_converter - INFO -   [1] Barthes, Roland. Image – Music – Text. Stephen Heath )trans.). London: Fontana Press, 1977.
+2025-07-31 16:14:00,114 - mammoth_converter - INFO - 
+=== IN HTML OUTPUT ===
+2025-07-31 16:14:00,116 - mammoth_converter - INFO -   Found 7 equations
+2025-07-31 16:14:00,119 - mammoth_converter - INFO - Saved: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\الآداب واللغات\003_التناص (جاهزة للنشر)\التناص (جاهزة للنشر).html
+2025-07-31 16:14:00,119 - mammoth_converter - INFO - Converting [4]: المعاجم العربية التراثية (جاهزة للنشر).docx
+2025-07-31 16:14:11,295 - mammoth_converter - WARNING - المعاجم العربية التراثية (جاهزة للنشر).docx: Message(type='warning', message='Unrecognised paragraph style: List Paragraph (Style ID: ListParagraph)')
+2025-07-31 16:14:11,328 - mammoth_converter - INFO - === EQUATION DIAGNOSIS ===
+2025-07-31 16:14:19,806 - mammoth_converter - INFO - 
+Math operators: Found 93 matches
+2025-07-31 16:14:19,807 - mammoth_converter - INFO -   [1] كتاب العين للخليل الفراهيدي - المصدر: مكتبة الإنترنت العالمية (IA).
+2025-07-31 16:14:19,808 - mammoth_converter - INFO -   [2] تشتمل المصنَّفات اللغويّة التراثيّة على فرعين أساسيّين: النحو والمعجم، علاوةً على مباحث فقه اللغة وا
+2025-07-31 16:14:19,810 - mammoth_converter - INFO -   [3] تَنسب كتب تراجم اللغويّين والنحويّين المصنَّفة في القرن الثالث هـ/ التاسع م وما بعده إلى بعض أعلام ا
+2025-07-31 16:14:20,152 - mammoth_converter - INFO - 
+Fractions: Found 50 matches
+2025-07-31 16:14:20,152 - mammoth_converter - INFO -   [1] تشتمل المصنَّفات اللغويّة التراثيّة على فرعين أساسيّين: النحو والمعجم، علاوةً على مباحث فقه اللغة وا
+2025-07-31 16:14:20,153 - mammoth_converter - INFO -   [2] تَنسب كتب تراجم اللغويّين والنحويّين المصنَّفة في القرن الثالث هـ/ التاسع م وما بعده إلى بعض أعلام ا
+2025-07-31 16:14:20,153 - mammoth_converter - INFO -   [3] تُجمع المصادر على أنّ اللحن كان له دورٌ بارز في نشأة العلوم اللغويّة، وتكثُر الروايات التي تتّصل بهذ
+2025-07-31 16:14:27,794 - mammoth_converter - INFO - 
+Greek letters: Found 8 matches
+2025-07-31 16:14:27,795 - mammoth_converter - INFO -   [1] Baalbaki, Ramzi. The Arabic Lexicographical Tradition from the 2nd/8th to the 12th/18th Century. Lei
+2025-07-31 16:14:27,795 - mammoth_converter - INFO -   [2] Diem, Werner. Das Kitāb al-Ǧīm des Abū ʿAmr aš-Šaybānī: Ein Beitrag zur arabischen Lexikographie. Mu
+2025-07-31 16:14:27,796 - mammoth_converter - INFO -   [3] Gätje, Helmut. “Arabische Lexikographie: Ein historischer Überblick.” Historiographia Linguistica. v
+2025-07-31 16:14:27,796 - mammoth_converter - INFO - 
+=== IN HTML OUTPUT ===
+2025-07-31 16:14:27,800 - mammoth_converter - INFO -   Found 9 equations
+2025-07-31 16:14:27,804 - mammoth_converter - INFO - Saved: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\الآداب واللغات\004_المعاجم العربية التراثية (جاهزة للنشر)\المعاجم العربية التراثية (جاهزة للنشر).html
+2025-07-31 16:14:27,805 - mammoth_converter - INFO - Converting [5]: أمين الخولي (جاهزة للنشر) .docx
+2025-07-31 16:14:32,307 - mammoth_converter - INFO - === EQUATION DIAGNOSIS ===
+2025-07-31 16:14:34,544 - mammoth_converter - INFO - 
+Keyword match: Found 1 matches
+2025-07-31 16:14:34,544 - mammoth_converter - INFO -   [1] الطالب والأستاذ: "ط=أ+ز"؛ أي أن الطالب (
+2025-07-31 16:14:34,616 - mammoth_converter - INFO - 
+Math operators: Found 44 matches
+2025-07-31 16:14:34,616 - mammoth_converter - INFO -   [1] أمين الخولي (1895–1966) – المصدر: مجمع اللغة العربية بالقاهرة
+2025-07-31 16:14:34,617 - mammoth_converter - INFO -   [2] أمين الخولي (1895-1966) مثقف مصري مُجدّد عُرف بإنتاجاته الأكاديمية والأدبية، وكان رئيس تحرير، وفاعل 
+2025-07-31 16:14:34,617 - mammoth_converter - INFO -   [3] ولد أمين إبراهيم عبد الباقي عامر إسماعيل يوسف الخولي في قرية شوشاي في مركز أشمون، في محافظة المنوفية
+2025-07-31 16:14:34,700 - mammoth_converter - INFO - 
+Fractions: Found 15 matches
+2025-07-31 16:14:34,701 - mammoth_converter - INFO -   [1] ولد أمين إبراهيم عبد الباقي عامر إسماعيل يوسف الخولي في قرية شوشاي في مركز أشمون، في محافظة المنوفية
+2025-07-31 16:14:34,702 - mammoth_converter - INFO -   [2] عمل الخولي في وظائف متنوعة على مدار ستة وأربعين عامًا. ففي أيار/ مايو 1920، وإثر تخرجه في مدرسة القض
+2025-07-31 16:14:34,702 - mammoth_converter - INFO -   [3] - علم النفس الأدبي، مجلة علم النفس (حزيران/ يونيو 1942).
+2025-07-31 16:14:35,761 - mammoth_converter - INFO - 
+=== IN HTML OUTPUT ===
+2025-07-31 16:14:35,763 - mammoth_converter - INFO -   Found 7 equations
+2025-07-31 16:14:35,764 - mammoth_converter - INFO - Saved: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\الآداب واللغات\005_أمين الخولي (جاهزة للنشر)\أمين الخولي (جاهزة للنشر).html
+2025-07-31 16:14:35,766 - mammoth_converter - INFO - Converting [6]: إلياس زيات (جاهزة للنشر).docx
+2025-07-31 16:14:36,630 - mammoth_converter - INFO - === EQUATION DIAGNOSIS ===
+2025-07-31 16:14:37,054 - mammoth_converter - INFO - 
+Keyword match: Found 1 matches
+2025-07-31 16:14:37,055 - mammoth_converter - INFO -   [1] https://thawra.sy/?p=400424
+
+
+
+الأجنبية
+2025-07-31 16:14:37,080 - mammoth_converter - INFO - 
+Math operators: Found 18 matches
+2025-07-31 16:14:37,083 - mammoth_converter - INFO -   [1] الفنان إلياس زيات – المصدر: غير محدد – (من مواقع التواصل)
+2025-07-31 16:14:37,083 - mammoth_converter - INFO -   [2] إلياس زيات (1935-2022) رسّام وأستاذ جامعي سوري. اشتهر برسم الأيقونة التي نقلها من الشكل الكنسي التقل
+2025-07-31 16:14:37,083 - mammoth_converter - INFO -   [3] وُلد الفنان إلياس زيات عام 1935 في حارة الجوانية في حي باب توما في دمشق لأبوين من أسرة دمشقية. بعد أ
+2025-07-31 16:14:37,119 - mammoth_converter - INFO - 
+Fractions: Found 9 matches
+2025-07-31 16:14:37,119 - mammoth_converter - INFO -   [1] وُلد الفنان إلياس زيات عام 1935 في حارة الجوانية في حي باب توما في دمشق لأبوين من أسرة دمشقية. بعد أ
+2025-07-31 16:14:37,119 - mammoth_converter - INFO -   [2] هذه المرحلة هي الأطول في تجربة زيات (1967-2022)، وارتبطت بالأحداث السياسية المصيرية بدءًا بنكسة حزير
+2025-07-31 16:14:37,119 - mammoth_converter - INFO -   [3] إبراهيم، تماضر، عمار النعمة. "الفنان التشكیلي إلیاس زیات: دمشق.. الأم التي ربتنا.. وتراثنا سبق الأور
+2025-07-31 16:14:37,707 - mammoth_converter - INFO - 
+=== IN HTML OUTPUT ===
+2025-07-31 16:14:37,709 - mammoth_converter - INFO -   Found 8 equations
+2025-07-31 16:14:37,710 - mammoth_converter - INFO - Saved: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\الآداب واللغات\006_إلياس زيات (جاهزة للنشر)\إلياس زيات (جاهزة للنشر).html
+2025-07-31 16:14:37,710 - mammoth_converter - INFO - Converting [7]: حسن العطار (جاهزة للنشر).docx
+2025-07-31 16:14:39,279 - mammoth_converter - INFO - === EQUATION DIAGNOSIS ===
+2025-07-31 16:14:40,045 - mammoth_converter - INFO - 
+Math operators: Found 16 matches
+2025-07-31 16:14:40,045 - mammoth_converter - INFO -   [1] الشيخ حسن بن محمد كتن العطار (1766–1835)، مصري المولد، مغربي الأصل، تلقى تعليمه الديني في الجامع الأ
+2025-07-31 16:14:40,046 - mammoth_converter - INFO -   [2] الشيخ حسن بن محمد كتن بن محمود العطار، يكنّى بأبي السعادات، تنحدر أصوله من المغرب العربي، وولد في مد
+2025-07-31 16:14:40,046 - mammoth_converter - INFO -   [3] استمر العطار في التكوين الديني الأزهري، وتصدّر مبكرًا للقراءة والتدريس في الجامع الأزهر، إلا أن دخول
+2025-07-31 16:14:40,096 - mammoth_converter - INFO - 
+Fractions: Found 1 matches
+2025-07-31 16:14:40,096 - mammoth_converter - INFO -   [1] لقد تلاقت رؤية العطار الإصلاحية مع سياسات محمد علي باشا في بدايات البعثات التي أرسلها محمد علي إلى ف
+2025-07-31 16:14:40,642 - mammoth_converter - INFO - 
+Greek letters: Found 1 matches
+2025-07-31 16:14:40,642 - mammoth_converter - INFO -   [1] Elkhosht, Mohamed Othman. "Contemporary Islamic philosophy response to reality and thinking outside 
+2025-07-31 16:14:40,643 - mammoth_converter - INFO - 
+=== IN HTML OUTPUT ===
+2025-07-31 16:14:40,644 - mammoth_converter - INFO -   Found 5 equations
+2025-07-31 16:14:40,645 - mammoth_converter - INFO - Saved: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\الآداب واللغات\007_حسن العطار (جاهزة للنشر)\حسن العطار (جاهزة للنشر).html
+2025-07-31 16:14:40,646 - mammoth_converter - INFO - Converting [8]: حسن فتحي (جاهزة للنشر).docx
+2025-07-31 16:14:42,026 - mammoth_converter - WARNING - حسن فتحي (جاهزة للنشر).docx: Message(type='warning', message='Unrecognised run style: wixui-rich-text__text (Style ID: wixui-rich-texttext)')
+2025-07-31 16:14:42,026 - mammoth_converter - INFO - === EQUATION DIAGNOSIS ===
+2025-07-31 16:14:42,616 - mammoth_converter - INFO - 
+Math operators: Found 17 matches
+2025-07-31 16:14:42,616 - mammoth_converter - INFO -   [1] يمين الصورة المعماري حسن فتحي (1900–1989) - المصدر: أرشيف ديمتري باباديموس، ويكيميديا كومنز.
+2025-07-31 16:14:42,617 - mammoth_converter - INFO -   [2] حسن فتحي (1900-1989) مهندس معماري مصري، يُعدّ من أبرز الرواد في العمارة البيئية، تركّز فلسفته على اس
+2025-07-31 16:14:42,617 - mammoth_converter - INFO -   [3] حسن فتحي مهندس معماري مصري يُلَقَّب بشيخ المعماريين العرب، صاحب نظريات خاصة وسبّاقة في مجال العمارة 
+2025-07-31 16:14:42,674 - mammoth_converter - INFO - 
+Fractions: Found 3 matches
+2025-07-31 16:14:42,674 - mammoth_converter - INFO -   [1] حسن فتحي مهندس معماري مصري يُلَقَّب بشيخ المعماريين العرب، صاحب نظريات خاصة وسبّاقة في مجال العمارة 
+2025-07-31 16:14:42,675 - mammoth_converter - INFO -   [2] محمود، وائل رأفت وأشرف حسين إبراهيم وآية أشرف محمد. "المفهوم البيئي للمسكن في عمارة حسن فتحي". مجلة 
+2025-07-31 16:14:42,675 - mammoth_converter - INFO -   [3] خليل، ثروت متولي. "حسن فتحي والعمارة البيئية". مجلة علوم وفنون. مج 10، العدد 4 (تشرين الأول/ أكتوبر 
+2025-07-31 16:14:43,372 - mammoth_converter - INFO - 
+Greek letters: Found 1 matches
+2025-07-31 16:14:43,372 - mammoth_converter - INFO -   [1] Miles, Malcolm.”Utopias of Mud? Hassan Fathy and Alternative Modernisms.” Space and Culture. vol. 9,
+2025-07-31 16:14:43,373 - mammoth_converter - INFO - 
+=== IN HTML OUTPUT ===
+2025-07-31 16:14:43,374 - mammoth_converter - INFO -   Found 7 equations
+2025-07-31 16:14:43,375 - mammoth_converter - INFO - Saved: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\الآداب واللغات\008_حسن فتحي (جاهزة للنشر)\حسن فتحي (جاهزة للنشر).html
+2025-07-31 16:14:43,375 - mammoth_converter - INFO - Converting [9]: سليم النقاش (جاهزة للنشر)  .docx
+2025-07-31 16:14:44,538 - mammoth_converter - INFO - === EQUATION DIAGNOSIS ===
+2025-07-31 16:14:45,311 - mammoth_converter - INFO - 
+Math operators: Found 23 matches
+2025-07-31 16:14:45,315 - mammoth_converter - INFO -   [1] دار الأوبرا الخديوية 1869 - المصدر: ويكيبيديا
+2025-07-31 16:14:45,316 - mammoth_converter - INFO -   [2] سليم بن خليل النقاش (1851-1884) أديب وصحافي لبناني. يُعدّ أحد رواد المسرحِ العربيّ ومؤسسيه بعد عميه 
+2025-07-31 16:14:45,317 - mammoth_converter - INFO -   [3] ولِدَ سليم بن خليل النقاش في مدينةِ بيروت، أي على الساحل اللبناني في عام 1851. نشأ وترعرع في أسرةٍ أ
+2025-07-31 16:14:45,346 - mammoth_converter - INFO - 
+Fractions: Found 13 matches
+2025-07-31 16:14:45,347 - mammoth_converter - INFO -   [1] توفي سليم النقاش في يوم الثلاثاء الموافق للخامس والعشرين من تشرين الثاني/ نوفمبر 1884، وهو في أوج عط
+2025-07-31 16:14:45,347 - mammoth_converter - INFO -   [2] تلقى سليم النقاش في نهاية عام 1874، وله من العمر ثلاثةً وعشرين عامًا، دعوةً لزيارةِ مصرَ؛ بهدف الاطل
+2025-07-31 16:14:45,347 - mammoth_converter - INFO -   [3] بعدَ رفعِ حظر التجول الصحي، تمكن النقاش وفرقتهُ من العبورِ إلى الإسكندرية، وقدموا أولَ عروضهم المسرح
+2025-07-31 16:14:45,763 - mammoth_converter - INFO - 
+=== IN HTML OUTPUT ===
+2025-07-31 16:14:45,765 - mammoth_converter - INFO -   Found 6 equations
+2025-07-31 16:14:45,766 - mammoth_converter - INFO - Saved: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\الآداب واللغات\009_سليم النقاش (جاهزة للنشر)\سليم النقاش (جاهزة للنشر).html
+2025-07-31 16:14:45,767 - mammoth_converter - INFO - Converting [10]: غالب هلسا (جاهزة للنشر).docx
+2025-07-31 16:14:47,616 - mammoth_converter - WARNING - غالب هلسا (جاهزة للنشر).docx: Message(type='warning', message='Unrecognised paragraph style: No Spacing (Style ID: NoSpacing)')
+2025-07-31 16:14:47,617 - mammoth_converter - WARNING - غالب هلسا (جاهزة للنشر).docx: Message(type='warning', message='Unrecognised paragraph style: List Paragraph (Style ID: ListParagraph)')
+2025-07-31 16:14:47,617 - mammoth_converter - INFO - === EQUATION DIAGNOSIS ===
+2025-07-31 16:14:48,484 - mammoth_converter - INFO - 
+Math operators: Found 38 matches
+2025-07-31 16:14:48,485 - mammoth_converter - INFO -   [1] غالب هلسا (1932- 1989)- المصدر: ضفة ثالثة – العربي الجديد
+2025-07-31 16:14:48,485 - mammoth_converter - INFO -   [2] غالب سلامة هلسا (1932-1989) روائي وقاص وكاتب أردني. يُعدّ في رأي الكثيرين من مؤرخي الأدب والنقّاد، و
+2025-07-31 16:14:48,486 - mammoth_converter - INFO -   [3] وُلد غالب هلسا في قرية ماعين جنوب مدينة عمّان، في 18 كانون الأول/ ديسمبر 1932. وفي رواية أخرى فإن ول
+2025-07-31 16:14:48,513 - mammoth_converter - INFO - 
+Fractions: Found 8 matches
+2025-07-31 16:14:48,515 - mammoth_converter - INFO -   [1] وُلد غالب هلسا في قرية ماعين جنوب مدينة عمّان، في 18 كانون الأول/ ديسمبر 1932. وفي رواية أخرى فإن ول
+2025-07-31 16:14:48,515 - mammoth_converter - INFO -   [2] على أن تاريخه الشخصي في طفولته ويفاعه وصدر شبابه، يفرض حضوره في معظم أعماله الروائية والقصصية، ولا س
+2025-07-31 16:14:48,515 - mammoth_converter - INFO -   [3] على أن غالب هلسا لم يحل في هذه الأماكن زائرًا، بل سعى لأن يتخذ من كل منها وطنًا. كما أنه لم يذهب مها
+2025-07-31 16:14:48,928 - mammoth_converter - INFO - 
+=== IN HTML OUTPUT ===
+2025-07-31 16:14:48,929 - mammoth_converter - INFO -   Found 6 equations
+2025-07-31 16:14:48,930 - mammoth_converter - INFO - Saved: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\الآداب واللغات\010_غالب هلسا (جاهزة للنشر)\غالب هلسا (جاهزة للنشر).html
+2025-07-31 16:14:48,930 - mammoth_converter - INFO - Converting [11]: كتاب العين (جاهزة للنشر).docx
+2025-07-31 16:14:50,535 - mammoth_converter - WARNING - كتاب العين (جاهزة للنشر).docx: Message(type='warning', message='Unrecognised paragraph style: List Paragraph (Style ID: ListParagraph)')
+2025-07-31 16:14:50,535 - mammoth_converter - INFO - === EQUATION DIAGNOSIS ===
+2025-07-31 16:14:52,400 - mammoth_converter - INFO - 
+Math operators: Found 41 matches
+2025-07-31 16:14:52,401 - mammoth_converter - INFO -   [1] كتاب العين للخليل الفراهيدي - المصدر: مكتبة الإنترنت العالمية (IA).
+2025-07-31 16:14:52,401 - mammoth_converter - INFO -   [2] كتاب العين للخليل بن أحمد الفراهيديّ (ت. 175 هـ/ 791 م) هو أوّل معجم عربيّ مجنَّس، وقد استوفى فيه ال
+2025-07-31 16:14:52,402 - mammoth_converter - INFO -   [3] وتتّصل نشأة الكتاب بالنشاط اللغويّ المبكر في القرن الثاني هـ/ الثامن م في حقلَيْن أساسيّين، أوّلهما 
+2025-07-31 16:14:52,515 - mammoth_converter - INFO - 
+Fractions: Found 16 matches
+2025-07-31 16:14:52,516 - mammoth_converter - INFO -   [1] كتاب العين للخليل بن أحمد الفراهيديّ (ت. 175 هـ/ 791 م) هو أوّل معجم عربيّ مجنَّس، وقد استوفى فيه ال
+2025-07-31 16:14:52,516 - mammoth_converter - INFO -   [2] وتتّصل نشأة الكتاب بالنشاط اللغويّ المبكر في القرن الثاني هـ/ الثامن م في حقلَيْن أساسيّين، أوّلهما 
+2025-07-31 16:14:52,517 - mammoth_converter - INFO -   [3] حاول بعض الدارسين التماس تأثير يونانيّ في نشأة المعجم العربيّ، وحجّتهم في ذلك أنّ مكانة الشعر في الت
+2025-07-31 16:14:54,797 - mammoth_converter - INFO - 
+Greek letters: Found 5 matches
+2025-07-31 16:14:54,798 - mammoth_converter - INFO -   [1] ________. The Arabic Lexicographical Tradition from the 2nd/8th to the 12th/18th Century. Leiden: F.
+2025-07-31 16:14:54,798 - mammoth_converter - INFO -   [2] Fleisch, Henri. “La lexicographie arabe au IVe siècle de l’Hégire.” Mélanges de l’Université Saint-J
+2025-07-31 16:14:54,798 - mammoth_converter - INFO -   [3] Rundgren, Frithiof. “La lexicographie arabe.” in: James Barr et al. Studies on Semitic Lexicography.
+2025-07-31 16:14:54,798 - mammoth_converter - INFO - 
+=== IN HTML OUTPUT ===
+2025-07-31 16:14:54,801 - mammoth_converter - INFO -   Found 11 equations
+2025-07-31 16:14:54,803 - mammoth_converter - INFO - Saved: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\الآداب واللغات\011_كتاب العين (جاهزة للنشر)\كتاب العين (جاهزة للنشر).html
+2025-07-31 16:14:54,805 - mammoth_converter - INFO - Converting [12]: ابن ماجه (جاهز للنشر).docx
+2025-07-31 16:14:56,056 - mammoth_converter - WARNING - ابن ماجه (جاهز للنشر).docx: Message(type='warning', message='Unrecognised run style: familyname (Style ID: familyname)')
+2025-07-31 16:14:56,057 - mammoth_converter - INFO - === EQUATION DIAGNOSIS ===
+2025-07-31 16:14:56,838 - mammoth_converter - INFO - 
+Math operators: Found 10 matches
+2025-07-31 16:14:56,877 - mammoth_converter - INFO -   [1] كتاب ابن ماجه "السنن" - المصدر: ويكيبيديا
+2025-07-31 16:14:56,943 - mammoth_converter - INFO -   [2] ابن ماجه، أبو عبد الله محمد بن يزيد الربعي القزويني، أحد أصحاب دواوين الحديث الستة المشهورة. ولد بقز
+2025-07-31 16:14:56,987 - mammoth_converter - INFO -   [3] هو أبو عبد الله محمد بن يزيد بن ماجه، واحد من أبرز علماء الحديث الذين جمعوا أحاديث النبي ودوّنوها. و
+2025-07-31 16:14:57,009 - mammoth_converter - INFO - 
+Fractions: Found 5 matches
+2025-07-31 16:14:57,009 - mammoth_converter - INFO -   [1] ابن ماجه، أبو عبد الله محمد بن يزيد الربعي القزويني، أحد أصحاب دواوين الحديث الستة المشهورة. ولد بقز
+2025-07-31 16:14:57,010 - mammoth_converter - INFO -   [2] هو أبو عبد الله محمد بن يزيد بن ماجه، واحد من أبرز علماء الحديث الذين جمعوا أحاديث النبي ودوّنوها. و
+2025-07-31 16:14:57,011 - mammoth_converter - INFO -   [3] يقول ابن خَلِّكان (ت. 681ه/ 1282م) عن ابن ماجه: "كان إمامًا في الحديث، عارفًا بعلومه وجميع ما يتعلق 
+2025-07-31 16:14:57,534 - mammoth_converter - INFO - 
+Greek letters: Found 1 matches
+2025-07-31 16:14:57,535 - mammoth_converter - INFO -   [1] Brown, Jonathan AC. “The Canonization of Ibn Mâjah: Authenticity vs. Utility in the Formation of the
+2025-07-31 16:14:57,536 - mammoth_converter - INFO - 
+=== IN HTML OUTPUT ===
+2025-07-31 16:14:57,538 - mammoth_converter - INFO -   Found 7 equations
+2025-07-31 16:14:57,540 - mammoth_converter - INFO - Saved: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\الاسلام وعلومه\012_ابن ماجه (جاهز للنشر)\ابن ماجه (جاهز للنشر).html
+2025-07-31 16:14:57,541 - mammoth_converter - INFO - Converting [13]: الطبيعيات في علم الكلام (جاهزة للنشر).docx
+2025-07-31 16:15:02,009 - mammoth_converter - WARNING - الطبيعيات في علم الكلام (جاهزة للنشر).docx: Message(type='warning', message='Unrecognised paragraph style: List Paragraph (Style ID: ListParagraph)')
+2025-07-31 16:15:02,009 - mammoth_converter - INFO - === EQUATION DIAGNOSIS ===
+2025-07-31 16:15:04,837 - mammoth_converter - INFO - 
+Math operators: Found 60 matches
+2025-07-31 16:15:04,838 - mammoth_converter - INFO -   [1] كتاب أبو الحسن الأشعري "استحسان الخوض في علم الكلام" - المصدر: مكتبة الإنترنت العالمية (IA)
+2025-07-31 16:15:04,839 - mammoth_converter - INFO -   [2] وهما مما استعمله النقلة الأوائل للفلسفة الإغريقية في تعريب Φυσικὴ ἀκρόασις من أجزاء فلسفة أرسطو، ثم 
+2025-07-31 16:15:04,839 - mammoth_converter - INFO -   [3] وما يقع من ذكرٍ له في بعض كلام أبي حامد الغزالي (ت. 505هـ/ 1111م) من مقاصد الفلاسفة أو المنقذ من الض
+2025-07-31 16:15:04,986 - mammoth_converter - INFO - 
+Fractions: Found 25 matches
+2025-07-31 16:15:04,987 - mammoth_converter - INFO -   [1] وهما مما استعمله النقلة الأوائل للفلسفة الإغريقية في تعريب Φυσικὴ ἀκρόασις من أجزاء فلسفة أرسطو، ثم 
+2025-07-31 16:15:04,987 - mammoth_converter - INFO -   [2] وما يقع من ذكرٍ له في بعض كلام أبي حامد الغزالي (ت. 505هـ/ 1111م) من مقاصد الفلاسفة أو المنقذ من الض
+2025-07-31 16:15:04,988 - mammoth_converter - INFO -   [3] هو العنوان الأشهر للبحث الطبيعي في المصنّفات الكلامية. كانت بعض المسائل الطبيعية ترد في مصنّفات المت
+2025-07-31 16:15:06,854 - mammoth_converter - INFO - 
+Greek letters: Found 3 matches
+2025-07-31 16:15:06,856 - mammoth_converter - INFO -   [1] Dhanani, Alnoor. The physical theory of Kalām: Atoms, space, and void in Basrian Mu˓tazilī cosmology
+2025-07-31 16:15:06,859 - mammoth_converter - INFO -   [2] Frank, Richard M. “Bodies and atoms: The Ash˓arite analysis.” in: Michael E. Marmura (ed.). Islamic 
+2025-07-31 16:15:06,859 - mammoth_converter - INFO -   [3] Rashed, Marwan. “Natural Philosophy,” in: The Cambridge Companion to Arabic Philosophy. Peter Adamso
+2025-07-31 16:15:06,861 - mammoth_converter - INFO - 
+=== IN HTML OUTPUT ===
+2025-07-31 16:15:06,870 - mammoth_converter - INFO -   Found 13 equations
+2025-07-31 16:15:06,879 - mammoth_converter - INFO - Saved: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\الاسلام وعلومه\013_الطبيعيات في علم الكلام (جاهزة للنشر)\الطبيعيات في علم الكلام (جاهزة للنشر).html
+2025-07-31 16:15:06,880 - mammoth_converter - INFO - Converting [14]: أبو يعلى الفراء (جاهزة للنشر).docx
+2025-07-31 16:15:12,922 - mammoth_converter - WARNING - أبو يعلى الفراء (جاهزة للنشر).docx: Message(type='warning', message='Unrecognised paragraph style: List Paragraph (Style ID: ListParagraph)')
+2025-07-31 16:15:12,925 - mammoth_converter - INFO - === EQUATION DIAGNOSIS ===
+2025-07-31 16:15:14,608 - mammoth_converter - INFO - 
+Math operators: Found 22 matches
+2025-07-31 16:15:14,608 - mammoth_converter - INFO -   [1] كتاب ابي يعلى الفراء "مختصر المعتمد في أصول الدين" - المصدر: مكتبة عين الجامعة
+2025-07-31 16:15:14,608 - mammoth_converter - INFO -   [2] محمد بن الحسين بن محمد بن خلف بن أحمد بن الفراء (380ه/ 990م - 458ه/ 1066م)، المكنّى القاضي أبو يعلى،
+2025-07-31 16:15:14,608 - mammoth_converter - INFO -   [3] ولد محمد بن الفراء، المعروف بالقاضي أبو يعلى، عام 380ه/ 990م في بغداد، وفيها نشأ وتعلم. روى والده أب
+2025-07-31 16:15:14,626 - mammoth_converter - INFO - 
+Fractions: Found 13 matches
+2025-07-31 16:15:14,626 - mammoth_converter - INFO -   [1] محمد بن الحسين بن محمد بن خلف بن أحمد بن الفراء (380ه/ 990م - 458ه/ 1066م)، المكنّى القاضي أبو يعلى،
+2025-07-31 16:15:14,627 - mammoth_converter - INFO -   [2] ولد محمد بن الفراء، المعروف بالقاضي أبو يعلى، عام 380ه/ 990م في بغداد، وفيها نشأ وتعلم. روى والده أب
+2025-07-31 16:15:14,628 - mammoth_converter - INFO -   [3] أمضى القاضي أبو يعلى حياته في بغداد التي كانت مسرحًا للصراعات الفكرية والسياسية التي شهدها العالم ال
+2025-07-31 16:15:15,881 - mammoth_converter - INFO - 
+=== IN HTML OUTPUT ===
+2025-07-31 16:15:15,886 - mammoth_converter - INFO -   Found 6 equations
+2025-07-31 16:15:15,892 - mammoth_converter - INFO - Saved: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\الاسلام وعلومه\014_أبو يعلى الفراء (جاهزة للنشر)\أبو يعلى الفراء (جاهزة للنشر).html
+2025-07-31 16:15:15,895 - mammoth_converter - INFO - Converting [15]: حسين الجسر (جاهزة للنشر).docx
+2025-07-31 16:15:17,417 - mammoth_converter - INFO - === EQUATION DIAGNOSIS ===
+2025-07-31 16:15:18,424 - mammoth_converter - INFO - 
+Math operators: Found 10 matches
+2025-07-31 16:15:18,424 - mammoth_converter - INFO -   [1] كتاب حسين الجسر "الرسالة الحميدية" - المصدر: مكتبة الإنترنت العالمية (IA).
+2025-07-31 16:15:18,425 - mammoth_converter - INFO -   [2] حسين محمد مصطفى الجسر (1845-1909)، فقيه ومفكر ومصلح اجتماعي، وُلد وعاش في لبنان، عاصر السنوات الأخير
+2025-07-31 16:15:18,425 - mammoth_converter - INFO -   [3] وُلد الشيخ حسين الجسر في مدينة طرابلس عام 1845 في عائلة اشتُهرت بعلمها ودينها. كان والده الشيخ محمد 
+2025-07-31 16:15:19,217 - mammoth_converter - INFO - 
+=== IN HTML OUTPUT ===
+2025-07-31 16:15:19,218 - mammoth_converter - INFO -   Found 3 equations
+2025-07-31 16:15:19,220 - mammoth_converter - INFO - Saved: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\الاسلام وعلومه\015_حسين الجسر (جاهزة للنشر)\حسين الجسر (جاهزة للنشر).html
+2025-07-31 16:15:19,220 - mammoth_converter - INFO - Converting [16]: مسعر بن كدام (جاهزة للنشر).docx
+2025-07-31 16:15:23,203 - mammoth_converter - WARNING - مسعر بن كدام (جاهزة للنشر).docx: Message(type='warning', message='Unrecognised paragraph style: List Paragraph (Style ID: ListParagraph)')
+2025-07-31 16:15:23,204 - mammoth_converter - WARNING - مسعر بن كدام (جاهزة للنشر).docx: Message(type='warning', message='Unrecognised run style: Footnote Text Char (Style ID: FootnoteTextChar)')
+2025-07-31 16:15:23,205 - mammoth_converter - INFO - === EQUATION DIAGNOSIS ===
+2025-07-31 16:15:26,139 - mammoth_converter - INFO - 
+Math operators: Found 16 matches
+2025-07-31 16:15:26,140 - mammoth_converter - INFO -   [1] مِسْعَر بن كِدام (ت. 155هـ/ 771م) محدِّث بارز من جيل تابعي التابعين، وُلِد وعاش في الكوفة، وعاصر الد
+2025-07-31 16:15:26,141 - mammoth_converter - INFO -   [2] يَنتسِب أبو سلمة مِسعَر بن كِدام بن ظهير إلى قبيلة هلال بن عامر، إحدى قبائل قيس عيلان. وُلد في عهد ا
+2025-07-31 16:15:26,141 - mammoth_converter - INFO -   [3] تعاظمت مكانة الكوفة بعدما اتخذها الخليفة الراشد الرابع علي بن أبي طالب (ت. 40ه/ 661م) مقرًا للحكم، و
+2025-07-31 16:15:26,164 - mammoth_converter - INFO - 
+Fractions: Found 14 matches
+2025-07-31 16:15:26,165 - mammoth_converter - INFO -   [1] مِسْعَر بن كِدام (ت. 155هـ/ 771م) محدِّث بارز من جيل تابعي التابعين، وُلِد وعاش في الكوفة، وعاصر الد
+2025-07-31 16:15:26,171 - mammoth_converter - INFO -   [2] يَنتسِب أبو سلمة مِسعَر بن كِدام بن ظهير إلى قبيلة هلال بن عامر، إحدى قبائل قيس عيلان. وُلد في عهد ا
+2025-07-31 16:15:26,172 - mammoth_converter - INFO -   [3] تعاظمت مكانة الكوفة بعدما اتخذها الخليفة الراشد الرابع علي بن أبي طالب (ت. 40ه/ 661م) مقرًا للحكم، و
+2025-07-31 16:15:27,234 - mammoth_converter - INFO - 
+=== IN HTML OUTPUT ===
+2025-07-31 16:15:27,238 - mammoth_converter - INFO -   Found 6 equations
+2025-07-31 16:15:27,242 - mammoth_converter - INFO - Saved: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\الاسلام وعلومه\016_مسعر بن كدام (جاهزة للنشر)\مسعر بن كدام (جاهزة للنشر).html
+2025-07-31 16:15:27,243 - mammoth_converter - INFO - Converting [17]: السلع العامة (جاهزة للنشر).docx
+2025-07-31 16:15:34,060 - mammoth_converter - WARNING - السلع العامة (جاهزة للنشر).docx: Message(type='warning', message='Unrecognised paragraph style: Style1 (Style ID: Style1)')
+2025-07-31 16:15:34,061 - mammoth_converter - INFO - === EQUATION DIAGNOSIS ===
+2025-07-31 16:15:37,063 - mammoth_converter - INFO - 
+Math operators: Found 25 matches
+2025-07-31 16:15:37,064 - mammoth_converter - INFO -   [1] السلع العامة (Public Goods)، ويُطلق عليها أحيانًا السلع المجانية، أو السلع الاجتماعية، من المفاهيم ا
+2025-07-31 16:15:37,064 - mammoth_converter - INFO -   [2] في المقابل، لا تنطبق هذه الخصائص على السلع الخاصة (Private Goods)؛ فهي قابلة للاستبعاد، بمعنى أنه يم
+2025-07-31 16:15:37,064 - mammoth_converter - INFO -   [3] النوع الآخر من المجموعات السلعية هو السلع النادية(Club Goods) ، وهي نوع من السلع يمكن استبعاد الآخري
+2025-07-31 16:15:37,188 - mammoth_converter - INFO - 
+Fractions: Found 3 matches
+2025-07-31 16:15:37,190 - mammoth_converter - INFO -   [1] كنعان، طاهر حمدي وحازم رحاحلة. الدولة واقتصاد السوق: قراءات في سياسات الخصخصة وتجاربها العالمية والع
+2025-07-31 16:15:37,191 - mammoth_converter - INFO -   [2] Frank, Robert H. & Ben Bernanke. Principles of Microeconomics. 4th ed. Boston, Mass.: McGraw-Hill/Ir
+2025-07-31 16:15:37,191 - mammoth_converter - INFO -   [3] Seidman, Laurence S. Public Finance. New York: McGraw-Hill/Irwin, 2009.
+2025-07-31 16:15:38,449 - mammoth_converter - INFO - 
+Greek letters: Found 5 matches
+2025-07-31 16:15:38,450 - mammoth_converter - INFO -   [1] بعد سلسلة التطورات المفاهمية للسلع العامة وتداخلاتها السياساتية والسياسية، أدّى الاقتصادي بول سامويل
+2025-07-31 16:15:38,451 - mammoth_converter - INFO -   [2] أضاف الاقتصادي ريتشارد موسغريف (Richard Musgrave) بدوره حالةً أخرى مسببة قصور السوق يمكن أن تتحقق في
+2025-07-31 16:15:38,451 - mammoth_converter - INFO -   [3] Musgrave, Richard A. & Peggy B. Musgrave. Public Finance in Theory and Practice. 2nd ed. New York: M
+2025-07-31 16:15:38,451 - mammoth_converter - INFO - 
+=== IN HTML OUTPUT ===
+2025-07-31 16:15:38,454 - mammoth_converter - INFO -   Found 9 equations
+2025-07-31 16:15:38,456 - mammoth_converter - INFO - Saved: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\الاقتصاد والمال\017_السلع العامة (جاهزة للنشر)\السلع العامة (جاهزة للنشر).html
+2025-07-31 16:15:38,457 - mammoth_converter - INFO - Converting [18]: التشابه (جاهزة للنشر) .docx
+2025-07-31 16:15:42,348 - mammoth_converter - WARNING - التشابه (جاهزة للنشر) .docx: Message(type='warning', message='An unrecognised element was ignored: {http://schemas.openxmlformats.org/officeDocument/2006/math}oMath')
+2025-07-31 16:15:42,349 - mammoth_converter - WARNING - التشابه (جاهزة للنشر) .docx: Message(type='warning', message='An unrecognised element was ignored: {http://schemas.openxmlformats.org/officeDocument/2006/math}oMathPara')
+2025-07-31 16:15:42,349 - mammoth_converter - WARNING - التشابه (جاهزة للنشر) .docx: Message(type='warning', message='Unrecognised run style: rynqvb (Style ID: rynqvb)')
+2025-07-31 16:15:42,350 - mammoth_converter - WARNING - التشابه (جاهزة للنشر) .docx: Message(type='warning', message='Unrecognised paragraph style: q-text (Style ID: q-text)')
+2025-07-31 16:15:42,350 - mammoth_converter - WARNING - التشابه (جاهزة للنشر) .docx: Message(type='warning', message='Unrecognised paragraph style: List Paragraph (Style ID: ListParagraph)')
+2025-07-31 16:15:42,351 - mammoth_converter - INFO - === EQUATION DIAGNOSIS ===
+2025-07-31 16:15:43,856 - mammoth_converter - INFO - 
+Keyword match: Found 1 matches
+2025-07-31 16:15:43,856 - mammoth_converter - INFO -   [1] أن 
+
+معامل التشابه =.
+
+ملاحظة: إذا كان م
+2025-07-31 16:15:43,863 - mammoth_converter - INFO - 
+Math operators: Found 42 matches
+2025-07-31 16:15:43,864 - mammoth_converter - INFO -   [1] نموذج يمثل التشابه في الرياضيات من خلال العلاقة بين الأشكال المتشابهة - المصدر: Shutterstock
+2025-07-31 16:15:43,864 - mammoth_converter - INFO -   [2] التشابه في الرياضيات هو علاقة بين شكلين بحيث يكون أحدهما صورة مكبرة أو مصغرة من الآخر، مع الحفاظ على
+2025-07-31 16:15:43,864 - mammoth_converter - INFO -   [3] يمكن استخدام التشابه في الكثير من المواقف الحياتية بشكل عام، وفي الرياضيات بشكل خاص، إذ يمكن استخدام
+2025-07-31 16:15:44,182 - mammoth_converter - INFO - 
+Greek letters: Found 1 matches
+2025-07-31 16:15:44,183 - mammoth_converter - INFO -   [1] Legendre, Adrien Marie. Elements of trigonometry. Philadelphia: A.S. Barnes and Co, 1834.
+2025-07-31 16:15:44,184 - mammoth_converter - INFO - 
+=== IN HTML OUTPUT ===
+2025-07-31 16:15:44,186 - mammoth_converter - INFO -   Found 5 equations
+2025-07-31 16:15:44,187 - mammoth_converter - INFO - Saved: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\الرياضيات والفيزياء\018_التشابه (جاهزة للنشر)\التشابه (جاهزة للنشر).html
+2025-07-31 16:15:44,188 - mammoth_converter - INFO - Converting [19]: الدائرة (جاهزة للنشر).docx
+2025-07-31 16:15:48,681 - mammoth_converter - WARNING - الدائرة (جاهزة للنشر).docx: Message(type='warning', message='An unrecognised element was ignored: {http://schemas.openxmlformats.org/officeDocument/2006/math}oMath')
+2025-07-31 16:15:48,683 - mammoth_converter - WARNING - الدائرة (جاهزة للنشر).docx: Message(type='warning', message='An unrecognised element was ignored: {http://schemas.openxmlformats.org/officeDocument/2006/math}oMathPara')
+2025-07-31 16:15:48,683 - mammoth_converter - WARNING - الدائرة (جاهزة للنشر).docx: Message(type='warning', message='Unrecognised run style: rynqvb (Style ID: rynqvb)')
+2025-07-31 16:15:48,684 - mammoth_converter - WARNING - الدائرة (جاهزة للنشر).docx: Message(type='warning', message='Unrecognised paragraph style: List Paragraph (Style ID: ListParagraph)')
+2025-07-31 16:15:48,684 - mammoth_converter - WARNING - الدائرة (جاهزة للنشر).docx: Message(type='warning', message='Unrecognised paragraph style: q-text (Style ID: q-text)')
+2025-07-31 16:15:48,684 - mammoth_converter - INFO - === EQUATION DIAGNOSIS ===
+2025-07-31 16:15:50,724 - mammoth_converter - INFO - 
+Math operators: Found 42 matches
+2025-07-31 16:15:50,725 - mammoth_converter - INFO -   [1] شخص يرسم محيط الدائرة انطلاقا من نقطة المركز - المصدر: Shutterstock
+2025-07-31 16:15:50,725 - mammoth_converter - INFO -   [2] الدائرة شكل هندسي يتكوّن من محيط ومركز، وتبعُد جميع النقاط على المحيط مسافة ثابتة عن المركز. يُسمّى 
+2025-07-31 16:15:50,726 - mammoth_converter - INFO -   [3] تعتبر الدائرة واحدة من الأشكال الهندسية الأساسية، لها تاريخ طويل في العلوم والهندسة والفنون. تعود در
+2025-07-31 16:15:50,813 - mammoth_converter - INFO - 
+Fractions: Found 11 matches
+2025-07-31 16:15:50,814 - mammoth_converter - INFO -   [1] يمكن القول إن الفلسفة الأرسطية منحت الشكل الدائري مكانة خاصة باعتباره بلا بداية ولا نهاية، ما يجعله 
+2025-07-31 16:15:50,815 - mammoth_converter - INFO -   [2] يشير يعقوب بن إسحاق الكِندي (185-256هـ/ 801-873م) في إحدى رسائله إلى أن الكرة هي أعظم الأشكال المجسم
+2025-07-31 16:15:50,817 - mammoth_converter - INFO -   [3] في كتابه استخراج الأوتار في الدائرة بخواص الخط المنحني فيه، تناول أبو الريحان البيروني (362-440هـ/ 9
+2025-07-31 16:15:51,869 - mammoth_converter - INFO - 
+Greek letters: Found 2 matches
+2025-07-31 16:15:51,870 - mammoth_converter - INFO -   [1] Azarian, Mohammad K. “Al-Risāla Al-Muhītīyya: A Summary.” Missouri Journal of Mathematical Sciences.
+2025-07-31 16:15:51,870 - mammoth_converter - INFO -   [2] Kāshī, Jamshīd ibn Masʻūd. Der Lehrbrief über den Kreisumfang (ar-risala al-Muhitiya) Übers. un
+2025-07-31 16:15:51,871 - mammoth_converter - INFO - 
+=== IN HTML OUTPUT ===
+2025-07-31 16:15:51,875 - mammoth_converter - INFO -   Found 8 equations
+2025-07-31 16:15:51,877 - mammoth_converter - INFO - Saved: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\الرياضيات والفيزياء\019_الدائرة (جاهزة للنشر)\الدائرة (جاهزة للنشر).html
+2025-07-31 16:15:51,877 - mammoth_converter - INFO - Converting [20]: الدالة واحد لواحد (جاهزة للنشر).docx
+2025-07-31 16:15:53,324 - mammoth_converter - WARNING - الدالة واحد لواحد (جاهزة للنشر).docx: Message(type='warning', message='An unrecognised element was ignored: {http://schemas.openxmlformats.org/officeDocument/2006/math}oMath')
+2025-07-31 16:15:53,325 - mammoth_converter - WARNING - الدالة واحد لواحد (جاهزة للنشر).docx: Message(type='warning', message='An unrecognised element was ignored: {http://schemas.openxmlformats.org/officeDocument/2006/math}oMathPara')
+2025-07-31 16:15:53,325 - mammoth_converter - WARNING - الدالة واحد لواحد (جاهزة للنشر).docx: Message(type='warning', message='Unrecognised paragraph style: List Paragraph (Style ID: ListParagraph)')
+2025-07-31 16:15:53,325 - mammoth_converter - INFO - === EQUATION DIAGNOSIS ===
+2025-07-31 16:15:53,863 - mammoth_converter - INFO - 
+Keyword match: Found 2 matches
+2025-07-31 16:15:53,864 - mammoth_converter - INFO -   [1] ]
+
+منحنى الدالة f(x)=x+3 - المصدر: أربيكا
+2025-07-31 16:15:53,864 - mammoth_converter - INFO -   [2] 2 منحنى الدالة f(x)=x^2 - المصدر: أربيكا
+2025-07-31 16:15:53,869 - mammoth_converter - INFO - 
+Math operators: Found 13 matches
+2025-07-31 16:15:53,869 - mammoth_converter - INFO -   [1] One-to-one function
+2025-07-31 16:15:53,870 - mammoth_converter - INFO -   [2] نموذج يمثل الدالة الرياضية واحد لواحد - المصدر: Shutterstock
+2025-07-31 16:15:53,871 - mammoth_converter - INFO -   [3] دالة واحد لواحد (One-to-one function)، والمعروفة أيضًا بدالة التباين (Injective function)، هي دالة ر
+2025-07-31 16:15:53,881 - mammoth_converter - INFO - 
+Fractions: Found 1 matches
+2025-07-31 16:15:53,881 - mammoth_converter - INFO -   [1] Jebril, Iqbal H., Hemen Dutta & Ilwoo Cho. Concise Introduction to Logic and Set Theory. Boca Raton:
+2025-07-31 16:15:53,984 - mammoth_converter - INFO - 
+=== IN HTML OUTPUT ===
+2025-07-31 16:15:53,985 - mammoth_converter - INFO -   Found 7 equations
+2025-07-31 16:15:53,987 - mammoth_converter - INFO - Saved: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\الرياضيات والفيزياء\020_الدالة واحد لواحد (جاهزة للنشر)\الدالة واحد لواحد (جاهزة للنشر).html
+2025-07-31 16:15:53,987 - mammoth_converter - INFO - Converting [21]: العدد الأولي (جاهزة للنشر).docx
+2025-07-31 16:15:57,523 - mammoth_converter - WARNING - العدد الأولي (جاهزة للنشر).docx: Message(type='warning', message='An unrecognised element was ignored: {http://schemas.openxmlformats.org/officeDocument/2006/math}oMath')
+2025-07-31 16:15:57,524 - mammoth_converter - WARNING - العدد الأولي (جاهزة للنشر).docx: Message(type='warning', message='An unrecognised element was ignored: v:stroke')
+2025-07-31 16:15:57,524 - mammoth_converter - WARNING - العدد الأولي (جاهزة للنشر).docx: Message(type='warning', message='An unrecognised element was ignored: {http://schemas.openxmlformats.org/officeDocument/2006/math}oMathPara')
+2025-07-31 16:15:57,525 - mammoth_converter - WARNING - العدد الأولي (جاهزة للنشر).docx: Message(type='warning', message='An unrecognised element was ignored: v:line')
+2025-07-31 16:15:57,525 - mammoth_converter - WARNING - العدد الأولي (جاهزة للنشر).docx: Message(type='warning', message='Run style with ID Normal was referenced but not defined in the document')
+2025-07-31 16:15:57,526 - mammoth_converter - WARNING - العدد الأولي (جاهزة للنشر).docx: Message(type='warning', message='Unrecognised paragraph style: List Paragraph (Style ID: ListParagraph)')
+2025-07-31 16:15:57,526 - mammoth_converter - WARNING - العدد الأولي (جاهزة للنشر).docx: Message(type='warning', message='Unrecognised run style: None (Style ID: Normal)')
+2025-07-31 16:15:57,527 - mammoth_converter - WARNING - العدد الأولي (جاهزة للنشر).docx: Message(type='warning', message='Unrecognised paragraph style: Bibliography (Style ID: Bibliography)')
+2025-07-31 16:15:57,527 - mammoth_converter - INFO - === EQUATION DIAGNOSIS ===
+2025-07-31 16:15:59,131 - mammoth_converter - INFO - 
+Math operators: Found 34 matches
+2025-07-31 16:15:59,132 - mammoth_converter - INFO -   [1] لوحة كتب عليها الأعداد الأولية التي تعد اللبنة الأساسية للأعداد الطبيعية  - المصدر: Shutterstock
+2025-07-31 16:15:59,132 - mammoth_converter - INFO -   [2] تشمل مجموعة الأعداد الصحيحة والتي يُطلق عليها اسم (Integers numbers) باللغة الإنكليزية ويرمز لها بال
+2025-07-31 16:15:59,133 - mammoth_converter - INFO -   [3] يُعدّ العدد الصحيح  قابلًا للقسمة (Divisibility) على العدد الصحيح  غير الصفري (ونرمز له بالرمز  ) إذ
+2025-07-31 16:15:59,193 - mammoth_converter - INFO - 
+Fractions: Found 6 matches
+2025-07-31 16:15:59,195 - mammoth_converter - INFO -   [1] ابن الهيثم، المعروف أيضًا باسم الحسن بن الهيثم (354هـ/ 965م - 430هـ/ 1040م)، هو عالم مسلم اشتهر بإسه
+2025-07-31 16:15:59,195 - mammoth_converter - INFO -   [2] هيجنز، بيتر إم. الرياضيات للفضوليين. ترجمة انتصارات محمد حسن الشبكي. مراجعة بيومي إبراهيم بيومي وهبة
+2025-07-31 16:15:59,195 - mammoth_converter - INFO -   [3] https://www.hindawi.org/books/26063085/
+2025-07-31 16:16:00,132 - mammoth_converter - INFO - 
+=== IN HTML OUTPUT ===
+2025-07-31 16:16:00,138 - mammoth_converter - INFO -   Found 7 equations
+2025-07-31 16:16:00,141 - mammoth_converter - INFO - Saved: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\الرياضيات والفيزياء\021_العدد الأولي (جاهزة للنشر)\العدد الأولي (جاهزة للنشر).html
+2025-07-31 16:16:00,142 - mammoth_converter - INFO - Converting [22]: الفضاء المتري (جاهزة للنشر).docx
+2025-07-31 16:16:05,539 - mammoth_converter - WARNING - الفضاء المتري (جاهزة للنشر).docx: Message(type='warning', message='An unrecognised element was ignored: {http://schemas.openxmlformats.org/officeDocument/2006/math}oMath')
+2025-07-31 16:16:05,539 - mammoth_converter - WARNING - الفضاء المتري (جاهزة للنشر).docx: Message(type='warning', message='An unrecognised element was ignored: {http://schemas.openxmlformats.org/officeDocument/2006/math}oMathPara')
+2025-07-31 16:16:05,540 - mammoth_converter - WARNING - الفضاء المتري (جاهزة للنشر).docx: Message(type='warning', message='Unrecognised paragraph style: Normal (Web) (Style ID: NormalWeb)')
+2025-07-31 16:16:05,540 - mammoth_converter - WARNING - الفضاء المتري (جاهزة للنشر).docx: Message(type='warning', message='Unrecognised paragraph style: List Paragraph (Style ID: ListParagraph)')
+2025-07-31 16:16:05,541 - mammoth_converter - WARNING - الفضاء المتري (جاهزة للنشر).docx: Message(type='warning', message='Unrecognised paragraph style: Bibliography (Style ID: Bibliography)')
+2025-07-31 16:16:05,541 - mammoth_converter - INFO - === EQUATION DIAGNOSIS ===
+2025-07-31 16:16:07,266 - mammoth_converter - INFO - 
+Math operators: Found 26 matches
+2025-07-31 16:16:07,267 - mammoth_converter - INFO -   [1] نموذج يمثل الفضاء المتري من خلال الوصول من نقطة ما إلى نقطة آخرى - المصدر: Shutterstock
+2025-07-31 16:16:07,267 - mammoth_converter - INFO -   [2] الفضاء المتري (Metric space) هو مفهوم أساسي في علم الرياضيات، وخاصة في التحليل الدالي والفضاءات الطو
+2025-07-31 16:16:07,268 - mammoth_converter - INFO -   [3] أثناء التعرّف على القطعة المستقيمة، وذلك من خلال الوصول من مكان (نقطة) ما إلى مكان آخر (نقطة ثانية) 
+2025-07-31 16:16:07,667 - mammoth_converter - INFO - 
+Greek letters: Found 1 matches
+2025-07-31 16:16:07,668 - mammoth_converter - INFO -   [1] ت. فضاء القيمة العظمى (Maximum value space)
+2025-07-31 16:16:07,668 - mammoth_converter - INFO - 
+=== IN HTML OUTPUT ===
+2025-07-31 16:16:07,669 - mammoth_converter - INFO -   Found 4 equations
+2025-07-31 16:16:07,670 - mammoth_converter - INFO - Saved: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\الرياضيات والفيزياء\022_الفضاء المتري (جاهزة للنشر)\الفضاء المتري (جاهزة للنشر).html
+2025-07-31 16:16:07,671 - mammoth_converter - INFO - Converting [23]: إستر أزهري (جاهزة للنشر).docx
+2025-07-31 16:16:09,021 - mammoth_converter - INFO - === EQUATION DIAGNOSIS ===
+2025-07-31 16:16:09,585 - mammoth_converter - INFO - 
+Math operators: Found 15 matches
+2025-07-31 16:16:09,586 - mammoth_converter - INFO -   [1] إستر أزهري (1874–1948)- المصدر: موقع Geni.com
+2025-07-31 16:16:09,586 - mammoth_converter - INFO -   [2] إستر بنت عبد الله أزهري مويال (1873-1948) كاتبة صحافية لبنانية من مدينة بيروت، اشتهرت بمقالاتها السج
+2025-07-31 16:16:09,586 - mammoth_converter - INFO -   [3] انضمت أزهري عام 1891 إلى جمعية باكورة سورية، أولى الجمعيات النسائية في سوريا العثمانية، فشغلت عام 18
+2025-07-31 16:16:09,618 - mammoth_converter - INFO - 
+Fractions: Found 9 matches
+2025-07-31 16:16:09,619 - mammoth_converter - INFO -   [1] ابن حنينا، يهوشع. "الكاتبة أستير مويال ووفاتها". صدى الشرق. القسم الأول. 17/9/1944.
+2025-07-31 16:16:09,620 - mammoth_converter - INFO -   [2] أزهري، إستر. "جمال الزواج وجمال الأم". الحسناء. ج 2. مج 2 (آب/ أغسطس 1910).
+2025-07-31 16:16:09,621 - mammoth_converter - INFO -   [3] ________. "المرأة والتجارة". الحسناء. ج 3. مج 2 (أيلول/ سبتمبر 1910).
+2025-07-31 16:16:10,015 - mammoth_converter - INFO - 
+=== IN HTML OUTPUT ===
+2025-07-31 16:16:10,017 - mammoth_converter - INFO -   Found 7 equations
+2025-07-31 16:16:10,018 - mammoth_converter - INFO - Saved: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\تاريخ وجغرافيا\023_إستر أزهري (جاهزة للنشر)\إستر أزهري (جاهزة للنشر).html
+2025-07-31 16:16:10,019 - mammoth_converter - INFO - Converting [24]: بولينا حسون (جاهزة للنشر).docx
+2025-07-31 16:16:11,195 - mammoth_converter - INFO - === EQUATION DIAGNOSIS ===
+2025-07-31 16:16:11,774 - mammoth_converter - INFO - 
+Math operators: Found 13 matches
+2025-07-31 16:16:11,774 - mammoth_converter - INFO -   [1] مجلة "ليلى" أول مجلة نسائية في تاريخ العراق ( 1923) - المصدر: ويكيبيديا
+2025-07-31 16:16:11,775 - mammoth_converter - INFO -   [2] بولينا حسّون روفائيل (1895-1960)، كاتبة وصحافية عراقية من مدينة الموصل، اشتهرت بأنها صاحبة أول مجلة 
+2025-07-31 16:16:11,775 - mammoth_converter - INFO -   [3] يُرجَّح أن حسون وُلِدت في مدينة الموصل عام 1895 لأب عراقي وأم حلبية هي شقيقة الكاتب والمترجم إبراهيم
+2025-07-31 16:16:11,785 - mammoth_converter - INFO - 
+Fractions: Found 6 matches
+2025-07-31 16:16:11,785 - mammoth_converter - INFO -   [1] دعت حسون في خطاب أمام نخبة من مثقفي العراق في شهر حزيران/ يونيو 1923 إلى تأسيس نادٍ للسيدات والأوانس
+2025-07-31 16:16:11,786 - mammoth_converter - INFO -   [2] أصدرت بولينا حسون مجلة ليلى في 15 تشرين الأول/ أكتوبر 1923 تحت شعار: "في سبيل نهضة المرأة العراقية"،
+2025-07-31 16:16:11,787 - mammoth_converter - INFO -   [3] لم تَرُق جرأة حسون للمجتمع العراقي المحافظ، فبدأت الحملة الأولى ضدها في صحيفة المفيد التي اتهمتها بس
+2025-07-31 16:16:12,112 - mammoth_converter - INFO - 
+=== IN HTML OUTPUT ===
+2025-07-31 16:16:12,112 - mammoth_converter - INFO -   Found 6 equations
+2025-07-31 16:16:12,112 - mammoth_converter - INFO - Saved: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\تاريخ وجغرافيا\024_بولينا حسون (جاهزة للنشر)\بولينا حسون (جاهزة للنشر).html
+2025-07-31 16:16:12,117 - mammoth_converter - INFO - Converting [25]: جمعية العهد (جاهزة للنشر).docx
+2025-07-31 16:16:16,417 - mammoth_converter - WARNING - جمعية العهد (جاهزة للنشر).docx: Message(type='warning', message='Unrecognised paragraph style: List Paragraph (Style ID: ListParagraph)')
+2025-07-31 16:16:16,417 - mammoth_converter - WARNING - جمعية العهد (جاهزة للنشر).docx: Message(type='warning', message='Unrecognised paragraph style: هامش عربي (المتن الداخلي) (Style ID: a)')
+2025-07-31 16:16:16,417 - mammoth_converter - WARNING - جمعية العهد (جاهزة للنشر).docx: Message(type='warning', message='Unrecognised run style: عربي (Style ID: a0)')
+2025-07-31 16:16:16,418 - mammoth_converter - INFO - === EQUATION DIAGNOSIS ===
+2025-07-31 16:16:18,395 - mammoth_converter - INFO - 
+Math operators: Found 53 matches
+2025-07-31 16:16:18,395 - mammoth_converter - INFO -   [1] مجموعة من الوجهاء العرب مع عدد من ضباط الدولة العثمانية - المصدر: Library of Congress
+2025-07-31 16:16:18,395 - mammoth_converter - INFO -   [2] جمعية العهد هي جمعية عربية عسكرية سياسية سريّة، أسّسها البكباشي في الجيش العثماني عزيز علي المصري في
+2025-07-31 16:16:18,395 - mammoth_converter - INFO -   [3] سرعان ما توسّعت جمعية العهد بعد تأسيسها لتضمَّ في عضويتها عددًا كبيرًا من الضباط العرب في الجيش العث
+2025-07-31 16:16:18,474 - mammoth_converter - INFO - 
+Fractions: Found 24 matches
+2025-07-31 16:16:18,474 - mammoth_converter - INFO -   [1] جمعية العهد هي جمعية عربية عسكرية سياسية سريّة، أسّسها البكباشي في الجيش العثماني عزيز علي المصري في
+2025-07-31 16:16:18,475 - mammoth_converter - INFO -   [2] ضمّت جمعية القحطانية الوليدة عددًا محدودًا من الضباط العرب في الجيش العثماني، لكنّ أعضاءَها أهملوها 
+2025-07-31 16:16:18,475 - mammoth_converter - INFO -   [3] وإثرَ اعتقال عزيز المصري في شباط/ فبراير 1914، والحكم عليه بالإعدام، هاج الرأي العام العربي في إسطنب
+2025-07-31 16:16:19,937 - mammoth_converter - INFO - 
+=== IN HTML OUTPUT ===
+2025-07-31 16:16:19,940 - mammoth_converter - INFO -   Found 6 equations
+2025-07-31 16:16:19,942 - mammoth_converter - INFO - Saved: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\تاريخ وجغرافيا\025_جمعية العهد (جاهزة للنشر)\جمعية العهد (جاهزة للنشر).html
+2025-07-31 16:16:19,942 - mammoth_converter - INFO - Converting [26]: زينب فواز (جاهزة للنشر).docx
+2025-07-31 16:16:21,026 - mammoth_converter - WARNING - زينب فواز (جاهزة للنشر).docx: Message(type='warning', message='Unrecognised paragraph style: List Paragraph (Style ID: ListParagraph)')
+2025-07-31 16:16:21,027 - mammoth_converter - INFO - === EQUATION DIAGNOSIS ===
+2025-07-31 16:16:21,440 - mammoth_converter - INFO - 
+Math operators: Found 14 matches
+2025-07-31 16:16:21,441 - mammoth_converter - INFO -   [1] زينب بنت علي فوّاز العاملية (1860-1914) - المصدر: ويكيبيديا
+2025-07-31 16:16:21,441 - mammoth_converter - INFO -   [2] زينب بنت علي فوّاز العاملية (1860-1914)، أديبة لبنانية، اشتُهرت في نهاية القرن التاسع عشر بدعوتها إل
+2025-07-31 16:16:21,441 - mammoth_converter - INFO -   [3] وُلدت زينب بنت علي فوّاز في بلدة تبنين جنوبيّ لبنان عام 1846، وارتحلت في صغرها إلى الإسكندرية لتلتحق
+2025-07-31 16:16:21,460 - mammoth_converter - INFO - 
+Fractions: Found 2 matches
+2025-07-31 16:16:21,461 - mammoth_converter - INFO -   [1] استأنفت زينب نشاطها الصحافي والسجالي حين عادت إلى القاهرة، فكتبت في عدة جرائد ومجلات، منها: النيل؛ ا
+2025-07-31 16:16:21,461 - mammoth_converter - INFO -   [2] شميل، شبلي. "المرأة والرجل وهل يتساويان". المقتطف. ج 6، السنة الحادية عشرة (آذار/ مارس 1887).
+2025-07-31 16:16:21,769 - mammoth_converter - INFO - 
+=== IN HTML OUTPUT ===
+2025-07-31 16:16:21,770 - mammoth_converter - INFO -   Found 5 equations
+2025-07-31 16:16:21,772 - mammoth_converter - INFO - Saved: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\تاريخ وجغرافيا\026_زينب فواز (جاهزة للنشر)\زينب فواز (جاهزة للنشر).html
+2025-07-31 16:16:21,772 - mammoth_converter - INFO - Converting [27]: ساطع الحصري (جاهزة للنشر).docx
+2025-07-31 16:16:27,411 - mammoth_converter - WARNING - ساطع الحصري (جاهزة للنشر).docx: Message(type='warning', message='Unrecognised paragraph style: List Paragraph (Style ID: ListParagraph)')
+2025-07-31 16:16:27,412 - mammoth_converter - INFO - === EQUATION DIAGNOSIS ===
+2025-07-31 16:16:30,136 - mammoth_converter - INFO - 
+Math operators: Found 50 matches
+2025-07-31 16:16:30,137 - mammoth_converter - INFO -   [1] ساطع  الحصري (1879-1968) - المصدر: ويكيبيديا
+2025-07-31 16:16:30,137 - mammoth_converter - INFO -   [2] ساطع  الحُصري (1879-1968)، تربوي ومؤرخ وباحث في اللغة والأدب والتربية، ومُفكر قومي عربي، سوري من حلب
+2025-07-31 16:16:30,138 - mammoth_converter - INFO -   [3] وُلد ساطع بن محمد بن هلال الحُصري في صنعاء اليمن، في 5 آب/ أغسطس 1879. أمه فاطمة بنت عبد الرحمن الحن
+2025-07-31 16:16:30,267 - mammoth_converter - INFO - 
+Fractions: Found 23 matches
+2025-07-31 16:16:30,267 - mammoth_converter - INFO -   [1] وُلد ساطع بن محمد بن هلال الحُصري في صنعاء اليمن، في 5 آب/ أغسطس 1879. أمه فاطمة بنت عبد الرحمن الحن
+2025-07-31 16:16:30,268 - mammoth_converter - INFO -   [2] عاد ساطع إثر ذلك من يانيا إلى اسطنبول في عام 1905، "تحفّزه رؤى قدرته على الإصلاح المُجدي"، واتجه إلى
+2025-07-31 16:16:30,268 - mammoth_converter - INFO -   [3] في حزيران/ يونيو 1919، التحق ساطع الحصري بالحكومة العربية التي أعلنها الأمير فيصل الأول بن الحسين (1
+2025-07-31 16:16:33,175 - mammoth_converter - INFO - 
+Greek letters: Found 1 matches
+2025-07-31 16:16:33,175 - mammoth_converter - INFO -   [1] Tahir, Zhilwan & Abdulwahed Jalal Nori. “Temporal and Geographical Forces in Shaping Ibn Khaldun’s T
+2025-07-31 16:16:33,176 - mammoth_converter - INFO - 
+=== IN HTML OUTPUT ===
+2025-07-31 16:16:33,179 - mammoth_converter - INFO -   Found 7 equations
+2025-07-31 16:16:33,180 - mammoth_converter - INFO - Saved: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\تاريخ وجغرافيا\027_ساطع الحصري (جاهزة للنشر)\ساطع الحصري (جاهزة للنشر).html
+2025-07-31 16:16:33,181 - mammoth_converter - INFO - Converting [28]: سوق عكاظ (جاهزة للنشر).docx
+2025-07-31 16:16:36,519 - mammoth_converter - INFO - === EQUATION DIAGNOSIS ===
+2025-07-31 16:16:38,038 - mammoth_converter - INFO - 
+Math operators: Found 11 matches
+2025-07-31 16:16:38,043 - mammoth_converter - INFO -   [1] من فعاليات إحياء سوق عكاظ المستمرة حتى الآن - المصدر: Shutterstock
+2025-07-31 16:16:38,045 - mammoth_converter - INFO -   [2] سوق عكاظ واحدة من أبرز الأسواق التاريخية في الجزيرة العربية، وهي سوق سنوية كانت تُعقد في منطقة عكاظ،
+2025-07-31 16:16:38,047 - mammoth_converter - INFO -   [3] حدد موقع سوق عكاظ محمد بن بليهد، وإنْ كان سبقه في محاولة التحديد حمد الجاسر، ففي عام 1944 أعدّ الجاس
+2025-07-31 16:16:38,242 - mammoth_converter - INFO - 
+Fractions: Found 3 matches
+2025-07-31 16:16:38,243 - mammoth_converter - INFO -   [1] حدد موقع سوق عكاظ محمد بن بليهد، وإنْ كان سبقه في محاولة التحديد حمد الجاسر، ففي عام 1944 أعدّ الجاس
+2025-07-31 16:16:38,243 - mammoth_converter - INFO -   [2] يقع موضع سوق عكاظ بعيدًا عن مطار الحَوِيّة (الذي أصبح مطار الطائف) مسافة 10 كيلومترات تقريبًا، وعن ا
+2025-07-31 16:16:38,244 - mammoth_converter - INFO -   [3] يظهر في المصادر التاريخية أن أرض عكاظ وما جاورها من النواحي كانت أرض تعيش فوقها قبائل قيس عيلان، بطو
+2025-07-31 16:16:39,619 - mammoth_converter - INFO - 
+=== IN HTML OUTPUT ===
+2025-07-31 16:16:39,619 - mammoth_converter - INFO -   Found 6 equations
+2025-07-31 16:16:39,630 - mammoth_converter - INFO - Saved: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\تاريخ وجغرافيا\028_سوق عكاظ (جاهزة للنشر)\سوق عكاظ (جاهزة للنشر).html
+2025-07-31 16:16:39,630 - mammoth_converter - INFO - Converting [29]: صفقة الأسلحة التشيكية (جاهزة للنشر).docx
+2025-07-31 16:16:40,866 - mammoth_converter - INFO - === EQUATION DIAGNOSIS ===
+2025-07-31 16:16:41,328 - mammoth_converter - INFO - 
+Math operators: Found 8 matches
+2025-07-31 16:16:41,328 - mammoth_converter - INFO -   [1] مدينة دمشق، حيث جرت المفاوضات حول صفقة الأسلحة التشيكية - المصدر: Shutterstock
+2025-07-31 16:16:41,328 - mammoth_converter - INFO -   [2] تولّت الحكومة السورية مسؤولية إبرام صفقات الأسلحة من موازنة جامعة الدول العربية لصالح لجنتها العسكري
+2025-07-31 16:16:41,328 - mammoth_converter - INFO -   [3] أما صفقة الأسلحة الأولى، فقد اتفقت وزارة الدفاع السورية مع وكيل شركة سكودا بدمشق، في حوالي 27 تشرين 
+2025-07-31 16:16:41,337 - mammoth_converter - INFO - 
+Fractions: Found 6 matches
+2025-07-31 16:16:41,338 - mammoth_converter - INFO -   [1] تولّت الحكومة السورية مسؤولية إبرام صفقات الأسلحة من موازنة جامعة الدول العربية لصالح لجنتها العسكري
+2025-07-31 16:16:41,339 - mammoth_converter - INFO -   [2] أما صفقة الأسلحة الأولى، فقد اتفقت وزارة الدفاع السورية مع وكيل شركة سكودا بدمشق، في حوالي 27 تشرين 
+2025-07-31 16:16:41,339 - mammoth_converter - INFO -   [3] وفي الفترة بين يومَي 21 و22 تشرين الثاني/ نوفمبر 1947، تمكنت وزارة الدفاع السورية من التفاهم مع شركة
+2025-07-31 16:16:41,805 - mammoth_converter - INFO - 
+=== IN HTML OUTPUT ===
+2025-07-31 16:16:41,807 - mammoth_converter - INFO -   Found 6 equations
+2025-07-31 16:16:41,808 - mammoth_converter - INFO - Saved: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\تاريخ وجغرافيا\029_صفقة الأسلحة التشيكية (جاهزة للنشر)\صفقة الأسلحة التشيكية (جاهزة للنشر).html
+2025-07-31 16:16:41,809 - mammoth_converter - INFO - Converting [30]: مجلي نصراوين (جاهزة للنشر).docx
+2025-07-31 16:16:43,251 - mammoth_converter - INFO - === EQUATION DIAGNOSIS ===
+2025-07-31 16:16:43,851 - mammoth_converter - INFO - 
+Math operators: Found 8 matches
+2025-07-31 16:16:43,852 - mammoth_converter - INFO -   [1] مجلّي يعقوب النصراوين (1939-2023)، حزبي وسياسي وقاض أردني، انتسب إلى حزب البعث العربي الاشتراكي مبكّ
+2025-07-31 16:16:43,853 - mammoth_converter - INFO -   [2] كان النصراوين في تلك الفترة من الطلبة المتّقدين حماسةً، فاشترك في مختلف النشاطات الحزبية والطلابية، 
+2025-07-31 16:16:43,853 - mammoth_converter - INFO -   [3] بعد أن أنهى مجلّي النصراوين دراسة الثانوية العامة، رغِب في مواصلة دراسته الجامعية، غير أن الظروف الم
+2025-07-31 16:16:43,887 - mammoth_converter - INFO - 
+Fractions: Found 6 matches
+2025-07-31 16:16:43,887 - mammoth_converter - INFO -   [1] بعد أن أنهى مجلّي النصراوين دراسة الثانوية العامة، رغِب في مواصلة دراسته الجامعية، غير أن الظروف الم
+2025-07-31 16:16:43,888 - mammoth_converter - INFO -   [2] بعد أن أنهى دارسته الجامعة في عام 1963، عاد مجلّي النصراوين إلى الأردن، وانتسب إلى نقابة المحامين مح
+2025-07-31 16:16:43,888 - mammoth_converter - INFO -   [3] في سورية، تولّى مجلّي النصراوين رئاسة مكتب العلاقات الخارجية لحزب البعث. وخلال تلك الفترة، زار دولًا
+2025-07-31 16:16:44,802 - mammoth_converter - INFO - 
+=== IN HTML OUTPUT ===
+2025-07-31 16:16:44,805 - mammoth_converter - INFO -   Found 6 equations
+2025-07-31 16:16:44,808 - mammoth_converter - INFO - Saved: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\تاريخ وجغرافيا\030_مجلي نصراوين (جاهزة للنشر)\مجلي نصراوين (جاهزة للنشر).html
+2025-07-31 16:16:44,808 - mammoth_converter - INFO - Converting [31]: مريانا مراش (جاهزة للنشر).docx
+2025-07-31 16:16:45,970 - mammoth_converter - INFO - === EQUATION DIAGNOSIS ===
+2025-07-31 16:16:46,540 - mammoth_converter - INFO - 
+Math operators: Found 11 matches
+2025-07-31 16:16:46,541 - mammoth_converter - INFO -   [1] مريانا مرَّاش (1848-1919) - المصدر: ويكيبيديا
+2025-07-31 16:16:46,541 - mammoth_converter - INFO -   [2] مريانا فتح الله مرَّاش (1848-1919)، كاتبة وشاعرة سورية من مدينة حلب، وأول فتاة عربية مشرقية تكتب في 
+2025-07-31 16:16:46,542 - mammoth_converter - INFO -   [3] كما حثَّت مرَّاش نساء بلادها على الاقتداء بالأوروبيات في هذا الجانب، أي دراسة العلوم والصنائع مثل ال
+2025-07-31 16:16:46,590 - mammoth_converter - INFO - 
+Fractions: Found 6 matches
+2025-07-31 16:16:46,591 - mammoth_converter - INFO -   [1] مريانا فتح الله مرَّاش (1848-1919)، كاتبة وشاعرة سورية من مدينة حلب، وأول فتاة عربية مشرقية تكتب في 
+2025-07-31 16:16:46,592 - mammoth_converter - INFO -   [2] شعراوي، أنطوان. "آل المراش والصالونات الأدبية في حلب في النصف الثاني من القرن التاسع عشر". الضاد. ال
+2025-07-31 16:16:46,592 - mammoth_converter - INFO -   [3] شكور، فريدة. "التقدم الحقيقي". الجنان. السنة السادسة، ج 11 (1 حزيران/ يونيو 1875). ص 274-276.
+2025-07-31 16:16:46,964 - mammoth_converter - INFO - 
+=== IN HTML OUTPUT ===
+2025-07-31 16:16:46,965 - mammoth_converter - INFO -   Found 6 equations
+2025-07-31 16:16:46,967 - mammoth_converter - INFO - Saved: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\تاريخ وجغرافيا\031_مريانا مراش (جاهزة للنشر)\مريانا مراش (جاهزة للنشر).html
+2025-07-31 16:16:46,967 - mammoth_converter - INFO - Converting [32]: مسلم بن مسلم الجرمي (جاهزة للنشر).docx
+2025-07-31 16:16:47,848 - mammoth_converter - INFO - === EQUATION DIAGNOSIS ===
+2025-07-31 16:16:48,322 - mammoth_converter - INFO - 
+Math operators: Found 11 matches
+2025-07-31 16:16:48,322 - mammoth_converter - INFO -   [1] أطلال طريق روماني قديم في طرسوس - المصدر: Shutterstock
+2025-07-31 16:16:48,322 - mammoth_converter - INFO -   [2] مسلم بن عبد الرحمن الجَرْمي الطرسوسي (ت. 240هـ/ 855م)، مُحدّث ثقة، نزل ببغداد وسمع بها. انضم إلى إحد
+2025-07-31 16:16:48,334 - mammoth_converter - INFO -   [3] لا يَذكُر مَن ترجموا لمسلم بن عبد الرحمن الجرمي شيئًا عن تاريخ ميلاده، غير أن نسبته إلى بني جرم وإلى
+2025-07-31 16:16:48,348 - mammoth_converter - INFO - 
+Fractions: Found 5 matches
+2025-07-31 16:16:48,350 - mammoth_converter - INFO -   [1] مسلم بن عبد الرحمن الجَرْمي الطرسوسي (ت. 240هـ/ 855م)، مُحدّث ثقة، نزل ببغداد وسمع بها. انضم إلى إحد
+2025-07-31 16:16:48,350 - mammoth_converter - INFO -   [2] لا يَذكُر مَن ترجموا لمسلم بن عبد الرحمن الجرمي شيئًا عن تاريخ ميلاده، غير أن نسبته إلى بني جرم وإلى
+2025-07-31 16:16:48,351 - mammoth_converter - INFO -   [3] انضم الجرمي إلى إحدى صوائف الخليفة هارون الرشيد عام 188ه/ 804م - على الأرجح - فوقع في الأسر، وبعدها 
+2025-07-31 16:16:48,748 - mammoth_converter - INFO - 
+=== IN HTML OUTPUT ===
+2025-07-31 16:16:48,750 - mammoth_converter - INFO -   Found 6 equations
+2025-07-31 16:16:48,752 - mammoth_converter - INFO - Saved: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\تاريخ وجغرافيا\032_مسلم بن مسلم الجرمي (جاهزة للنشر)\مسلم بن مسلم الجرمي (جاهزة للنشر).html
+2025-07-31 16:16:48,753 - mammoth_converter - INFO - Converting [33]: نعمان قساطلي (جاهزة للنشر).docx
+2025-07-31 16:16:50,021 - mammoth_converter - INFO - === EQUATION DIAGNOSIS ===
+2025-07-31 16:16:50,638 - mammoth_converter - INFO - 
+Math operators: Found 9 matches
+2025-07-31 16:16:50,638 - mammoth_converter - INFO -   [1] كتاب نعمان قساطلي  "الروضة الغناء في دمشق الفيحاء" - المصدر: مكتبة الإنترنت العالمية (IA)
+2025-07-31 16:16:50,639 - mammoth_converter - INFO -   [2] نعمان بن عبده بن يوسف بن نقولا قساطلي (1854-1920)، رحالة ومؤرخ دمشقي، عمل مترجمًا في بعثة الملازم أو
+2025-07-31 16:16:50,639 - mammoth_converter - INFO -   [3] ولد قساطلي في دمشق في فترة حكم السلطان عبد المجيد خان (1823-1861)، وتتلمذ للأستاذ سليم كساب الدمشقي 
+2025-07-31 16:16:50,655 - mammoth_converter - INFO - 
+Fractions: Found 5 matches
+2025-07-31 16:16:50,656 - mammoth_converter - INFO -   [1] اشتهر قساطلي بكتابه الروضة الغناء في دمشق الفيحاء الذي أعطاه مكانة مميزة بين مؤرخي دمشق في نهايات ال
+2025-07-31 16:16:50,657 - mammoth_converter - INFO -   [2] حين بدأ قساطلي عمله في فريق المساحين البريطانيين؛ لم يكن قد تجاوز العشرين من عمره، ويبدو أنه استفاد 
+2025-07-31 16:16:50,657 - mammoth_converter - INFO -   [3] خصص قساطلي الجزء الأول من مخطوطه المعنون بـ "قسم أول من السياحة في فلسطين وبعض البلدان الشامية، آثار
+2025-07-31 16:16:51,032 - mammoth_converter - INFO - 
+=== IN HTML OUTPUT ===
+2025-07-31 16:16:51,034 - mammoth_converter - INFO -   Found 6 equations
+2025-07-31 16:16:51,036 - mammoth_converter - INFO - Saved: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\تاريخ وجغرافيا\033_نعمان قساطلي (جاهزة للنشر)\نعمان قساطلي (جاهزة للنشر).html
+2025-07-31 16:16:51,036 - mammoth_converter - INFO - Converting [34]: هارون بن يحيى (جاهزة للنشر).docx
+2025-07-31 16:16:51,868 - mammoth_converter - INFO - === EQUATION DIAGNOSIS ===
+2025-07-31 16:16:52,322 - mammoth_converter - INFO - 
+Math operators: Found 13 matches
+2025-07-31 16:16:52,323 - mammoth_converter - INFO -   [1] أسوار مدينة القسطنطينية القديمة في إسطنبول - المصدر: Shutterstock
+2025-07-31 16:16:52,323 - mammoth_converter - INFO -   [2] هارون بن يحيى، أسير عربي، عاش في القران الثالث الهجري/ القرن التاسع الميلادي، لا يُعرَف عنه شيء سوى 
+2025-07-31 16:16:52,324 - mammoth_converter - INFO -   [3] أوقعت المعلومات الشخصية المختصرة، التي ذكرها هارون في مقدمة رحلته، الدارسين في مأزق يتعلق بتقدير زمن
+2025-07-31 16:16:52,353 - mammoth_converter - INFO - 
+Fractions: Found 5 matches
+2025-07-31 16:16:52,353 - mammoth_converter - INFO -   [1] هارون بن يحيى، أسير عربي، عاش في القران الثالث الهجري/ القرن التاسع الميلادي، لا يُعرَف عنه شيء سوى 
+2025-07-31 16:16:52,354 - mammoth_converter - INFO -   [2] أوقعت المعلومات الشخصية المختصرة، التي ذكرها هارون في مقدمة رحلته، الدارسين في مأزق يتعلق بتقدير زمن
+2025-07-31 16:16:52,354 - mammoth_converter - INFO -   [3] غير أن التواريخ البيزنطية تشير إلى نصر صغير على العرب حققه أسطول أرسله الإمبراطور ميخائيل الثاني (Mi
+2025-07-31 16:16:52,711 - mammoth_converter - INFO - 
+=== IN HTML OUTPUT ===
+2025-07-31 16:16:52,711 - mammoth_converter - INFO -   Found 6 equations
+2025-07-31 16:16:52,714 - mammoth_converter - INFO - Saved: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\تاريخ وجغرافيا\034_هارون بن يحيى (جاهزة للنشر)\هارون بن يحيى (جاهزة للنشر).html
+2025-07-31 16:16:52,715 - mammoth_converter - INFO - Converting [35]: هنا كسباني (جاهزة للنشر).docx
+2025-07-31 16:16:53,498 - mammoth_converter - INFO - === EQUATION DIAGNOSIS ===
+2025-07-31 16:16:54,032 - mammoth_converter - INFO - 
+Math operators: Found 19 matches
+2025-07-31 16:16:54,033 - mammoth_converter - INFO -   [1] هنا كسباني (1871 - 1898) - المصدر: ويكيبيديا
+2025-07-31 16:16:54,033 - mammoth_converter - INFO -   [2] هَنا كسباني كوراني (1 شباط/ فبراير 1871 - 6 أيار/ مايو 1898)، كاتبة ومترجمة ورائدة نسوية لبنانية، جس
+2025-07-31 16:16:54,034 - mammoth_converter - INFO -   [3] وُلدت هنا كسباني كوراني في بلدة كفرشيما، التابعة لمتصرفية جبل لبنان، بتاريخ 1 شباط/ فبراير 1871 لعائ
+2025-07-31 16:16:54,061 - mammoth_converter - INFO - 
+Fractions: Found 12 matches
+2025-07-31 16:16:54,061 - mammoth_converter - INFO -   [1] هَنا كسباني كوراني (1 شباط/ فبراير 1871 - 6 أيار/ مايو 1898)، كاتبة ومترجمة ورائدة نسوية لبنانية، جس
+2025-07-31 16:16:54,061 - mammoth_converter - INFO -   [2] وُلدت هنا كسباني كوراني في بلدة كفرشيما، التابعة لمتصرفية جبل لبنان، بتاريخ 1 شباط/ فبراير 1871 لعائ
+2025-07-31 16:16:54,061 - mammoth_converter - INFO -   [3] وفي أثناء فعاليات المؤتمر، ربطت كوراني صداقةٌ متينة بسيدة أميركية تعد واحدة من أبرز رموز تحرير المرأ
+2025-07-31 16:16:54,565 - mammoth_converter - INFO - 
+=== IN HTML OUTPUT ===
+2025-07-31 16:16:54,566 - mammoth_converter - INFO -   Found 6 equations
+2025-07-31 16:16:54,569 - mammoth_converter - INFO - Saved: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\تاريخ وجغرافيا\035_هنا كسباني (جاهزة للنشر)\هنا كسباني (جاهزة للنشر).html
+2025-07-31 16:16:54,569 - mammoth_converter - INFO - Converting [36]: ياسين الهاشمي (جاهزة للنشر).docx
+2025-07-31 16:17:00,183 - mammoth_converter - WARNING - ياسين الهاشمي (جاهزة للنشر).docx: Message(type='warning', message='Unrecognised paragraph style: List Paragraph (Style ID: ListParagraph)')
+2025-07-31 16:17:00,184 - mammoth_converter - WARNING - ياسين الهاشمي (جاهزة للنشر).docx: Message(type='warning', message='Unrecognised run style: fn (Style ID: fn)')
+2025-07-31 16:17:00,184 - mammoth_converter - WARNING - ياسين الهاشمي (جاهزة للنشر).docx: Message(type='warning', message='Unrecognised run style: Subtitle1 (Style ID: Subtitle1)')
+2025-07-31 16:17:00,185 - mammoth_converter - INFO - === EQUATION DIAGNOSIS ===
+2025-07-31 16:17:02,594 - mammoth_converter - INFO - 
+Math operators: Found 46 matches
+2025-07-31 16:17:02,594 - mammoth_converter - INFO -   [1] ياسين الهاشمي (1882-1936)  - المصدر: ويكيبيديا
+2025-07-31 16:17:02,595 - mammoth_converter - INFO -   [2] ياسين الهاشمي (1882-1936) ضابط وسياسي ورجل دولة عراقي، كان له أدوار عسكرية وسياسية بارزة وعديدة في ث
+2025-07-31 16:17:02,595 - mammoth_converter - INFO -   [3] بدأت المرحلة الثانية من حياة الهاشمي في دمشق، حيث أقنعه الأمير فيصل الأول بن الحسين بن علي الهاشمي (
+2025-07-31 16:17:02,671 - mammoth_converter - INFO - 
+Fractions: Found 24 matches
+2025-07-31 16:17:02,671 - mammoth_converter - INFO -   [1] ياسين الهاشمي (1882-1936) ضابط وسياسي ورجل دولة عراقي، كان له أدوار عسكرية وسياسية بارزة وعديدة في ث
+2025-07-31 16:17:02,671 - mammoth_converter - INFO -   [2] بدأت المرحلة الثانية من حياة الهاشمي في دمشق، حيث أقنعه الأمير فيصل الأول بن الحسين بن علي الهاشمي (
+2025-07-31 16:17:02,671 - mammoth_converter - INFO -   [3] مثّل اعتقال الهاشمي نقطة انعطاف أساسية في تعقّد العلاقات العربية - البريطانية، إذ ارتفعت وتيرة العمل
+2025-07-31 16:17:05,937 - mammoth_converter - INFO - 
+=== IN HTML OUTPUT ===
+2025-07-31 16:17:05,939 - mammoth_converter - INFO -   Found 6 equations
+2025-07-31 16:17:05,941 - mammoth_converter - INFO - Saved: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\تاريخ وجغرافيا\036_ياسين الهاشمي (جاهزة للنشر)\ياسين الهاشمي (جاهزة للنشر).html
+2025-07-31 16:17:05,941 - mammoth_converter - INFO - Converting [37]: الصيدلة (جاهزة للنشر).docx
+2025-07-31 16:17:08,847 - mammoth_converter - WARNING - الصيدلة (جاهزة للنشر).docx: Message(type='warning', message='Unrecognised paragraph style: List Paragraph (Style ID: ListParagraph)')
+2025-07-31 16:17:08,847 - mammoth_converter - WARNING - الصيدلة (جاهزة للنشر).docx: Message(type='warning', message='Unrecognised paragraph style: Normal (Web) (Style ID: NormalWeb)')
+2025-07-31 16:17:08,848 - mammoth_converter - INFO - === EQUATION DIAGNOSIS ===
+2025-07-31 16:17:10,330 - mammoth_converter - INFO - 
+Math operators: Found 45 matches
+2025-07-31 16:17:10,331 - mammoth_converter - INFO -   [1] الصيدلة (Pharmacy) مصطلح مشتق من الكلمة اليونانية "فارمكون" (Pharmakon) التي تعني "الدواء" (Medicine
+2025-07-31 16:17:10,332 - mammoth_converter - INFO -   [2] تُقسَم العلوم الصيدلانية (Pharmaceutical sciences) إلى أربعة فروع رئيسة، يمثل كلّ منها تخصصًّا مستقل
+2025-07-31 16:17:10,332 - mammoth_converter - INFO -   [3] يُعرَف علم الأدوية (Pharmacology) بأنه العلم الذي يدرس تأثير الدواء في جسم الإنسان، ويتضمن ديناميكية
+2025-07-31 16:17:10,409 - mammoth_converter - INFO - 
+Fractions: Found 6 matches
+2025-07-31 16:17:10,409 - mammoth_converter - INFO -   [1] Boughen, Melanie et al. “Defining the Role of the Pharmacy Technician and Identifying Their Future R
+2025-07-31 16:17:10,410 - mammoth_converter - INFO -   [2] Chalasani, Sri Harsha et al. “Artificial Intelligence in the Field of Pharmacy Practice: A Literatur
+2025-07-31 16:17:10,410 - mammoth_converter - INFO -   [3] Imming, Peter. “Medicinal Chemistry: Definitions and Objectives, Drug Activity Phases, Drug Classifi
+2025-07-31 16:17:11,195 - mammoth_converter - INFO - 
+Greek letters: Found 4 matches
+2025-07-31 16:17:11,196 - mammoth_converter - INFO -   [1] تُعدّ صيدلية المجتمع (Community pharmacy)، المعروفة أيضًا بـ "صيدلية البيع بالتجزئة"، أشيع أنواع الص
+2025-07-31 16:17:11,196 - mammoth_converter - INFO -   [2] Imming, Peter. “Medicinal Chemistry: Definitions and Objectives, Drug Activity Phases, Drug Classifi
+2025-07-31 16:17:11,196 - mammoth_converter - INFO -   [3] Raza, Muhammad Ahmer et al. “Artificial Intelligence (AI) in Pharmacy: An Overview of Innovations.” 
+2025-07-31 16:17:11,196 - mammoth_converter - INFO - 
+=== IN HTML OUTPUT ===
+2025-07-31 16:17:11,198 - mammoth_converter - INFO -   Found 9 equations
+2025-07-31 16:17:11,200 - mammoth_converter - INFO - Saved: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\طب وصيدلة\037_الصيدلة (جاهزة للنشر)\الصيدلة (جاهزة للنشر).html
+2025-07-31 16:17:11,201 - mammoth_converter - INFO - Converting [38]: المكملات الغذائية (جاهزة للنشر).docx
+2025-07-31 16:17:13,755 - mammoth_converter - INFO - === EQUATION DIAGNOSIS ===
+2025-07-31 16:17:15,291 - mammoth_converter - INFO - 
+Keyword match: Found 1 matches
+2025-07-31 16:17:15,291 - mammoth_converter - INFO -   [1] oactive Components, Formulations and Innovation
+2025-07-31 16:17:15,339 - mammoth_converter - INFO - 
+Math operators: Found 37 matches
+2025-07-31 16:17:15,340 - mammoth_converter - INFO -   [1] أنواع مختلفة من المكملات الغذائية - المصدر: Shutterstock
+2025-07-31 16:17:15,340 - mammoth_converter - INFO -   [2] المكملات الغذائية (Dietary supplements) منتجات تحتوي على واحد أو أكثر من المواد والعناصر الغذائية ال
+2025-07-31 16:17:15,340 - mammoth_converter - INFO -   [3] ومن أشيع المكملات الغذائية الفيتامينات المتعددة (Multivitamins)، والمكملات المعدنية (Mineral supplem
+2025-07-31 16:17:15,418 - mammoth_converter - INFO - 
+Fractions: Found 7 matches
+2025-07-31 16:17:15,418 - mammoth_converter - INFO -   [1] تتكون المكملات النباتية من خليط مركبات عضوية، ولكن جزءًا صغيرًا منها فقط يكون نشطًا بيولوجيًا. تمتلك
+2025-07-31 16:17:15,419 - mammoth_converter - INFO -   [2] Bailey, Regan L. et al. “Dietary supplement use in the United States, 2003-2006.” Journal of Nutriti
+2025-07-31 16:17:15,420 - mammoth_converter - INFO -   [3] Gross, Brian W. et al. “Omega-3 Fatty Acid Supplementation and Warfarin: A Lethal Combination in Tra
+2025-07-31 16:17:16,254 - mammoth_converter - INFO - 
+Greek letters: Found 4 matches
+2025-07-31 16:17:16,255 - mammoth_converter - INFO -   [1] ومن أشيع المكملات الغذائية الفيتامينات المتعددة (Multivitamins)، والمكملات المعدنية (Mineral supplem
+2025-07-31 16:17:16,255 - mammoth_converter - INFO -   [2] Barton, James C. et al. “Iron overload and prolonged ingestion of iron supplements: clinical feature
+2025-07-31 16:17:16,255 - mammoth_converter - INFO -   [3] Gross, Brian W. et al. “Omega-3 Fatty Acid Supplementation and Warfarin: A Lethal Combination in Tra
+2025-07-31 16:17:16,255 - mammoth_converter - INFO - 
+=== IN HTML OUTPUT ===
+2025-07-31 16:17:16,258 - mammoth_converter - INFO -   Found 10 equations
+2025-07-31 16:17:16,260 - mammoth_converter - INFO - Saved: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\طب وصيدلة\038_المكملات الغذائية (جاهزة للنشر)\المكملات الغذائية (جاهزة للنشر).html
+2025-07-31 16:17:16,260 - mammoth_converter - INFO - Converting [39]: البروتينات - (جاهزة للنشر).docx
+2025-07-31 16:17:17,461 - mammoth_converter - WARNING - البروتينات - (جاهزة للنشر).docx: Message(type='warning', message='Unrecognised paragraph style: EndNote Bibliography (Style ID: EndNoteBibliography)')
+2025-07-31 16:17:17,467 - mammoth_converter - INFO - === EQUATION DIAGNOSIS ===
+2025-07-31 16:17:17,819 - mammoth_converter - INFO - 
+Math operators: Found 14 matches
+2025-07-31 16:17:17,819 - mammoth_converter - INFO -   [1] التركيب الكيميائي للحمض الأميني الذي تتكون منه البروتينات - المصدر: أربيكا
+2025-07-31 16:17:17,820 - mammoth_converter - INFO -   [2] البروتينات هي جزيئات بيوكيميائية أساسية كبيرة معقّدة، تختلف بتعدد أنواعها، وتتكون من أحماض أمينية (A
+2025-07-31 16:17:17,821 - mammoth_converter - INFO -   [3] تُعدّ البروتيناتُ الجزيئاتِ الرئيسة التي تؤدي أكثر المهمات الحيوية في الخلية؛ فهي إنزيمات (محفِّزات)
+2025-07-31 16:17:18,127 - mammoth_converter - INFO - 
+Greek letters: Found 3 matches
+2025-07-31 16:17:18,128 - mammoth_converter - INFO -   [1] تتكون الأحماض الأمينية، التي تدخل في تركيب البروتينات، من ذرة كربون (Carbon) وسطيّة تُسمّى "كربون أل
+2025-07-31 16:17:18,128 - mammoth_converter - INFO -   [2] وتُصنف البروتينات إلى أربعة مستويات من حيث التركيب، وهي: الأولي أو الابتدائي (Primary)، والثانوي (Se
+2025-07-31 16:17:18,128 - mammoth_converter - INFO -   [3] تُعدّ البروتينات جزيئات حيوية معقّدة ضرورية لمعظم العمليات الحيوية في الكائنات الحية، إن لم تكن كلّه
+2025-07-31 16:17:18,128 - mammoth_converter - INFO - 
+=== IN HTML OUTPUT ===
+2025-07-31 16:17:18,129 - mammoth_converter - INFO -   Found 6 equations
+2025-07-31 16:17:18,130 - mammoth_converter - INFO - Saved: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\علوم الأحياء والكيمياء\039_البروتينات - (جاهزة للنشر)\البروتينات - (جاهزة للنشر).html
+2025-07-31 16:17:18,131 - mammoth_converter - INFO - Converting [40]: الدورة الشهرية (جاهزة للنشر).docx
+2025-07-31 16:17:19,771 - mammoth_converter - WARNING - الدورة الشهرية (جاهزة للنشر).docx: Message(type='warning', message='Unrecognised paragraph style: List Paragraph (Style ID: ListParagraph)')
+2025-07-31 16:17:19,771 - mammoth_converter - WARNING - الدورة الشهرية (جاهزة للنشر).docx: Message(type='warning', message='Unrecognised run style: bk_cite_avail (Style ID: bkciteavail)')
+2025-07-31 16:17:19,772 - mammoth_converter - INFO - === EQUATION DIAGNOSIS ===
+2025-07-31 16:17:20,437 - mammoth_converter - INFO - 
+Math operators: Found 18 matches
+2025-07-31 16:17:20,437 - mammoth_converter - INFO -   [1] سيدة تسجل أيام الدورة الشهرية الخاصة بها - المصدر: Shutterstock
+2025-07-31 16:17:20,437 - mammoth_converter - INFO -   [2] الدورة الشهرية هي عملية طبيعية شهريّة، يبلغ معدل طولها 28 يومًا، يُهيئ فيها جسم المرأة نفسَه للحمل ا
+2025-07-31 16:17:20,437 - mammoth_converter - INFO -   [3] يبلغ معدل إتمام الدورة الشهرية الكاملة 28 يومًا، ولكن مدتها تختلف بين امرأة وأخرى، وكذلك بين شهر وآخ
+2025-07-31 16:17:20,513 - mammoth_converter - INFO - 
+Fractions: Found 4 matches
+2025-07-31 16:17:20,514 - mammoth_converter - INFO -   [1] Claw, Katrina G. “Rapid evolution in eggs and sperms.” American Scientist. vol. 101, no. 3 (May-June
+2025-07-31 16:17:20,514 - mammoth_converter - INFO -   [2] Green, David P. L. “Three-dimensional structure of the zona pellucida.” Reviews of reproduction. vol
+2025-07-31 16:17:20,514 - mammoth_converter - INFO -   [3] Gupta, Satish Kumar. “Human Zona Pellucida Glycoproteins: Binding Characteristics With Human Spermat
+2025-07-31 16:17:21,295 - mammoth_converter - INFO - 
+Greek letters: Found 1 matches
+2025-07-31 16:17:21,295 - mammoth_converter - INFO -   [1] تكون العلاقة بين هرمون LH وهرمون الإستروجين خلال الدورة الشهرية علاقة عكسية طوال الوقت، أي إن ارتفاع
+2025-07-31 16:17:21,296 - mammoth_converter - INFO - 
+=== IN HTML OUTPUT ===
+2025-07-31 16:17:21,298 - mammoth_converter - INFO -   Found 7 equations
+2025-07-31 16:17:21,299 - mammoth_converter - INFO - Saved: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\علوم الأحياء والكيمياء\040_الدورة الشهرية (جاهزة للنشر)\الدورة الشهرية (جاهزة للنشر).html
+2025-07-31 16:17:21,301 - mammoth_converter - INFO - Converting [41]: الغشاء الخلوي-مترجم (جاهزة للنشر).docx
+2025-07-31 16:17:24,129 - mammoth_converter - WARNING - الغشاء الخلوي-مترجم (جاهزة للنشر).docx: Message(type='warning', message='Unrecognised paragraph style: List Paragraph (Style ID: ListParagraph)')
+2025-07-31 16:17:24,130 - mammoth_converter - INFO - === EQUATION DIAGNOSIS ===
+2025-07-31 16:17:25,536 - mammoth_converter - INFO - 
+Math operators: Found 36 matches
+2025-07-31 16:17:25,536 - mammoth_converter - INFO -   [1] رسم توضيحي للغشاء الخلوي وعملية انقسام الخلايا - المصدر: Shutterstock
+2025-07-31 16:17:25,536 - mammoth_converter - INFO -   [2] حظيت الأبحاث في تكوين الغشاء الخلوي ومكوناته باهتمام كبير في نهاية القرن التاسع عشر وبدايات القرن ال
+2025-07-31 16:17:25,536 - mammoth_converter - INFO -   [3] تقدَّم النموذج النظري لتركيب غشاء الخلية تقدمًا ملحوظًا، وأصبح النموذج التالي (نموذج سينغر ونيكولسون
+2025-07-31 16:17:25,634 - mammoth_converter - INFO - 
+Fractions: Found 4 matches
+2025-07-31 16:17:25,635 - mammoth_converter - INFO -   [1] Becker, Wayne M., Lewis J. Kleinsmith & Jeff Hardin. The World of the Cell. 6th ed. San Francisco: P
+2025-07-31 16:17:25,636 - mammoth_converter - INFO -   [2] Kalkan, Kübra Tuğçe & Mukaddes Eşrefoğlu. “The Cell Membrane: A Historical Narration.” Bezmialem Sci
+2025-07-31 16:17:25,636 - mammoth_converter - INFO -   [3] Rappocciolo, Emilia & Johnny Stiban. “Prokaryotic and Mitochondrial Lipids: A Survey of Evolutionary
+2025-07-31 16:17:26,302 - mammoth_converter - INFO - 
+Greek letters: Found 7 matches
+2025-07-31 16:17:26,302 - mammoth_converter - INFO -   [1] حظيت الأبحاث في تكوين الغشاء الخلوي ومكوناته باهتمام كبير في نهاية القرن التاسع عشر وبدايات القرن ال
+2025-07-31 16:17:26,303 - mammoth_converter - INFO -   [2] تقدَّم النموذج النظري لتركيب غشاء الخلية تقدمًا ملحوظًا، وأصبح النموذج التالي (نموذج سينغر ونيكولسون
+2025-07-31 16:17:26,303 - mammoth_converter - INFO -   [3] تعدّ المكونات الدهنية لأغشية الخلايا أساسيةً لبنيتها ووظيفتها، وتوفر الإطار للحاجز شبه النفّاذ الذي 
+2025-07-31 16:17:26,304 - mammoth_converter - INFO - 
+=== IN HTML OUTPUT ===
+2025-07-31 16:17:26,305 - mammoth_converter - INFO -   Found 10 equations
+2025-07-31 16:17:26,306 - mammoth_converter - INFO - Saved: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\علوم الأحياء والكيمياء\041_الغشاء الخلوي-مترجم (جاهزة للنشر)\الغشاء الخلوي-مترجم (جاهزة للنشر).html
+2025-07-31 16:17:26,308 - mammoth_converter - INFO - Converting [42]: النواتج الطبيعية (جاهزة للنشر).docx
+2025-07-31 16:17:32,595 - mammoth_converter - WARNING - النواتج الطبيعية (جاهزة للنشر).docx: Message(type='warning', message='Unrecognised paragraph style: List Paragraph (Style ID: ListParagraph)')
+2025-07-31 16:17:32,595 - mammoth_converter - INFO - === EQUATION DIAGNOSIS ===
+2025-07-31 16:17:37,416 - mammoth_converter - INFO - 
+Math operators: Found 104 matches
+2025-07-31 16:17:37,417 - mammoth_converter - INFO -   [1] عالم كيمياء يجري أبحاثا لاستخلاص مركبات عضوية مفيدة - المصدر: Shutterstock
+2025-07-31 16:17:37,418 - mammoth_converter - INFO -   [2] تُعرّف المنتجات الطبيعية أو النواتج الطبيعية (Natural products) بأنها المواد التي تُنتجها الحياة، وت
+2025-07-31 16:17:37,419 - mammoth_converter - INFO -   [3] تمتاز النواتج الطبيعية بتنوّعٍ هيكليٍ عالٍ وأنشطة دوائية أو بيولوجية فريدة من نوعها، ويُعتبر التنوع 
+2025-07-31 16:17:37,743 - mammoth_converter - INFO - 
+Fractions: Found 20 matches
+2025-07-31 16:17:37,743 - mammoth_converter - INFO -   [1] يمكن تعريف قلويدات التروبان (الشكل 3) أنها جميع الجزيئات التي تمتلك نظام حلقة تروبان، وتوجد هذه المج
+2025-07-31 16:17:37,744 - mammoth_converter - INFO -   [2] هي كائنات حيّة متعددة الخلايا حقيقية النواة تنتمي إلى المملكة الحيوانية وتُعتبر كائنات غيرية التغذية
+2025-07-31 16:17:37,744 - mammoth_converter - INFO -   [3] Ascherio, A. et al. “Coffee Consumption, Gender, and Parkinson’s Disease Mortality in the Cancer Pre
+2025-07-31 16:17:42,338 - mammoth_converter - INFO - 
+Greek letters: Found 1 matches
+2025-07-31 16:17:42,348 - mammoth_converter - INFO -   [1] Dong, Q.  et al. “Characterization of an extremely thermostable but cold-adaptive β-galactosidase fr
+2025-07-31 16:17:42,349 - mammoth_converter - INFO - 
+=== IN HTML OUTPUT ===
+2025-07-31 16:17:42,354 - mammoth_converter - INFO -   Found 7 equations
+2025-07-31 16:17:42,359 - mammoth_converter - INFO - Saved: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\علوم الأحياء والكيمياء\042_النواتج الطبيعية (جاهزة للنشر)\النواتج الطبيعية (جاهزة للنشر).html
+2025-07-31 16:17:42,361 - mammoth_converter - INFO - Converting [43]: فيروس كورونا (جاهزة للنشر).docx
+2025-07-31 16:17:47,748 - mammoth_converter - WARNING - فيروس كورونا (جاهزة للنشر).docx: Message(type='warning', message='Unrecognised paragraph style: Heading 3a (Style ID: Heading3a)')
+2025-07-31 16:17:47,749 - mammoth_converter - WARNING - فيروس كورونا (جاهزة للنشر).docx: Message(type='warning', message='Unrecognised paragraph style: EndNote Bibliography (Style ID: EndNoteBibliography)')
+2025-07-31 16:17:47,750 - mammoth_converter - INFO - === EQUATION DIAGNOSIS ===
+2025-07-31 16:17:49,836 - mammoth_converter - INFO - 
+Math operators: Found 42 matches
+2025-07-31 16:17:49,844 - mammoth_converter - INFO -   [1] فيروس كورونا (سارس-كوف-2، SARS-CoV2) هو فيروس ينتمي إلى عائلة الفيروسات التاجية، ويستهدف بشكل رئيس ا
+2025-07-31 16:17:49,847 - mammoth_converter - INFO -   [2] لم تكن عائلة الفيروسات التاجية (المسماة أيضًا بفيروسات كورونا) معروفة على أنها عوامل مُمْرِضة للإنسا
+2025-07-31 16:17:49,854 - mammoth_converter - INFO -   [3] ففي عام 2003 مثلًا، ظهر فيروس المتلازمة التنفسية الحادة الوخيمة (سارس-كوف، SARS-CoV)، وشملت أعراض ال
+2025-07-31 16:17:50,091 - mammoth_converter - INFO - 
+Fractions: Found 18 matches
+2025-07-31 16:17:50,094 - mammoth_converter - INFO -   [1] فيروس كورونا (سارس-كوف-2، SARS-CoV2) هو فيروس ينتمي إلى عائلة الفيروسات التاجية، ويستهدف بشكل رئيس ا
+2025-07-31 16:17:50,096 - mammoth_converter - INFO -   [2] اعتُمد من أجل السيطرة والتخلّص النهائي من هذا الفيروس على تطوير لقاحات مضادة وتوفير العلاجات الصيدلا
+2025-07-31 16:17:50,097 - mammoth_converter - INFO -   [3] Abdolmaleki, G. et al. "A comparison between SARS-CoV-1 and SARS-CoV2: an update on current COVID-19
+2025-07-31 16:17:51,593 - mammoth_converter - INFO - 
+Greek letters: Found 5 matches
+2025-07-31 16:17:51,593 - mammoth_converter - INFO -   [1] Bates, Timothe A. et al. "The time between vaccination and infection impacts immunity against SARS-C
+2025-07-31 16:17:51,593 - mammoth_converter - INFO -   [2] Bellavite, Paolo, Alessandra Ferraresi & Ciro Isidoro. "Immune Response and Molecular Mechanisms of 
+2025-07-31 16:17:51,593 - mammoth_converter - INFO -   [3] Elkhatib, Walid F. et al. "Narrative review on century of respiratory pandemics from Spanish flu to 
+2025-07-31 16:17:51,594 - mammoth_converter - INFO - 
+=== IN HTML OUTPUT ===
+2025-07-31 16:17:51,596 - mammoth_converter - INFO -   Found 9 equations
+2025-07-31 16:17:51,597 - mammoth_converter - INFO - Saved: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\علوم الأحياء والكيمياء\043_فيروس كورونا (جاهزة للنشر)\فيروس كورونا (جاهزة للنشر).html
+2025-07-31 16:17:51,599 - mammoth_converter - INFO - Converting [44]: لينا ماري عبيد (جاهزة للنشر).docx
+2025-07-31 16:17:57,156 - mammoth_converter - WARNING - لينا ماري عبيد (جاهزة للنشر).docx: Message(type='warning', message='Unrecognised run style: id-label (Style ID: id-label)')
+2025-07-31 16:17:57,156 - mammoth_converter - WARNING - لينا ماري عبيد (جاهزة للنشر).docx: Message(type='warning', message='Unrecognised run style: identifier (Style ID: identifier)')
+2025-07-31 16:17:57,157 - mammoth_converter - INFO - === EQUATION DIAGNOSIS ===
+2025-07-31 16:17:58,804 - mammoth_converter - INFO - 
+Math operators: Found 41 matches
+2025-07-31 16:17:58,805 - mammoth_converter - INFO -   [1] لينا ماري عبيد (1955–2019) - المصدر: جامعة ستوني بروك
+2025-07-31 16:17:58,806 - mammoth_converter - INFO -   [2] لينا ماري عُبيد (Lina M. Obeid) (22 تموز/ يوليو 1955 - 29 تشرين الثاني/ نوفمبر 2019)، طبيبة وعالمة و
+2025-07-31 16:17:58,807 - mammoth_converter - INFO -   [3] وُلدت لينا في عام 1955، بمدينة نيويورك، حيث كان والدها الطبيب اللبناني، سامي عبيد، ينهي تدريبه التخص
+2025-07-31 16:17:58,896 - mammoth_converter - INFO - 
+Fractions: Found 22 matches
+2025-07-31 16:17:58,896 - mammoth_converter - INFO -   [1] لينا ماري عُبيد (Lina M. Obeid) (22 تموز/ يوليو 1955 - 29 تشرين الثاني/ نوفمبر 2019)، طبيبة وعالمة و
+2025-07-31 16:17:58,897 - mammoth_converter - INFO -   [2] تميّزت لينا عبيد بكونها عالمة صاحبة رؤية واسعة، وكان لأبحاثها الرائدة تأثير كبير في العديد من المجال
+2025-07-31 16:17:58,897 - mammoth_converter - INFO -   [3] 1. Yusuf A. Hannun & Lina M. Obeid, “Principles of bioactive lipid signalling: lessons from sphingol
+2025-07-31 16:17:59,725 - mammoth_converter - INFO - 
+Greek letters: Found 15 matches
+2025-07-31 16:17:59,725 - mammoth_converter - INFO -   [1] لينا ماري عُبيد (Lina M. Obeid) (22 تموز/ يوليو 1955 - 29 تشرين الثاني/ نوفمبر 2019)، طبيبة وعالمة و
+2025-07-31 16:17:59,726 - mammoth_converter - INFO -   [2] واصلت عبيد دراسة آليات موت الخلايا المبرمج والشيخوخة الخلوية، وخاصة أنه أصبح من الواضح أن كلتا العمل
+2025-07-31 16:17:59,726 - mammoth_converter - INFO -   [3] في جامعة كارولينا الجنوبية، واصل فريق عبيد البحثي التركيز على آليات الدهون السفينغولية النشطة بيولوج
+2025-07-31 16:17:59,726 - mammoth_converter - INFO - 
+=== IN HTML OUTPUT ===
+2025-07-31 16:17:59,728 - mammoth_converter - INFO -   Found 9 equations
+2025-07-31 16:17:59,731 - mammoth_converter - INFO - Saved: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\علوم الأحياء والكيمياء\044_لينا ماري عبيد (جاهزة للنشر)\لينا ماري عبيد (جاهزة للنشر).html
+2025-07-31 16:17:59,731 - mammoth_converter - INFO - Converting [45]: يوسف عوني حنّون (جاهزة للنشر).docx
+2025-07-31 16:18:04,208 - mammoth_converter - WARNING - يوسف عوني حنّون (جاهزة للنشر).docx: Message(type='warning', message='Unrecognised run style: hlfld-contribauthor (Style ID: hlfld-contribauthor)')
+2025-07-31 16:18:04,208 - mammoth_converter - WARNING - يوسف عوني حنّون (جاهزة للنشر).docx: Message(type='warning', message='Unrecognised run style: ml-1 (Style ID: ml-1)')
+2025-07-31 16:18:04,208 - mammoth_converter - WARNING - يوسف عوني حنّون (جاهزة للنشر).docx: Message(type='warning', message='Unrecognised paragraph style: List Paragraph (Style ID: ListParagraph)')
+2025-07-31 16:18:04,210 - mammoth_converter - INFO - === EQUATION DIAGNOSIS ===
+2025-07-31 16:18:05,940 - mammoth_converter - INFO - 
+Math operators: Found 45 matches
+2025-07-31 16:18:05,940 - mammoth_converter - INFO -   [1] يوسف عوني حنون (1955–)  - المصدر: جامعة ستوني بروك
+2025-07-31 16:18:05,940 - mammoth_converter - INFO -   [2] يوسف عوني حنّون (Yusuf A. Hannun ,1955–) طبيب أميركي من أصل عربي فلسطيني، وعالِم في الكيمياء الحيوية
+2025-07-31 16:18:05,941 - mammoth_converter - INFO -   [3] وُلِد يوسف عوني حنّون في المملكة العربية السعودية في 21 أيلول/ سبتمبر 1955، لعائلة من أصل فلسطيني، ف
+2025-07-31 16:18:06,019 - mammoth_converter - INFO - 
+Fractions: Found 24 matches
+2025-07-31 16:18:06,020 - mammoth_converter - INFO -   [1] وُلِد يوسف عوني حنّون في المملكة العربية السعودية في 21 أيلول/ سبتمبر 1955، لعائلة من أصل فلسطيني، ف
+2025-07-31 16:18:06,020 - mammoth_converter - INFO -   [2] يرتبط اسم يوسف حنّون بالدهون السفينغولية، فهو مؤسس العِلم الذي يَدرس هذه الدهون بوصفها دهونًا حيوية 
+2025-07-31 16:18:06,021 - mammoth_converter - INFO -   [3] يمتلك حنّون سجلًا حافلًا في تدريب الطلاب في مراحل مختلفة من حياتهم المهنية، فقد أشرف على تدريب 129 ط
+2025-07-31 16:18:06,914 - mammoth_converter - INFO - 
+Greek letters: Found 13 matches
+2025-07-31 16:18:06,914 - mammoth_converter - INFO -   [1] يوسف عوني حنّون (Yusuf A. Hannun ,1955–) طبيب أميركي من أصل عربي فلسطيني، وعالِم في الكيمياء الحيوية
+2025-07-31 16:18:06,914 - mammoth_converter - INFO -   [2] التقى حنّون بزوجته لينا ماري عُبيد (Lina M. Obeid) لأول مرة في المدرسة الثانوية، ثم مرة أخرى في كلية
+2025-07-31 16:18:06,915 - mammoth_converter - INFO -   [3] أنشأ حنّون منتصف الثمانينات من القرن العشرين مختبره المستقل في جامعة ديوك في دورهام، في ولاية كارولي
+2025-07-31 16:18:06,915 - mammoth_converter - INFO - 
+=== IN HTML OUTPUT ===
+2025-07-31 16:18:06,918 - mammoth_converter - INFO -   Found 9 equations
+2025-07-31 16:18:06,920 - mammoth_converter - INFO - Saved: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\علوم الأحياء والكيمياء\045_يوسف عوني حنّون (جاهزة للنشر)\يوسف عوني حنّون (جاهزة للنشر).html
+2025-07-31 16:18:06,921 - mammoth_converter - INFO - Conversion Summary:
+2025-07-31 16:18:06,921 - mammoth_converter - INFO -   Total equations found: 318
+2025-07-31 16:18:06,922 - mammoth_converter - INFO -   Total footnotes: 0
+2025-07-31 16:18:06,922 - mammoth_converter - INFO -   Total images: 197
+2025-07-31 16:18:06,923 - logger - INFO - ============================================================
+2025-07-31 16:18:06,923 - logger - INFO - Conversion completed!
+2025-07-31 16:18:06,923 - logger - INFO - ============================================================

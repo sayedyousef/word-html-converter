@@ -1,0 +1,42 @@
+2025-07-31 13:54:42,800 - logger - INFO - ============================================================
+2025-07-31 13:54:42,800 - logger - INFO - Word to HTML Converter Started
+2025-07-31 13:54:42,800 - logger - INFO - ============================================================
+2025-07-31 13:54:42,802 - logger - INFO - Scanning for documents in: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\مقالات بعد الاخراج
+2025-07-31 13:54:42,810 - html_converter - INFO - Found 45 documents to process
+2025-07-31 13:54:42,811 - html_converter - INFO - Processing [1]: الكيمياء الحيوية (بانتظار الترجمة).docx
+2025-07-31 13:54:42,811 - document_parser - INFO - Parsing document: الكيمياء الحيوية (بانتظار الترجمة).docx
+2025-07-31 13:55:04,201 - html_converter - INFO - Document contains 5226 images
+2025-07-31 13:55:04,203 - html_builder - INFO - HTML file created: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\001_الكيمياء الحيوية (بانتظار الترجمة)\الكيمياء الحيوية (بانتظار الترجمة).html
+2025-07-31 13:55:04,203 - html_converter - INFO - Converted: الكيمياء الحيوية (بانتظار الترجمة).docx → D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\001_الكيمياء الحيوية (بانتظار الترجمة)\الكيمياء الحيوية (بانتظار الترجمة).html
+2025-07-31 13:55:04,205 - html_converter - INFO - Processing [2]: الكيمياء الحيوية (بانتظار الترجمة).docx
+2025-07-31 13:55:04,205 - document_parser - INFO - Parsing document: الكيمياء الحيوية (بانتظار الترجمة).docx
+2025-07-31 13:55:33,346 - html_converter - INFO - Document contains 5226 images
+2025-07-31 13:55:33,349 - html_builder - INFO - HTML file created: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\002_الكيمياء الحيوية (بانتظار الترجمة)\الكيمياء الحيوية (بانتظار الترجمة).html
+2025-07-31 13:55:33,349 - html_converter - INFO - Converted: الكيمياء الحيوية (بانتظار الترجمة).docx → D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\002_الكيمياء الحيوية (بانتظار الترجمة)\الكيمياء الحيوية (بانتظار الترجمة).html
+2025-07-31 13:55:33,351 - html_converter - INFO - Processing [3]: التناص (جاهزة للنشر).docx
+2025-07-31 13:55:33,352 - document_parser - INFO - Parsing document: التناص (جاهزة للنشر).docx
+2025-07-31 13:55:43,114 - html_converter - INFO - Document contains 81 images
+2025-07-31 13:55:43,116 - html_builder - INFO - HTML file created: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\003_التناص (جاهزة للنشر)\التناص (جاهزة للنشر).html
+2025-07-31 13:55:43,116 - html_converter - INFO - Converted: التناص (جاهزة للنشر).docx → D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\003_التناص (جاهزة للنشر)\التناص (جاهزة للنشر).html
+2025-07-31 13:55:43,116 - html_converter - INFO - Processing [4]: المعاجم العربية التراثية (جاهزة للنشر).docx
+2025-07-31 13:55:43,117 - document_parser - INFO - Parsing document: المعاجم العربية التراثية (جاهزة للنشر).docx
+2025-07-31 13:56:36,844 - html_converter - INFO - Document contains 1784 images
+2025-07-31 13:56:36,848 - html_builder - INFO - HTML file created: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\004_المعاجم العربية التراثية (جاهزة للنشر)\المعاجم العربية التراثية (جاهزة للنشر).html
+2025-07-31 13:56:36,848 - html_converter - INFO - Converted: المعاجم العربية التراثية (جاهزة للنشر).docx → D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\004_المعاجم العربية التراثية (جاهزة للنشر)\المعاجم العربية التراثية (جاهزة للنشر).html
+2025-07-31 13:56:36,849 - html_converter - INFO - Processing [5]: أمين الخولي (جاهزة للنشر) .docx
+2025-07-31 13:56:36,850 - document_parser - INFO - Parsing document: أمين الخولي (جاهزة للنشر) .docx
+2025-07-31 13:57:04,460 - html_converter - INFO - Document contains 945 images
+2025-07-31 13:57:04,463 - html_builder - INFO - HTML file created: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\005_أمين الخولي (جاهزة للنشر)\أمين الخولي (جاهزة للنشر).html
+2025-07-31 13:57:04,464 - html_converter - INFO - Converted: أمين الخولي (جاهزة للنشر) .docx → D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\005_أمين الخولي (جاهزة للنشر)\أمين الخولي (جاهزة للنشر).html
+2025-07-31 13:57:04,464 - html_converter - INFO - Processing [6]: إلياس زيات (جاهزة للنشر).docx
+2025-07-31 13:57:04,465 - document_parser - INFO - Parsing document: إلياس زيات (جاهزة للنشر).docx
+2025-07-31 13:57:06,333 - html_converter - INFO - Document contains 240 images
+2025-07-31 13:57:06,333 - html_builder - INFO - HTML file created: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\006_إلياس زيات (جاهزة للنشر)\إلياس زيات (جاهزة للنشر).html
+2025-07-31 13:57:06,334 - html_converter - INFO - Converted: إلياس زيات (جاهزة للنشر).docx → D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\006_إلياس زيات (جاهزة للنشر)\إلياس زيات (جاهزة للنشر).html
+2025-07-31 13:57:06,334 - html_converter - INFO - Processing [7]: حسن العطار (جاهزة للنشر).docx
+2025-07-31 13:57:06,334 - document_parser - INFO - Parsing document: حسن العطار (جاهزة للنشر).docx
+2025-07-31 13:57:10,122 - html_converter - INFO - Document contains 144 images
+2025-07-31 13:57:10,124 - html_builder - INFO - HTML file created: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\007_حسن العطار (جاهزة للنشر)\حسن العطار (جاهزة للنشر).html
+2025-07-31 13:57:10,125 - html_converter - INFO - Converted: حسن العطار (جاهزة للنشر).docx → D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\007_حسن العطار (جاهزة للنشر)\حسن العطار (جاهزة للنشر).html
+2025-07-31 13:57:10,125 - html_converter - INFO - Processing [8]: حسن فتحي (جاهزة للنشر).docx
+2025-07-31 13:57:10,125 - document_parser - INFO - Parsing document: حسن فتحي (جاهزة للنشر).docx

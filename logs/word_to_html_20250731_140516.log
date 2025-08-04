@@ -1,0 +1,130 @@
+2025-07-31 14:05:16,223 - logger - INFO - ============================================================
+2025-07-31 14:05:16,223 - logger - INFO - Word to HTML Converter Started
+2025-07-31 14:05:16,223 - logger - INFO - ============================================================
+2025-07-31 14:05:16,225 - logger - INFO - Scanning for documents in: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\مقالات بعد الاخراج
+2025-07-31 14:05:16,230 - html_converter - INFO - Found 45 documents to process
+2025-07-31 14:05:16,230 - html_converter - INFO - Processing [1]: الكيمياء الحيوية (بانتظار الترجمة).docx
+2025-07-31 14:05:16,231 - document_parser - INFO - Parsing document: الكيمياء الحيوية (بانتظار الترجمة).docx
+2025-07-31 14:05:16,389 - document_parser - INFO - Extracted 1 footnotes
+2025-07-31 14:05:34,824 - html_converter - INFO - Document contains 5226 images
+2025-07-31 14:05:34,826 - html_builder - INFO - HTML file created: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\001_الكيمياء الحيوية (بانتظار الترجمة)\الكيمياء الحيوية (بانتظار الترجمة).html
+2025-07-31 14:05:34,826 - html_converter - INFO - Converted: الكيمياء الحيوية (بانتظار الترجمة).docx → D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\001_الكيمياء الحيوية (بانتظار الترجمة)\الكيمياء الحيوية (بانتظار الترجمة).html
+2025-07-31 14:05:34,828 - html_converter - INFO - Processing [2]: الكيمياء الحيوية (بانتظار الترجمة).docx
+2025-07-31 14:05:34,828 - document_parser - INFO - Parsing document: الكيمياء الحيوية (بانتظار الترجمة).docx
+2025-07-31 14:05:35,084 - document_parser - INFO - Extracted 1 footnotes
+2025-07-31 14:06:06,239 - html_converter - INFO - Document contains 5226 images
+2025-07-31 14:06:06,242 - html_builder - INFO - HTML file created: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\test\002_الكيمياء الحيوية (بانتظار الترجمة)\الكيمياء الحيوية (بانتظار الترجمة).html
+2025-07-31 14:06:06,243 - html_converter - INFO - Converted: الكيمياء الحيوية (بانتظار الترجمة).docx → D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\test\002_الكيمياء الحيوية (بانتظار الترجمة)\الكيمياء الحيوية (بانتظار الترجمة).html
+2025-07-31 14:06:06,244 - html_converter - INFO - Processing [3]: التناص (جاهزة للنشر).docx
+2025-07-31 14:06:06,245 - document_parser - INFO - Parsing document: التناص (جاهزة للنشر).docx
+2025-07-31 14:06:07,451 - document_parser - INFO - Extracted 1 footnotes
+2025-07-31 14:06:16,899 - html_converter - INFO - Document contains 81 images
+2025-07-31 14:06:16,900 - html_builder - INFO - HTML file created: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\الآداب واللغات\003_التناص (جاهزة للنشر)\التناص (جاهزة للنشر).html
+2025-07-31 14:06:16,901 - html_converter - INFO - Converted: التناص (جاهزة للنشر).docx → D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\الآداب واللغات\003_التناص (جاهزة للنشر)\التناص (جاهزة للنشر).html
+2025-07-31 14:06:16,901 - html_converter - INFO - Processing [4]: المعاجم العربية التراثية (جاهزة للنشر).docx
+2025-07-31 14:06:16,901 - document_parser - INFO - Parsing document: المعاجم العربية التراثية (جاهزة للنشر).docx
+2025-07-31 14:06:17,486 - document_parser - INFO - Extracted 1 footnotes
+2025-07-31 14:07:12,244 - html_converter - INFO - Document contains 1784 images
+2025-07-31 14:07:12,248 - html_builder - INFO - HTML file created: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\الآداب واللغات\004_المعاجم العربية التراثية (جاهزة للنشر)\المعاجم العربية التراثية (جاهزة للنشر).html
+2025-07-31 14:07:12,248 - html_converter - INFO - Converted: المعاجم العربية التراثية (جاهزة للنشر).docx → D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\الآداب واللغات\004_المعاجم العربية التراثية (جاهزة للنشر)\المعاجم العربية التراثية (جاهزة للنشر).html
+2025-07-31 14:07:12,249 - html_converter - INFO - Processing [5]: أمين الخولي (جاهزة للنشر) .docx
+2025-07-31 14:07:12,249 - document_parser - INFO - Parsing document: أمين الخولي (جاهزة للنشر) .docx
+2025-07-31 14:07:12,362 - document_parser - INFO - Extracted 0 footnotes
+2025-07-31 14:07:53,226 - html_converter - INFO - Document contains 945 images
+2025-07-31 14:07:53,228 - html_builder - INFO - HTML file created: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\الآداب واللغات\005_أمين الخولي (جاهزة للنشر)\أمين الخولي (جاهزة للنشر).html
+2025-07-31 14:07:53,228 - html_converter - INFO - Converted: أمين الخولي (جاهزة للنشر) .docx → D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\الآداب واللغات\005_أمين الخولي (جاهزة للنشر)\أمين الخولي (جاهزة للنشر).html
+2025-07-31 14:07:53,229 - html_converter - INFO - Processing [6]: إلياس زيات (جاهزة للنشر).docx
+2025-07-31 14:07:53,229 - document_parser - INFO - Parsing document: إلياس زيات (جاهزة للنشر).docx
+2025-07-31 14:07:53,518 - document_parser - INFO - Extracted 1 footnotes
+2025-07-31 14:07:56,085 - html_converter - INFO - Document contains 240 images
+2025-07-31 14:07:56,087 - html_builder - INFO - HTML file created: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\الآداب واللغات\006_إلياس زيات (جاهزة للنشر)\إلياس زيات (جاهزة للنشر).html
+2025-07-31 14:07:56,087 - html_converter - INFO - Converted: إلياس زيات (جاهزة للنشر).docx → D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\الآداب واللغات\006_إلياس زيات (جاهزة للنشر)\إلياس زيات (جاهزة للنشر).html
+2025-07-31 14:07:56,088 - html_converter - INFO - Processing [7]: حسن العطار (جاهزة للنشر).docx
+2025-07-31 14:07:56,089 - document_parser - INFO - Parsing document: حسن العطار (جاهزة للنشر).docx
+2025-07-31 14:07:56,391 - document_parser - INFO - Extracted 1 footnotes
+2025-07-31 14:08:00,055 - html_converter - INFO - Document contains 144 images
+2025-07-31 14:08:00,058 - html_builder - INFO - HTML file created: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\الآداب واللغات\007_حسن العطار (جاهزة للنشر)\حسن العطار (جاهزة للنشر).html
+2025-07-31 14:08:00,058 - html_converter - INFO - Converted: حسن العطار (جاهزة للنشر).docx → D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\الآداب واللغات\007_حسن العطار (جاهزة للنشر)\حسن العطار (جاهزة للنشر).html
+2025-07-31 14:08:00,059 - html_converter - INFO - Processing [8]: حسن فتحي (جاهزة للنشر).docx
+2025-07-31 14:08:00,059 - document_parser - INFO - Parsing document: حسن فتحي (جاهزة للنشر).docx
+2025-07-31 14:08:00,450 - document_parser - INFO - Extracted 1 footnotes
+2025-07-31 14:08:03,001 - html_converter - INFO - Document contains 212 images
+2025-07-31 14:08:03,003 - html_builder - INFO - HTML file created: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\الآداب واللغات\008_حسن فتحي (جاهزة للنشر)\حسن فتحي (جاهزة للنشر).html
+2025-07-31 14:08:03,004 - html_converter - INFO - Converted: حسن فتحي (جاهزة للنشر).docx → D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\الآداب واللغات\008_حسن فتحي (جاهزة للنشر)\حسن فتحي (جاهزة للنشر).html
+2025-07-31 14:08:03,004 - html_converter - INFO - Processing [9]: سليم النقاش (جاهزة للنشر)  .docx
+2025-07-31 14:08:03,004 - document_parser - INFO - Parsing document: سليم النقاش (جاهزة للنشر)  .docx
+2025-07-31 14:08:03,290 - document_parser - INFO - Extracted 1 footnotes
+2025-07-31 14:08:06,012 - html_converter - INFO - Document contains 153 images
+2025-07-31 14:08:06,013 - html_builder - INFO - HTML file created: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\الآداب واللغات\009_سليم النقاش (جاهزة للنشر)\سليم النقاش (جاهزة للنشر).html
+2025-07-31 14:08:06,013 - html_converter - INFO - Converted: سليم النقاش (جاهزة للنشر)  .docx → D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\الآداب واللغات\009_سليم النقاش (جاهزة للنشر)\سليم النقاش (جاهزة للنشر).html
+2025-07-31 14:08:06,014 - html_converter - INFO - Processing [10]: غالب هلسا (جاهزة للنشر).docx
+2025-07-31 14:08:06,014 - document_parser - INFO - Parsing document: غالب هلسا (جاهزة للنشر).docx
+2025-07-31 14:08:06,174 - document_parser - INFO - Extracted 1 footnotes
+2025-07-31 14:08:16,082 - html_converter - INFO - Document contains 581 images
+2025-07-31 14:08:16,085 - html_builder - INFO - HTML file created: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\الآداب واللغات\010_غالب هلسا (جاهزة للنشر)\غالب هلسا (جاهزة للنشر).html
+2025-07-31 14:08:16,086 - html_converter - INFO - Converted: غالب هلسا (جاهزة للنشر).docx → D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\الآداب واللغات\010_غالب هلسا (جاهزة للنشر)\غالب هلسا (جاهزة للنشر).html
+2025-07-31 14:08:16,087 - html_converter - INFO - Processing [11]: كتاب العين (جاهزة للنشر).docx
+2025-07-31 14:08:16,087 - document_parser - INFO - Parsing document: كتاب العين (جاهزة للنشر).docx
+2025-07-31 14:08:16,840 - document_parser - INFO - Extracted 1 footnotes
+2025-07-31 14:08:28,609 - html_converter - INFO - Document contains 1056 images
+2025-07-31 14:08:28,611 - html_builder - INFO - HTML file created: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\الآداب واللغات\011_كتاب العين (جاهزة للنشر)\كتاب العين (جاهزة للنشر).html
+2025-07-31 14:08:28,611 - html_converter - INFO - Converted: كتاب العين (جاهزة للنشر).docx → D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\الآداب واللغات\011_كتاب العين (جاهزة للنشر)\كتاب العين (جاهزة للنشر).html
+2025-07-31 14:08:28,612 - html_converter - INFO - Processing [12]: ابن ماجه (جاهز للنشر).docx
+2025-07-31 14:08:28,612 - document_parser - INFO - Parsing document: ابن ماجه (جاهز للنشر).docx
+2025-07-31 14:08:28,938 - document_parser - INFO - Extracted 1 footnotes
+2025-07-31 14:08:30,405 - html_converter - INFO - Document contains 36 images
+2025-07-31 14:08:30,406 - html_builder - INFO - HTML file created: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\الاسلام وعلومه\012_ابن ماجه (جاهز للنشر)\ابن ماجه (جاهز للنشر).html
+2025-07-31 14:08:30,407 - html_converter - INFO - Converted: ابن ماجه (جاهز للنشر).docx → D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\الاسلام وعلومه\012_ابن ماجه (جاهز للنشر)\ابن ماجه (جاهز للنشر).html
+2025-07-31 14:08:30,407 - html_converter - INFO - Processing [13]: الطبيعيات في علم الكلام (جاهزة للنشر).docx
+2025-07-31 14:08:30,408 - document_parser - INFO - Parsing document: الطبيعيات في علم الكلام (جاهزة للنشر).docx
+2025-07-31 14:08:31,256 - document_parser - INFO - Extracted 1 footnotes
+2025-07-31 14:08:40,539 - document_parser - ERROR - Error parsing D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\مقالات بعد الاخراج\الاسلام وعلومه\الطبيعيات في علم الكلام (جاهزة للنشر).docx: module 'docx' has no attribute 'table'
+2025-07-31 14:08:40,540 - html_converter - ERROR - Failed to parse: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\مقالات بعد الاخراج\الاسلام وعلومه\الطبيعيات في علم الكلام (جاهزة للنشر).docx
+2025-07-31 14:08:40,540 - html_converter - INFO - Processing [14]: أبو يعلى الفراء (جاهزة للنشر).docx
+2025-07-31 14:08:40,540 - document_parser - INFO - Parsing document: أبو يعلى الفراء (جاهزة للنشر).docx
+2025-07-31 14:08:41,096 - document_parser - INFO - Extracted 1 footnotes
+2025-07-31 14:08:50,925 - html_converter - INFO - Document contains 900 images
+2025-07-31 14:08:50,929 - html_builder - INFO - HTML file created: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\الاسلام وعلومه\014_أبو يعلى الفراء (جاهزة للنشر)\أبو يعلى الفراء (جاهزة للنشر).html
+2025-07-31 14:08:50,930 - html_converter - INFO - Converted: أبو يعلى الفراء (جاهزة للنشر).docx → D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\الاسلام وعلومه\014_أبو يعلى الفراء (جاهزة للنشر)\أبو يعلى الفراء (جاهزة للنشر).html
+2025-07-31 14:08:50,930 - html_converter - INFO - Processing [15]: حسين الجسر (جاهزة للنشر).docx
+2025-07-31 14:08:50,931 - document_parser - INFO - Parsing document: حسين الجسر (جاهزة للنشر).docx
+2025-07-31 14:08:50,986 - document_parser - INFO - Extracted 0 footnotes
+2025-07-31 14:08:52,460 - html_converter - INFO - Document contains 48 images
+2025-07-31 14:08:52,463 - html_builder - INFO - HTML file created: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\الاسلام وعلومه\015_حسين الجسر (جاهزة للنشر)\حسين الجسر (جاهزة للنشر).html
+2025-07-31 14:08:52,463 - html_converter - INFO - Converted: حسين الجسر (جاهزة للنشر).docx → D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\الاسلام وعلومه\015_حسين الجسر (جاهزة للنشر)\حسين الجسر (جاهزة للنشر).html
+2025-07-31 14:08:52,464 - html_converter - INFO - Processing [16]: مسعر بن كدام (جاهزة للنشر).docx
+2025-07-31 14:08:52,464 - document_parser - INFO - Parsing document: مسعر بن كدام (جاهزة للنشر).docx
+2025-07-31 14:08:53,035 - document_parser - INFO - Extracted 1 footnotes
+2025-07-31 14:08:57,414 - html_converter - INFO - Document contains 56 images
+2025-07-31 14:08:57,416 - html_builder - INFO - HTML file created: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\الاسلام وعلومه\016_مسعر بن كدام (جاهزة للنشر)\مسعر بن كدام (جاهزة للنشر).html
+2025-07-31 14:08:57,417 - html_converter - INFO - Converted: مسعر بن كدام (جاهزة للنشر).docx → D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\الاسلام وعلومه\016_مسعر بن كدام (جاهزة للنشر)\مسعر بن كدام (جاهزة للنشر).html
+2025-07-31 14:08:57,418 - html_converter - INFO - Processing [17]: السلع العامة (جاهزة للنشر).docx
+2025-07-31 14:08:57,418 - document_parser - INFO - Parsing document: السلع العامة (جاهزة للنشر).docx
+2025-07-31 14:08:57,693 - document_parser - INFO - Extracted 1 footnotes
+2025-07-31 14:08:59,869 - document_parser - ERROR - Error parsing D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\مقالات بعد الاخراج\الاقتصاد والمال\السلع العامة (جاهزة للنشر).docx: module 'docx' has no attribute 'table'
+2025-07-31 14:08:59,869 - html_converter - ERROR - Failed to parse: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\مقالات بعد الاخراج\الاقتصاد والمال\السلع العامة (جاهزة للنشر).docx
+2025-07-31 14:08:59,870 - html_converter - INFO - Processing [18]: التشابه (جاهزة للنشر) .docx
+2025-07-31 14:08:59,870 - document_parser - INFO - Parsing document: التشابه (جاهزة للنشر) .docx
+2025-07-31 14:09:00,044 - document_parser - INFO - Extracted 1 footnotes
+2025-07-31 14:09:23,668 - html_converter - INFO - Document contains 5992 images
+2025-07-31 14:09:23,671 - html_builder - INFO - HTML file created: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\الرياضيات والفيزياء\018_التشابه (جاهزة للنشر)\التشابه (جاهزة للنشر).html
+2025-07-31 14:09:23,672 - html_converter - INFO - Converted: التشابه (جاهزة للنشر) .docx → D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\الرياضيات والفيزياء\018_التشابه (جاهزة للنشر)\التشابه (جاهزة للنشر).html
+2025-07-31 14:09:23,674 - html_converter - INFO - Processing [19]: الدائرة (جاهزة للنشر).docx
+2025-07-31 14:09:23,674 - document_parser - INFO - Parsing document: الدائرة (جاهزة للنشر).docx
+2025-07-31 14:09:24,005 - document_parser - INFO - Extracted 1 footnotes
+2025-07-31 14:09:43,206 - html_converter - INFO - Document contains 2584 images
+2025-07-31 14:09:43,208 - html_builder - INFO - HTML file created: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\الرياضيات والفيزياء\019_الدائرة (جاهزة للنشر)\الدائرة (جاهزة للنشر).html
+2025-07-31 14:09:43,208 - html_converter - INFO - Converted: الدائرة (جاهزة للنشر).docx → D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\الرياضيات والفيزياء\019_الدائرة (جاهزة للنشر)\الدائرة (جاهزة للنشر).html
+2025-07-31 14:09:43,209 - html_converter - INFO - Processing [20]: الدالة واحد لواحد (جاهزة للنشر).docx
+2025-07-31 14:09:43,209 - document_parser - INFO - Parsing document: الدالة واحد لواحد (جاهزة للنشر).docx
+2025-07-31 14:09:43,290 - document_parser - INFO - Extracted 1 footnotes
+2025-07-31 14:09:45,206 - document_parser - ERROR - Error parsing D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\مقالات بعد الاخراج\الرياضيات والفيزياء\الدالة واحد لواحد (جاهزة للنشر).docx: module 'docx' has no attribute 'table'
+2025-07-31 14:09:45,207 - html_converter - ERROR - Failed to parse: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\مقالات بعد الاخراج\الرياضيات والفيزياء\الدالة واحد لواحد (جاهزة للنشر).docx
+2025-07-31 14:09:45,208 - html_converter - INFO - Processing [21]: العدد الأولي (جاهزة للنشر).docx
+2025-07-31 14:09:45,209 - document_parser - INFO - Parsing document: العدد الأولي (جاهزة للنشر).docx
+2025-07-31 14:09:45,384 - document_parser - INFO - Extracted 1 footnotes
+2025-07-31 14:09:51,241 - document_parser - ERROR - Error parsing D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\مقالات بعد الاخراج\الرياضيات والفيزياء\العدد الأولي (جاهزة للنشر).docx: module 'docx' has no attribute 'table'
+2025-07-31 14:09:51,242 - html_converter - ERROR - Failed to parse: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\مقالات بعد الاخراج\الرياضيات والفيزياء\العدد الأولي (جاهزة للنشر).docx
+2025-07-31 14:09:51,242 - html_converter - INFO - Processing [22]: الفضاء المتري (جاهزة للنشر).docx
+2025-07-31 14:09:51,242 - document_parser - INFO - Parsing document: الفضاء المتري (جاهزة للنشر).docx
+2025-07-31 14:09:51,384 - document_parser - INFO - Extracted 0 footnotes

@@ -1,0 +1,7 @@
+# requirements.txt
+"""
+python-docx==0.8.11
+docx2python==2.0.0
+mammoth==1.6.0
+lxml==4.9.3
+"""

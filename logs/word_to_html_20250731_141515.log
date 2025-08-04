@@ -1,0 +1,247 @@
+2025-07-31 14:15:15,552 - logger - INFO - ============================================================
+2025-07-31 14:15:15,553 - logger - INFO - Mammoth Word to HTML Converter
+2025-07-31 14:15:15,553 - logger - INFO - ============================================================
+2025-07-31 14:15:15,559 - mammoth_converter - INFO - Found 45 documents
+2025-07-31 14:15:15,559 - mammoth_converter - INFO - Converting [1]: الكيمياء الحيوية (بانتظار الترجمة).docx
+2025-07-31 14:15:17,476 - mammoth_converter - ERROR - Error converting D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\مقالات بعد الاخراج\الكيمياء الحيوية (بانتظار الترجمة).docx: 'Image' object has no attribute 'read'
+Traceback (most recent call last):
+  File "d:\Development\HTML Conversion\mammoth_converter.py", line 62, in _convert_document
+    result = mammoth.convert_to_html(
+  File "d:\Anaconda3\lib\site-packages\mammoth\__init__.py", line 12, in convert_to_html
+    return convert(*args, output_format="html", **kwargs)
+  File "d:\Anaconda3\lib\site-packages\mammoth\__init__.py", line 26, in convert
+    return options.read_options(kwargs).bind(lambda convert_options:
+  File "d:\Anaconda3\lib\site-packages\mammoth\results.py", line 15, in bind
+    result = func(self.value)
+  File "d:\Anaconda3\lib\site-packages\mammoth\__init__.py", line 27, in <lambda>
+    docx.read(fileobj).map(transform_document).bind(lambda document:
+  File "d:\Anaconda3\lib\site-packages\mammoth\results.py", line 15, in bind
+    result = func(self.value)
+  File "d:\Anaconda3\lib\site-packages\mammoth\__init__.py", line 28, in <lambda>
+    conversion.convert_document_element_to_html(
+  File "d:\Anaconda3\lib\site-packages\mammoth\conversion.py", line 49, in convert_document_element_to_html
+    nodes = converter.visit(element, context)
+  File "<string>", line 5, in visit
+  File "<string>", line 1, in _accept1
+  File "d:\Anaconda3\lib\site-packages\mammoth\conversion.py", line 83, in visit_document
+    nodes = self._visit_all(document.children, context)
+  File "d:\Anaconda3\lib\site-packages\mammoth\conversion.py", line 320, in _visit_all
+    return [
+  File "d:\Anaconda3\lib\site-packages\mammoth\conversion.py", line 323, in <listcomp>
+    for html_node in self.visit(element, context)
+  File "<string>", line 5, in visit
+  File "<string>", line 1, in _accept1
+  File "d:\Anaconda3\lib\site-packages\mammoth\conversion.py", line 106, in visit_paragraph
+    return html_path.wrap(children)
+  File "d:\Anaconda3\lib\site-packages\mammoth\html_paths.py", line 33, in wrap
+    nodes = generate_nodes()
+  File "d:\Anaconda3\lib\site-packages\mammoth\conversion.py", line 99, in children
+    content = self._visit_all(paragraph.children, context)
+  File "d:\Anaconda3\lib\site-packages\mammoth\conversion.py", line 320, in _visit_all
+    return [
+  File "d:\Anaconda3\lib\site-packages\mammoth\conversion.py", line 323, in <listcomp>
+    for html_node in self.visit(element, context)
+  File "<string>", line 5, in visit
+  File "<string>", line 1, in _accept1
+  File "d:\Anaconda3\lib\site-packages\mammoth\conversion.py", line 137, in visit_run
+    return nodes()
+  File "d:\Anaconda3\lib\site-packages\mammoth\html_paths.py", line 33, in wrap
+    nodes = generate_nodes()
+  File "d:\Anaconda3\lib\site-packages\mammoth\conversion.py", line 110, in <lambda>
+    nodes = lambda: self._visit_all(run.children, context)
+  File "d:\Anaconda3\lib\site-packages\mammoth\conversion.py", line 320, in _visit_all
+    return [
+  File "d:\Anaconda3\lib\site-packages\mammoth\conversion.py", line 323, in <listcomp>
+    for html_node in self.visit(element, context)
+  File "<string>", line 5, in visit
+  File "<string>", line 1, in _accept1
+  File "d:\Anaconda3\lib\site-packages\mammoth\conversion.py", line 77, in visit_image
+    return self._convert_image(image)
+  File "d:\Anaconda3\lib\site-packages\mammoth\images.py", line 11, in convert_image
+    attributes.update(func(image))
+  File "d:\Development\HTML Conversion\mammoth_converter.py", line 108, in _image_handler
+    f.write(image.read())
+AttributeError: 'Image' object has no attribute 'read'
+2025-07-31 14:15:17,517 - mammoth_converter - INFO - Converting [2]: الكيمياء الحيوية (بانتظار الترجمة).docx
+2025-07-31 14:15:19,324 - mammoth_converter - ERROR - Error converting D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\مقالات بعد الاخراج\test\الكيمياء الحيوية (بانتظار الترجمة).docx: 'Image' object has no attribute 'read'
+Traceback (most recent call last):
+  File "d:\Development\HTML Conversion\mammoth_converter.py", line 62, in _convert_document
+    result = mammoth.convert_to_html(
+  File "d:\Anaconda3\lib\site-packages\mammoth\__init__.py", line 12, in convert_to_html
+    return convert(*args, output_format="html", **kwargs)
+  File "d:\Anaconda3\lib\site-packages\mammoth\__init__.py", line 26, in convert
+    return options.read_options(kwargs).bind(lambda convert_options:
+  File "d:\Anaconda3\lib\site-packages\mammoth\results.py", line 15, in bind
+    result = func(self.value)
+  File "d:\Anaconda3\lib\site-packages\mammoth\__init__.py", line 27, in <lambda>
+    docx.read(fileobj).map(transform_document).bind(lambda document:
+  File "d:\Anaconda3\lib\site-packages\mammoth\results.py", line 15, in bind
+    result = func(self.value)
+  File "d:\Anaconda3\lib\site-packages\mammoth\__init__.py", line 28, in <lambda>
+    conversion.convert_document_element_to_html(
+  File "d:\Anaconda3\lib\site-packages\mammoth\conversion.py", line 49, in convert_document_element_to_html
+    nodes = converter.visit(element, context)
+  File "<string>", line 5, in visit
+  File "<string>", line 1, in _accept1
+  File "d:\Anaconda3\lib\site-packages\mammoth\conversion.py", line 83, in visit_document
+    nodes = self._visit_all(document.children, context)
+  File "d:\Anaconda3\lib\site-packages\mammoth\conversion.py", line 320, in _visit_all
+    return [
+  File "d:\Anaconda3\lib\site-packages\mammoth\conversion.py", line 323, in <listcomp>
+    for html_node in self.visit(element, context)
+  File "<string>", line 5, in visit
+  File "<string>", line 1, in _accept1
+  File "d:\Anaconda3\lib\site-packages\mammoth\conversion.py", line 106, in visit_paragraph
+    return html_path.wrap(children)
+  File "d:\Anaconda3\lib\site-packages\mammoth\html_paths.py", line 33, in wrap
+    nodes = generate_nodes()
+  File "d:\Anaconda3\lib\site-packages\mammoth\conversion.py", line 99, in children
+    content = self._visit_all(paragraph.children, context)
+  File "d:\Anaconda3\lib\site-packages\mammoth\conversion.py", line 320, in _visit_all
+    return [
+  File "d:\Anaconda3\lib\site-packages\mammoth\conversion.py", line 323, in <listcomp>
+    for html_node in self.visit(element, context)
+  File "<string>", line 5, in visit
+  File "<string>", line 1, in _accept1
+  File "d:\Anaconda3\lib\site-packages\mammoth\conversion.py", line 137, in visit_run
+    return nodes()
+  File "d:\Anaconda3\lib\site-packages\mammoth\html_paths.py", line 33, in wrap
+    nodes = generate_nodes()
+  File "d:\Anaconda3\lib\site-packages\mammoth\conversion.py", line 110, in <lambda>
+    nodes = lambda: self._visit_all(run.children, context)
+  File "d:\Anaconda3\lib\site-packages\mammoth\conversion.py", line 320, in _visit_all
+    return [
+  File "d:\Anaconda3\lib\site-packages\mammoth\conversion.py", line 323, in <listcomp>
+    for html_node in self.visit(element, context)
+  File "<string>", line 5, in visit
+  File "<string>", line 1, in _accept1
+  File "d:\Anaconda3\lib\site-packages\mammoth\conversion.py", line 77, in visit_image
+    return self._convert_image(image)
+  File "d:\Anaconda3\lib\site-packages\mammoth\images.py", line 11, in convert_image
+    attributes.update(func(image))
+  File "d:\Development\HTML Conversion\mammoth_converter.py", line 108, in _image_handler
+    f.write(image.read())
+AttributeError: 'Image' object has no attribute 'read'
+2025-07-31 14:15:19,329 - mammoth_converter - INFO - Converting [3]: التناص (جاهزة للنشر).docx
+2025-07-31 14:15:19,975 - mammoth_converter - ERROR - Error converting D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\مقالات بعد الاخراج\الآداب واللغات\التناص (جاهزة للنشر).docx: 'Image' object has no attribute 'read'
+Traceback (most recent call last):
+  File "d:\Development\HTML Conversion\mammoth_converter.py", line 62, in _convert_document
+    result = mammoth.convert_to_html(
+  File "d:\Anaconda3\lib\site-packages\mammoth\__init__.py", line 12, in convert_to_html
+    return convert(*args, output_format="html", **kwargs)
+  File "d:\Anaconda3\lib\site-packages\mammoth\__init__.py", line 26, in convert
+    return options.read_options(kwargs).bind(lambda convert_options:
+  File "d:\Anaconda3\lib\site-packages\mammoth\results.py", line 15, in bind
+    result = func(self.value)
+  File "d:\Anaconda3\lib\site-packages\mammoth\__init__.py", line 27, in <lambda>
+    docx.read(fileobj).map(transform_document).bind(lambda document:
+  File "d:\Anaconda3\lib\site-packages\mammoth\results.py", line 15, in bind
+    result = func(self.value)
+  File "d:\Anaconda3\lib\site-packages\mammoth\__init__.py", line 28, in <lambda>
+    conversion.convert_document_element_to_html(
+  File "d:\Anaconda3\lib\site-packages\mammoth\conversion.py", line 49, in convert_document_element_to_html
+    nodes = converter.visit(element, context)
+  File "<string>", line 5, in visit
+  File "<string>", line 1, in _accept1
+  File "d:\Anaconda3\lib\site-packages\mammoth\conversion.py", line 83, in visit_document
+    nodes = self._visit_all(document.children, context)
+  File "d:\Anaconda3\lib\site-packages\mammoth\conversion.py", line 320, in _visit_all
+    return [
+  File "d:\Anaconda3\lib\site-packages\mammoth\conversion.py", line 323, in <listcomp>
+    for html_node in self.visit(element, context)
+  File "<string>", line 5, in visit
+  File "<string>", line 1, in _accept1
+  File "d:\Anaconda3\lib\site-packages\mammoth\conversion.py", line 106, in visit_paragraph
+    return html_path.wrap(children)
+  File "d:\Anaconda3\lib\site-packages\mammoth\html_paths.py", line 33, in wrap
+    nodes = generate_nodes()
+  File "d:\Anaconda3\lib\site-packages\mammoth\conversion.py", line 99, in children
+    content = self._visit_all(paragraph.children, context)
+  File "d:\Anaconda3\lib\site-packages\mammoth\conversion.py", line 320, in _visit_all
+    return [
+  File "d:\Anaconda3\lib\site-packages\mammoth\conversion.py", line 323, in <listcomp>
+    for html_node in self.visit(element, context)
+  File "<string>", line 5, in visit
+  File "<string>", line 1, in _accept1
+  File "d:\Anaconda3\lib\site-packages\mammoth\conversion.py", line 137, in visit_run
+    return nodes()
+  File "d:\Anaconda3\lib\site-packages\mammoth\html_paths.py", line 33, in wrap
+    nodes = generate_nodes()
+  File "d:\Anaconda3\lib\site-packages\mammoth\conversion.py", line 110, in <lambda>
+    nodes = lambda: self._visit_all(run.children, context)
+  File "d:\Anaconda3\lib\site-packages\mammoth\conversion.py", line 320, in _visit_all
+    return [
+  File "d:\Anaconda3\lib\site-packages\mammoth\conversion.py", line 323, in <listcomp>
+    for html_node in self.visit(element, context)
+  File "<string>", line 5, in visit
+  File "<string>", line 1, in _accept1
+  File "d:\Anaconda3\lib\site-packages\mammoth\conversion.py", line 77, in visit_image
+    return self._convert_image(image)
+  File "d:\Anaconda3\lib\site-packages\mammoth\images.py", line 11, in convert_image
+    attributes.update(func(image))
+  File "d:\Development\HTML Conversion\mammoth_converter.py", line 108, in _image_handler
+    f.write(image.read())
+AttributeError: 'Image' object has no attribute 'read'
+2025-07-31 14:15:19,981 - mammoth_converter - INFO - Converting [4]: المعاجم العربية التراثية (جاهزة للنشر).docx
+2025-07-31 14:15:21,955 - mammoth_converter - ERROR - Error converting D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\مقالات بعد الاخراج\الآداب واللغات\المعاجم العربية التراثية (جاهزة للنشر).docx: 'Image' object has no attribute 'read'
+Traceback (most recent call last):
+  File "d:\Development\HTML Conversion\mammoth_converter.py", line 62, in _convert_document
+    result = mammoth.convert_to_html(
+  File "d:\Anaconda3\lib\site-packages\mammoth\__init__.py", line 12, in convert_to_html
+    return convert(*args, output_format="html", **kwargs)
+  File "d:\Anaconda3\lib\site-packages\mammoth\__init__.py", line 26, in convert
+    return options.read_options(kwargs).bind(lambda convert_options:
+  File "d:\Anaconda3\lib\site-packages\mammoth\results.py", line 15, in bind
+    result = func(self.value)
+  File "d:\Anaconda3\lib\site-packages\mammoth\__init__.py", line 27, in <lambda>
+    docx.read(fileobj).map(transform_document).bind(lambda document:
+  File "d:\Anaconda3\lib\site-packages\mammoth\results.py", line 15, in bind
+    result = func(self.value)
+  File "d:\Anaconda3\lib\site-packages\mammoth\__init__.py", line 28, in <lambda>
+    conversion.convert_document_element_to_html(
+  File "d:\Anaconda3\lib\site-packages\mammoth\conversion.py", line 49, in convert_document_element_to_html
+    nodes = converter.visit(element, context)
+  File "<string>", line 5, in visit
+  File "<string>", line 1, in _accept1
+  File "d:\Anaconda3\lib\site-packages\mammoth\conversion.py", line 83, in visit_document
+    nodes = self._visit_all(document.children, context)
+  File "d:\Anaconda3\lib\site-packages\mammoth\conversion.py", line 320, in _visit_all
+    return [
+  File "d:\Anaconda3\lib\site-packages\mammoth\conversion.py", line 323, in <listcomp>
+    for html_node in self.visit(element, context)
+  File "<string>", line 5, in visit
+  File "<string>", line 1, in _accept1
+  File "d:\Anaconda3\lib\site-packages\mammoth\conversion.py", line 106, in visit_paragraph
+    return html_path.wrap(children)
+  File "d:\Anaconda3\lib\site-packages\mammoth\html_paths.py", line 33, in wrap
+    nodes = generate_nodes()
+  File "d:\Anaconda3\lib\site-packages\mammoth\conversion.py", line 99, in children
+    content = self._visit_all(paragraph.children, context)
+  File "d:\Anaconda3\lib\site-packages\mammoth\conversion.py", line 320, in _visit_all
+    return [
+  File "d:\Anaconda3\lib\site-packages\mammoth\conversion.py", line 323, in <listcomp>
+    for html_node in self.visit(element, context)
+  File "<string>", line 5, in visit
+  File "<string>", line 1, in _accept1
+  File "d:\Anaconda3\lib\site-packages\mammoth\conversion.py", line 137, in visit_run
+    return nodes()
+  File "d:\Anaconda3\lib\site-packages\mammoth\html_paths.py", line 33, in wrap
+    nodes = generate_nodes()
+  File "d:\Anaconda3\lib\site-packages\mammoth\html_paths.py", line 46, in wrap
+    return self.wrap_nodes(generate_nodes())
+  File "d:\Anaconda3\lib\site-packages\mammoth\conversion.py", line 110, in <lambda>
+    nodes = lambda: self._visit_all(run.children, context)
+  File "d:\Anaconda3\lib\site-packages\mammoth\conversion.py", line 320, in _visit_all
+    return [
+  File "d:\Anaconda3\lib\site-packages\mammoth\conversion.py", line 323, in <listcomp>
+    for html_node in self.visit(element, context)
+  File "<string>", line 5, in visit
+  File "<string>", line 1, in _accept1
+  File "d:\Anaconda3\lib\site-packages\mammoth\conversion.py", line 77, in visit_image
+    return self._convert_image(image)
+  File "d:\Anaconda3\lib\site-packages\mammoth\images.py", line 11, in convert_image
+    attributes.update(func(image))
+  File "d:\Development\HTML Conversion\mammoth_converter.py", line 108, in _image_handler
+    f.write(image.read())
+AttributeError: 'Image' object has no attribute 'read'
+2025-07-31 14:15:21,963 - mammoth_converter - INFO - Converting [5]: أمين الخولي (جاهزة للنشر) .docx
