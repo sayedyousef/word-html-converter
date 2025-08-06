@@ -1,5 +1,5 @@
 # mammoth_converter.py
-"""Minimal Word to HTML converter using mammoth."""
+"""Enhanced Word to HTML converter using mammoth with equation fixes and anchor support."""
 
 import mammoth
 import logging
@@ -9,6 +9,10 @@ import zipfile
 import xml.etree.ElementTree as ET
 from pathlib import Path
 from utils import sanitize_filename, format_article_number, detect_latex_equations
+import tempfile
+import shutil
+import os
+import json
 
 class MammothConverter:
     """Enhanced converter using mammoth with all features."""
@@ -29,6 +33,10 @@ class MammothConverter:
         r[style-name='Strong'] => strong
         r[style-name='Emphasis'] => em
         """
+        
+        # Initialize anchor registry
+        self.anchor_registry = {}
+        self.equation_positions = {}
     
     def convert_folder(self, input_folder: Path, output_folder: Path):
         """Convert all Word documents in folder."""
@@ -61,6 +69,9 @@ class MammothConverter:
         try:
             self.logger.info(f"Converting [{index}]: {docx_path.name}")
             
+            # Initialize anchor registry for this document
+            self.anchor_registry = {}
+            
             # Extract metadata using python-docx
             metadata = self._extract_metadata(docx_path)
             
@@ -85,9 +96,9 @@ class MammothConverter:
             equation_type = self._detect_equation_type(docx_path)
             self.logger.info(f"  Detected equation type: {equation_type}")
             
-            # Handle Office Math equations with position preservation
+            # Handle Office Math equations with ENHANCED position preservation
             if equation_type == "office_math":
-                html_content, equation_count = self._convert_with_equation_markers(docx_path)
+                html_content, equation_count = self._convert_with_equation_markers_fixed(docx_path)
                 self.total_equations += equation_count
                 has_equations = equation_count > 0
             else:
@@ -96,7 +107,7 @@ class MammothConverter:
                     result = mammoth.convert_to_html(
                         docx_file,
                         style_map=self.style_map,
-                        convert_image=mammoth.images.img_element(self._image_handler)
+                        convert_image=mammoth.images.img_element(self._image_handler_with_anchor)
                     )
                 
                 html_content = result.value
@@ -109,7 +120,7 @@ class MammothConverter:
                 
                 # Process LaTeX equations if present
                 if equation_type == "latex":
-                    html_content = self._preserve_equations(html_content)
+                    html_content = self._preserve_equations_with_anchors(html_content)
                 
                 # Check for equations
                 has_equations, found_equations = detect_latex_equations(html_content)
@@ -131,30 +142,34 @@ class MammothConverter:
             title = metadata.get('title') or self._extract_title(html_content, safe_name)
             author = metadata.get('author', 'Unknown')
             
-            # Build complete HTML (include MathJax if equations detected)
-            complete_html = self._build_html_document(title, author, html_content, has_equations)
+            # Build complete HTML with ENHANCED features
+            complete_html = self._build_html_document_enhanced(title, author, html_content, has_equations)
             
             # Save HTML
             html_path = article_folder / f"{safe_name}.html"
             html_path.write_text(complete_html, encoding='utf-8')
+            
+            # Save anchor registry as JSON
+            if self.anchor_registry:
+                anchor_path = article_folder / f"{safe_name}.anchors.json"
+                with open(anchor_path, 'w', encoding='utf-8') as f:
+                    json.dump(self.anchor_registry, f, indent=2, ensure_ascii=False)
+                self.logger.info(f"  Saved {len(self.anchor_registry)} anchors")
             
             self.logger.info(f"Saved: {html_path}")
             
         except Exception as e:
             self.logger.error(f"Error converting {docx_path}: {e}", exc_info=True)
 
-    def _convert_with_equation_markers(self, docx_path):
-        """Convert document with Office Math equations preserved in place."""
-        import tempfile
-        import shutil
-        import os
-        
+    def _convert_with_equation_markers_fixed(self, docx_path):
+        """Enhanced version - Convert document with Office Math equations preserved in place."""
         # Create a temporary copy
         with tempfile.NamedTemporaryFile(suffix='.docx', delete=False) as tmp:
             shutil.copy2(docx_path, tmp.name)
             temp_path = tmp.name
         
         equation_map = {}
+        equation_positions = {}  # Track positions for anchors
         
         try:
             # Open with python-docx
@@ -169,28 +184,52 @@ class MammothConverter:
                 })
                 
                 if math_elements:
-                    # Create a new paragraph text with markers
                     para_text = paragraph.text
+                    equation_markers = []
                     
-                    for math_elem in math_elements:
+                    # Process each equation in the paragraph
+                    for math_idx, math_elem in enumerate(math_elements):
                         eq_counter += 1
                         marker = f" [EQUATION_{eq_counter}_HERE] "
+                        anchor_id = f"eq-anchor-{eq_counter}"  # Add anchor ID
                         
                         # Extract equation text
                         equation_text = self._extract_math_text_from_element(math_elem)
+                        latex_equation = self._convert_to_latex_format_enhanced(equation_text)
                         
-                        # Store equation for later replacement
-                        # Try to make a better LaTeX representation
-                        latex_equation = self._convert_to_latex_format(equation_text)
-                        equation_map[marker] = latex_equation
+                        # Store equation with anchor
+                        equation_map[marker] = {
+                            'latex': latex_equation,
+                            'anchor': anchor_id,
+                            'position': f"para_{para_idx}_eq_{math_idx}"
+                        }
+                        
+                        equation_positions[eq_counter] = {
+                            'paragraph': para_idx,
+                            'index': math_idx
+                        }
+                        
+                        equation_markers.append(marker)
+                        
+                        # Register anchor
+                        self.anchor_registry[anchor_id] = {
+                            'type': 'office_math_equation',
+                            'content': equation_text,
+                            'latex': latex_equation,
+                            'paragraph': para_idx,
+                            'position': math_idx
+                        }
                     
-                    # Add marker at end of paragraph
-                    # (Since we can't easily insert in the middle)
+                    # Clear paragraph and rebuild with markers
+                    paragraph.clear()
+                    
+                    # Add text with markers interspersed
                     if para_text.strip():
+                        paragraph.add_run(para_text + " ")
+                    
+                    # Add all equation markers
+                    for marker in equation_markers:
                         paragraph.add_run(marker)
-                    else:
-                        # If paragraph is empty except for equation, just add marker
-                        paragraph.text = marker
             
             # Save modified document
             doc.save(temp_path)
@@ -200,22 +239,34 @@ class MammothConverter:
                 result = mammoth.convert_to_html(
                     docx_file,
                     style_map=self.style_map,
-                    convert_image=mammoth.images.img_element(self._image_handler)
+                    convert_image=mammoth.images.img_element(self._image_handler_with_anchor)
                 )
             
             html_content = result.value
             
-            # Check for warnings (but suppress oMath warnings)
+            # Check for warnings (but suppress oMath and EQUATION warnings)
             if result.messages:
                 for msg in result.messages:
-                    if "oMath" not in str(msg) and "EQUATION_" not in str(msg):
+                    msg_str = str(msg)
+                    if not any(term in msg_str for term in ['oMath', 'EQUATION_']):
                         self.logger.warning(f"{docx_path.name}: {msg}")
             
-            # Replace markers with actual equations
-            for marker, equation in equation_map.items():
-                html_content = html_content.replace(marker.strip(), equation)
+            # Replace markers with equations AND anchors
+            for marker, eq_data in equation_map.items():
+                anchor_html = f'<a id="{eq_data["anchor"]}" class="equation-anchor"></a>'
+                
+                # Determine if display or inline
+                if '$$' in eq_data['latex']:
+                    equation_html = f'{anchor_html}<div class="equation display-math">{eq_data["latex"]}</div>'
+                else:
+                    equation_html = f'{anchor_html}<span class="equation inline-math">{eq_data["latex"]}</span>'
+                
+                html_content = html_content.replace(marker.strip(), equation_html)
             
-            self.logger.info(f"  Processed {len(equation_map)} Office Math equations in place")
+            self.logger.info(f"  Processed {len(equation_map)} Office Math equations with anchors")
+            
+            # Store positions for later reference
+            self.equation_positions = equation_positions
             
             return html_content, len(equation_map)
             
@@ -248,47 +299,40 @@ class MammothConverter:
         
         return ' '.join(text_parts)
 
-    def _convert_to_latex_format(self, equation_text):
-        """Convert extracted equation text to LaTeX format."""
-        # This is a basic conversion - you might need to enhance this 
-        latex = equation_text
-        
-        # Common replacements
+    def _convert_to_latex_format_enhanced(self, equation_text):
+        """Enhanced version - Convert extracted equation text to LaTeX format."""
+        # Extended replacements for more symbols
         replacements = [
-            ('÷', '\\div'),
-            ('×', '\\times'),
-            ('±', '\\pm'),
-            ('≈', '\\approx'),
-            ('≠', '\\neq'),
-            ('≤', '\\leq'),
-            ('≥', '\\geq'),
-            ('∞', '\\infty'),
-            ('∑', '\\sum'),
-            ('∫', '\\int'),
-            ('√', '\\sqrt'),
-            ('∂', '\\partial'),
-            ('∈', '\\in'),
-            ('∉', '\\notin'),
-            ('α', '\\alpha'),
-            ('β', '\\beta'),
-            ('γ', '\\gamma'),
-            ('π', '\\pi'),
-            ('σ', '\\sigma'),
-            ('Σ', '\\Sigma'),
+            ('÷', '\\div'), ('×', '\\times'), ('±', '\\pm'),
+            ('≈', '\\approx'), ('≠', '\\neq'), ('≤', '\\leq'),
+            ('≥', '\\geq'), ('∞', '\\infty'), ('∑', '\\sum'),
+            ('∫', '\\int'), ('√', '\\sqrt'), ('∂', '\\partial'),
+            ('∈', '\\in'), ('∉', '\\notin'), ('∅', '\\emptyset'),
+            ('α', '\\alpha'), ('β', '\\beta'), ('γ', '\\gamma'),
+            ('δ', '\\delta'), ('ε', '\\epsilon'), ('θ', '\\theta'),
+            ('λ', '\\lambda'), ('μ', '\\mu'), ('π', '\\pi'),
+            ('σ', '\\sigma'), ('τ', '\\tau'), ('φ', '\\phi'),
+            ('ω', '\\omega'), ('Σ', '\\Sigma'), ('Δ', '\\Delta'),
+            ('Ω', '\\Omega'), ('→', '\\rightarrow'), ('←', '\\leftarrow'),
+            ('⇒', '\\Rightarrow'), ('⇔', '\\Leftrightarrow'),
         ]
         
+        latex = equation_text
         for old, new in replacements:
             latex = latex.replace(old, new)
         
-        # Try to detect fractions
+        # Detect and convert fractions
         latex = re.sub(r'(\d+)\s*/\s*(\d+)', r'\\frac{\1}{\2}', latex)
         
+        # Detect exponents and subscripts
+        latex = re.sub(r'(\w+)\^(\d+)', r'\1^{\2}', latex)
+        latex = re.sub(r'(\w+)_(\d+)', r'\1_{\2}', latex)
+        
         # Return as display equation if it looks complex
-        if any(sym in latex for sym in ['\\frac', '\\sum', '\\int', '=']) or len(latex) > 10:
+        if any(sym in latex for sym in ['\\frac', '\\sum', '\\int', '=']) or len(latex) > 15:
             return f"$${latex}$$"
         else:
             return f"${latex}$"
-
 
     def _detect_equation_type(self, docx_path):
         """Detect whether document uses LaTeX or Office Math equations."""
@@ -327,132 +371,6 @@ class MammothConverter:
             self.logger.debug(f"Error detecting equation type: {e}")
             return "none"
 
-    def _extract_office_math_equations(self, docx_path):
-        """Extract Office Math equations from Word document."""
-        equations = []
-        
-        try:
-            with zipfile.ZipFile(docx_path, 'r') as zip_file:
-                with zip_file.open('word/document.xml') as xml_file:
-                    tree = ET.parse(xml_file)
-                    root = tree.getroot()
-                    
-                    # Define namespaces
-                    namespaces = {
-                        'w': 'http://schemas.openxmlformats.org/wordprocessingml/2006/main',
-                        'm': 'http://schemas.openxmlformats.org/officeDocument/2006/math'
-                    }
-                    
-                    # Find all math paragraphs and inline math
-                    math_paras = root.findall('.//m:oMathPara', namespaces)
-                    inline_maths = root.findall('.//m:oMath', namespaces)
-                    
-                    eq_counter = 0
-                    
-                    # Process math paragraphs (display equations)
-                    for math_para in math_paras:
-                        eq_counter += 1
-                        equation_text = self._extract_math_content(math_para, namespaces)
-                        equations.append({
-                            'id': eq_counter,
-                            'type': 'display',
-                            'text': equation_text,
-                            'latex': f"$${equation_text}$$"
-                        })
-                    
-                    # Process inline math
-                    for math in inline_maths:
-                        # Skip if already part of a math paragraph
-                        parent = math.getparent()
-                        while parent is not None:
-                            if parent.tag.endswith('oMathPara'):
-                                break
-                            parent = parent.getparent()
-                        
-                        if parent is None:  # Not part of oMathPara
-                            eq_counter += 1
-                            equation_text = self._extract_math_content(math, namespaces)
-                            equations.append({
-                                'id': eq_counter,
-                                'type': 'inline',
-                                'text': equation_text,
-                                'latex': f"${equation_text}$"
-                            })
-                    
-                    self.logger.info(f"  Extracted {len(equations)} Office Math equations")
-                    
-        except Exception as e:
-            self.logger.warning(f"Could not extract Office Math: {e}")
-        
-        return equations
-
-    def _extract_math_content(self, math_elem, namespaces):
-        """Extract readable content from Office Math XML."""
-        text_parts = []
-        
-        # Extract all text nodes
-        for elem in math_elem.iter():
-            if elem.text and elem.text.strip():
-                text_parts.append(elem.text.strip())
-        
-        return ' '.join(text_parts)
-
-    def _process_office_math(self, html_content, equations):
-        """Add Office Math equations to HTML."""
-        if not equations:
-            return html_content
-        
-        # Add equations section at end of document
-        equation_html = '\n\n<div class="office-math-equations">\n'
-        equation_html += '<h3>معادلات المستند</h3>\n'
-        equation_html += '<p class="equation-note">ملاحظة: تم استخراج هذه المعادلات من تنسيق Office Math</p>\n'
-        
-        for eq in equations:
-            if eq['type'] == 'display':
-                equation_html += f'<div class="equation display-equation">\n'
-                equation_html += f'  {eq["latex"]}\n'
-                equation_html += f'</div>\n'
-            else:
-                equation_html += f'<span class="equation inline-equation">{eq["latex"]}</span> '
-        
-        equation_html += '</div>\n'
-        
-        return html_content + equation_html
-
-    def _extract_latex_equations(self, docx_path):
-        """Extract LaTeX equations from document text."""
-        equations = []
-        
-        try:
-            with open(docx_path, "rb") as f:
-                raw_result = mammoth.extract_raw_text(f)
-                raw_text = raw_result.value
-            
-            # Find inline equations
-            inline_pattern = r'\$([^$\n]+)\$'
-            for match in re.finditer(inline_pattern, raw_text):
-                equations.append({
-                    'type': 'inline',
-                    'latex': match.group(0),
-                    'content': match.group(1)
-                })
-            
-            # Find display equations
-            display_pattern = r'\$\$([^$]+)\$\$'
-            for match in re.finditer(display_pattern, raw_text):
-                equations.append({
-                    'type': 'display',
-                    'latex': match.group(0),
-                    'content': match.group(1)
-                })
-            
-            self.logger.info(f"  Extracted {len(equations)} LaTeX equations")
-            
-        except Exception as e:
-            self.logger.debug(f"Error extracting LaTeX: {e}")
-        
-        return equations
-    
     def _extract_metadata(self, docx_path):
         """Extract metadata from document."""
         metadata = {}
@@ -469,7 +387,7 @@ class MammothConverter:
         return metadata
     
     def _image_handler(self, image):
-        """Handle image conversion."""
+        """Handle image conversion (fallback without anchors)."""
         self.image_counter += 1
         self.total_images += 1
         
@@ -500,8 +418,51 @@ class MammothConverter:
             "alt": f"صورة {self.image_counter}"
         }
     
+    def _image_handler_with_anchor(self, image):
+        """Enhanced image handler that adds anchors."""
+        self.image_counter += 1
+        self.total_images += 1
+        
+        # Generate anchor ID
+        anchor_id = f"img-anchor-{self.image_counter}"
+        
+        # Get image data
+        with image.open() as image_stream:
+            image_data = image_stream.read()
+        
+        # Get image extension
+        extension = ".png"
+        if hasattr(image, 'content_type'):
+            if 'jpeg' in image.content_type:
+                extension = ".jpg"
+            elif 'png' in image.content_type:
+                extension = ".png"
+            elif 'gif' in image.content_type:
+                extension = ".gif"
+        
+        # Save image
+        filename = f"image_{self.image_counter}{extension}"
+        image_path = self.current_image_folder / filename
+        
+        with open(image_path, "wb") as f:
+            f.write(image_data)
+        
+        # Register anchor
+        self.anchor_registry[anchor_id] = {
+            'type': 'image',
+            'filename': filename,
+            'path': str(image_path)
+        }
+        
+        # Return with anchor data attribute
+        return {
+            "src": f"images/{filename}",
+            "alt": f"صورة {self.image_counter}",
+            "data-anchor": anchor_id  # Add anchor as data attribute
+        }
+    
     def _preserve_equations(self, html):
-        """Preserve and fix LaTeX equations in HTML."""
+        """Preserve and fix LaTeX equations in HTML (without anchors)."""
         # Fix escaped dollar signs
         html = re.sub(r'\\\$', '$', html)
         
@@ -519,6 +480,54 @@ class MammothConverter:
         
         return html
     
+    def _preserve_equations_with_anchors(self, html):
+        """Preserve LaTeX equations and add anchors."""
+        equation_counter = 0
+        
+        def add_anchor_to_display_equation(match):
+            nonlocal equation_counter
+            equation_counter += 1
+            anchor_id = f"latex-anchor-{equation_counter}"
+            anchor_html = f'<a id="{anchor_id}" class="equation-anchor"></a>'
+            
+            # Register anchor
+            self.anchor_registry[anchor_id] = {
+                'type': 'latex_equation',
+                'format': 'display',
+                'content': match.group(0)
+            }
+            
+            return f'{anchor_html}<div class="equation display-math">{match.group(0)}</div>'
+        
+        def add_anchor_to_inline_equation(match):
+            nonlocal equation_counter
+            equation_counter += 1
+            anchor_id = f"latex-inline-{equation_counter}"
+            anchor_html = f'<a id="{anchor_id}" class="equation-anchor"></a>'
+            
+            # Register anchor
+            self.anchor_registry[anchor_id] = {
+                'type': 'latex_equation',
+                'format': 'inline',
+                'content': match.group(0)
+            }
+            
+            return f'{anchor_html}<span class="equation inline-math">{match.group(0)}</span>'
+        
+        # Add anchors to display equations
+        html = re.sub(r'(\$\$[^$]+\$\$)', add_anchor_to_display_equation, html)
+        
+        # Add anchors to inline equations
+        html = re.sub(r'(\$[^$\n]+\$)', add_anchor_to_inline_equation, html)
+        
+        # Fix other issues
+        html = re.sub(r'\\\$', '$', html)
+        html = re.sub(r'\$\s+([^$]+?)\s+\$', r'$\1$', html)
+        html = html.replace('&lt;', '<').replace('&gt;', '>').replace('&amp;', '&')
+        html = re.sub(r'\\\\([a-zA-Z])', r'\\\1', html)
+        
+        return html
+    
     def _add_footnote_backlinks(self, html):
         """Add back links from footnotes to text."""
         footnote_pattern = r'<li id="(fn-\d+)">(.*?)</li>'
@@ -527,6 +536,15 @@ class MammothConverter:
             fn_id = match.group(1)
             content = match.group(2)
             fn_number = fn_id.replace('fn-', '')
+            
+            # Register footnote anchor
+            anchor_id = f"footnote-{fn_number}"
+            self.anchor_registry[anchor_id] = {
+                'type': 'footnote',
+                'number': fn_number,
+                'id': fn_id
+            }
+            
             return f'<li id="{fn_id}">{content} <a href="#fnref-{fn_number}" class="footnote-backlink" title="العودة إلى النص">↩</a></li>'
         
         return re.sub(footnote_pattern, add_backlink, html, flags=re.DOTALL)
@@ -552,7 +570,7 @@ class MammothConverter:
         return default
     
     def _build_html_document(self, title, author, body_html, has_equations):
-        """Build complete HTML document with all features."""
+        """Build complete HTML document with all features (original version)."""
         # Choose math script based on content
         math_script = ""
         if has_equations:
@@ -715,3 +733,136 @@ class MammothConverter:
     </div>
 </body>
 </html>"""
+
+    def _build_html_document_enhanced(self, title, author, body_html, has_equations):
+        """Enhanced HTML builder with anchor support."""
+        # MathJax script with better configuration
+        math_script = """
+    <!-- MathJax for equations -->
+    <script>
+        window.MathJax = {
+            tex: {
+                inlineMath: [['$', '$'], ['\\\\(', '\\\\)']],
+                displayMath: [['$$', '$$'], ['\\\\[', '\\\\]']],
+                processEscapes: true,
+                processEnvironments: true
+            },
+            svg: {
+                fontCache: 'global',
+                scale: 1.1
+            }
+        };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
+""" if has_equations else ""
+        
+        # Enhanced CSS with anchor styles
+        anchor_styles = """
+        /* Anchor styles */
+        .equation-anchor {
+            display: inline-block;
+            width: 0;
+            height: 0;
+            visibility: hidden;
+        }
+        
+        .equation-anchor:target {
+            background: yellow;
+            padding: 5px;
+            visibility: visible;
+            width: auto;
+            height: auto;
+        }
+        
+        img[data-anchor] {
+            scroll-margin-top: 20px;
+        }
+        
+        img[data-anchor]:target {
+            border: 3px solid #0066cc !important;
+            box-shadow: 0 0 10px rgba(0, 102, 204, 0.5);
+        }
+        
+        /* Enhanced equation styles */
+        .equation {
+            position: relative;
+            margin: 0.5em 0;
+        }
+        
+        .display-math {
+            display: block;
+            text-align: center;
+            margin: 1em 0;
+            padding: 0.5em;
+            overflow-x: auto;
+        }
+        
+        .inline-math {
+            display: inline;
+            padding: 0 0.2em;
+        }
+        
+        /* Equation numbering */
+        .equation-number {
+            position: absolute;
+            right: 0;
+            color: #666;
+            font-size: 0.9em;
+        }
+        
+        /* Error handling for equations */
+        .equation-error {
+            color: red;
+            border: 1px solid red;
+            padding: 0.5em;
+            background: #ffe6e6;
+            font-family: monospace;
+        }
+"""
+        
+        # Get base HTML from original method
+        base_html = self._build_html_document(title, author, body_html, has_equations)
+        
+        # Insert enhanced styles before closing </style> tag
+        enhanced_html = base_html.replace('</style>', f'{anchor_styles}\n    </style>')
+        
+        # Add JavaScript for equation numbering and error handling
+        js_enhancements = """
+    <!-- Enhanced JavaScript for equations and anchors -->
+    <script>
+        // Handle MathJax errors gracefully
+        document.addEventListener('DOMContentLoaded', function() {
+            if (window.MathJax) {
+                window.MathJax.startup.promise.catch(function (e) {
+                    console.error('MathJax startup failed:', e);
+                });
+            }
+            
+            // Add equation numbering
+            const displayEquations = document.querySelectorAll('.display-math');
+            displayEquations.forEach((eq, index) => {
+                if (!eq.querySelector('.equation-number')) {
+                    const number = document.createElement('span');
+                    number.className = 'equation-number';
+                    number.textContent = `(${index + 1})`;
+                    eq.appendChild(number);
+                }
+            });
+            
+            // Smooth scroll to anchors
+            if (window.location.hash) {
+                const target = document.querySelector(window.location.hash);
+                if (target) {
+                    setTimeout(() => {
+                        target.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                    }, 500);
+                }
+            }
+        });
+    </script>
+"""
+        
+        # Insert JavaScript before closing </body> tag
+        enhanced_html = enhanced_html.replace('</body>', f'{js_enhancements}\n</body>')
+        
+        return enhanced_html

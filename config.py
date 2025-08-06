@@ -30,4 +30,8 @@ class Config:
     LOG_FORMAT = '%(asctime)s - %(name)s - %(levelname)s - %(message)s'
     LOG_LEVEL = 'INFO'
 
+    USE_EXTERNAL_CSS = True
+    CSS_FOLDER = Path("assets/css")
+    GENERATE_ANCHORED_DOCS = True  # Set to True if you want Word docs with anchors
+
 

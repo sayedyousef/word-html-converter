@@ -1,0 +1,100 @@
+/* Mobile and tablet responsive design */
+@media screen and (max-width: 768px) {
+    body {
+        padding: 15px;
+        font-size: 15px;
+    }
+    
+    .content {
+        padding: 1em;
+    }
+    
+    h1 { font-size: 1.8em; }
+    h2 { font-size: 1.5em; }
+    
+    .title {
+        font-size: 2em;
+    }
+    
+    table {
+        font-size: 0.9em;
+    }
+    
+    td, th {
+        padding: 8px;
+    }
+    
+    .display-equation,
+    .display-math {
+        padding: 0.5em;
+        font-size: 0.95em;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    body {
+        padding: 10px;
+        font-size: 14px;
+        max-width: 100%;
+    }
+    
+    .content {
+        padding: 0.5em;
+        border-radius: 0;
+    }
+    
+    h1 { font-size: 1.5em; }
+    h2 { font-size: 1.3em; }
+    
+    .title {
+        font-size: 1.6em;
+    }
+    
+    .table-wrapper {
+        margin: 1em -10px;
+        padding: 0 10px;
+    }
+    
+    table {
+        font-size: 0.85em;
+        min-width: 100%;
+    }
+    
+    td, th {
+        padding: 5px;
+    }
+    
+    .display-equation,
+    .display-math {
+        padding: 0.3em;
+        font-size: 0.9em;
+        margin: 1em 0;
+    }
+    
+    img {
+        padding: 2px;
+        margin: 1em 0;
+    }
+    
+    .footnotes {
+        font-size: 0.85em;
+    }
+    
+    pre {
+        padding: 0.5em;
+        font-size: 0.85em;
+    }
+}
+
+@media screen and (max-width: 640px) and (orientation: landscape) {
+    body {
+        padding: 10px 20px;
+    }
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    img {
+        image-rendering: -webkit-optimize-contrast;
+        image-rendering: crisp-edges;
+    }
+}

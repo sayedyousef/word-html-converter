@@ -1,0 +1,88 @@
+/* Optional theme variations */
+@media (prefers-color-scheme: dark) {
+    body.auto-dark {
+        background: #1a1a1a;
+        color: #e0e0e0;
+    }
+    
+    body.auto-dark .content {
+        background: #2a2a2a;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    }
+    
+    body.auto-dark h1,
+    body.auto-dark h2,
+    body.auto-dark h3,
+    body.auto-dark h4 {
+        color: #f0f0f0;
+    }
+    
+    body.auto-dark .title {
+        color: #4da6ff;
+    }
+    
+    body.auto-dark table {
+        background: #2a2a2a;
+    }
+    
+    body.auto-dark th {
+        background: #333;
+        color: #f0f0f0;
+    }
+    
+    body.auto-dark td {
+        border-color: #444;
+    }
+    
+    body.auto-dark .display-equation,
+    body.auto-dark .display-math {
+        background: #333;
+        border-color: #444;
+        color: #e0e0e0;
+    }
+    
+    body.auto-dark blockquote {
+        background: #2a2a2a;
+        border-color: #666;
+    }
+    
+    body.auto-dark code,
+    body.auto-dark pre {
+        background: #333;
+        color: #f0f0f0;
+    }
+}
+
+body.high-contrast {
+    background: white;
+    color: black;
+    font-weight: 500;
+}
+
+body.high-contrast a {
+    color: #0000ff;
+    text-decoration: underline;
+}
+
+body.high-contrast .content {
+    border: 2px solid black;
+}
+
+body.high-contrast table,
+body.high-contrast th,
+body.high-contrast td {
+    border: 2px solid black;
+}
+
+body.large-text {
+    font-size: 20px;
+    line-height: 2;
+}
+
+body.large-text h1 {
+    font-size: 2.5em;
+}
+
+body.large-text h2 {
+    font-size: 2em;
+}

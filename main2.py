@@ -1,4 +1,4 @@
-# main.py
+# main2.py
 """Main entry point for Word to HTML converter."""
 
 import logging
@@ -6,6 +6,7 @@ import sys
 from pathlib import Path
 from datetime import datetime
 import io
+from css_manager import CSSManager
 
 # Force UTF-8 encoding for Windows console
 if sys.platform == 'win32':
@@ -21,6 +22,7 @@ from html_converter import HTMLConverter
 def main():
     """Main function to orchestrate document conversion."""
     # Setup logging
+    print("Setting up logging...")
     logger = setup_logging()
     
     logger.info("=" * 60)

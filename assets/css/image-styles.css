@@ -1,0 +1,73 @@
+/* Image display and caption styles */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 1.5em auto;
+    border: 1px solid #ddd;
+    padding: 5px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+img:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    transition: box-shadow 0.3s ease;
+}
+
+figure {
+    margin: 2em 0;
+    text-align: center;
+}
+
+.caption,
+figcaption {
+    text-align: center;
+    font-style: italic;
+    color: #666;
+    font-size: 0.9em;
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+    padding: 0 1em;
+}
+
+.image-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1em;
+    margin: 2em 0;
+}
+
+.image-gallery img {
+    width: 100%;
+    margin: 0;
+}
+
+.inline-image {
+    display: inline-block;
+    margin: 0 0.5em;
+    vertical-align: middle;
+    max-height: 2em;
+}
+
+.large-image {
+    max-width: none;
+    width: 100%;
+}
+
+img[data-anchor] {
+    scroll-margin-top: 20px;
+}
+
+img[data-anchor]:target {
+    border: 3px solid #0066cc !important;
+    box-shadow: 0 0 15px rgba(0, 102, 204, 0.5);
+    animation: highlight 1s ease;
+}
+
+@keyframes highlight {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.02); }
+    100% { transform: scale(1); }
+}

@@ -1,0 +1,71 @@
+/* Anchor and navigation styles */
+.equation-anchor {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    visibility: hidden;
+    scroll-margin-top: 30px;
+}
+
+.equation-anchor:target {
+    background: yellow;
+    padding: 5px;
+    visibility: visible;
+    width: auto;
+    height: auto;
+    animation: anchor-pulse 2s ease;
+}
+
+@keyframes anchor-pulse {
+    0% { background: #ffeb3b; }
+    50% { background: #fff59d; }
+    100% { background: yellow; }
+}
+
+.nav-anchor {
+    scroll-margin-top: 50px;
+}
+
+.toc-anchor {
+    scroll-margin-top: 20px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a.anchor-link {
+    color: #999;
+    font-size: 0.8em;
+    margin-left: 0.5em;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+h1:hover a.anchor-link,
+h2:hover a.anchor-link,
+h3:hover a.anchor-link {
+    opacity: 1;
+}
+
+.skip-link {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    background: #0066cc;
+    color: white;
+    padding: 8px;
+    text-decoration: none;
+    z-index: 100;
+}
+
+.skip-link:focus {
+    top: 0;
+}
+
+.bookmark-indicator {
+    position: absolute;
+    left: -25px;
+    color: #0066cc;
+    font-size: 1.2em;
+}

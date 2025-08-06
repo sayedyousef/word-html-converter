@@ -1,0 +1,89 @@
+/* Print-specific styles */
+@media print {
+    @page {
+        margin: 2cm;
+        size: A4;
+    }
+    
+    body {
+        margin: 0;
+        padding: 0;
+        font-size: 11pt;
+        line-height: 1.5;
+        color: black;
+        background: white;
+    }
+    
+    .content {
+        box-shadow: none;
+        padding: 0;
+    }
+    
+    .no-print,
+    .equation-anchor,
+    .footnote-backlink,
+    .skip-link,
+    nav,
+    .navigation {
+        display: none !important;
+    }
+    
+    h1, h2, h3, h4, h5, h6 {
+        page-break-after: avoid;
+        page-break-inside: avoid;
+    }
+    
+    h1 { font-size: 18pt; }
+    h2 { font-size: 16pt; }
+    h3 { font-size: 14pt; }
+    
+    p, blockquote, pre {
+        orphans: 3;
+        widows: 3;
+    }
+    
+    .table-wrapper {
+        overflow: visible !important;
+    }
+    
+    table {
+        page-break-inside: avoid;
+    }
+    
+    thead {
+        display: table-header-group;
+    }
+    
+    img {
+        max-width: 100% !important;
+        page-break-inside: avoid;
+        border: 1px solid #999;
+    }
+    
+    .display-equation,
+    .display-math {
+        page-break-inside: avoid;
+        background: white;
+        border: 1px solid #ccc;
+    }
+    
+    a {
+        color: black;
+        text-decoration: underline;
+    }
+    
+    a[href^="http"]:after {
+        content: " (" attr(href) ")";
+        font-size: 0.8em;
+        color: #666;
+    }
+    
+    .footnotes {
+        page-break-before: always;
+    }
+    
+    pre {
+        white-space: pre-wrap;
+        word-wrap: break-word;
+    }
+}

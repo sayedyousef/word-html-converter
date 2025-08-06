@@ -1,0 +1,67 @@
+/* Footnote and endnote formatting */
+.footnotes {
+    margin-top: 3em;
+    border-top: 2px solid #ddd;
+    padding-top: 1em;
+    font-size: 0.9em;
+}
+
+sup {
+    font-size: 0.75em;
+    color: #0066cc;
+    font-weight: bold;
+    padding: 0 0.1em;
+}
+
+sup a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+sup a:hover {
+    text-decoration: underline;
+}
+
+.footnotes ol {
+    padding-right: 1.5em;
+}
+
+.footnotes li {
+    margin: 0.5em 0;
+    line-height: 1.6;
+}
+
+.footnote-backlink {
+    text-decoration: none;
+    margin-right: 0.5em;
+    color: #0066cc;
+    font-size: 1.1em;
+}
+
+.footnote-backlink:hover {
+    text-decoration: none;
+    color: #0052a3;
+}
+
+.footnotes li:target {
+    background: #fffbcc;
+    padding: 0.5em;
+    border-radius: 5px;
+    animation: footnote-highlight 2s ease;
+}
+
+@keyframes footnote-highlight {
+    0% { background: #ffeb3b; }
+    100% { background: #fffbcc; }
+}
+
+.endnotes {
+    margin-top: 4em;
+    padding-top: 2em;
+    border-top: 3px double #999;
+}
+
+.endnotes h2 {
+    color: #666;
+    font-size: 1.3em;
+}

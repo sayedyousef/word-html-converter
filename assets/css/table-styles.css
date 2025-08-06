@@ -1,0 +1,78 @@
+/* Table formatting and responsive tables */
+.table-wrapper {
+    overflow-x: auto;
+    margin: 1.5em 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 1em 0;
+    background: white;
+    font-size: 0.95em;
+}
+
+.document-table {
+    border: 1px solid #ddd;
+}
+
+td, th {
+    border: 1px solid #ddd;
+    padding: 10px 12px;
+    text-align: right;
+    vertical-align: middle;
+}
+
+th {
+    background-color: #f5f5f5;
+    font-weight: bold;
+    color: #333;
+    background: linear-gradient(to bottom, #f9f9f9, #e9e9e9);
+}
+
+thead {
+    background: #f0f0f0;
+}
+
+thead th {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.1);
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: white;
+}
+
+tbody tr:hover {
+    background-color: #e6f3ff;
+    transition: background-color 0.2s ease;
+}
+
+caption {
+    padding: 0.5em;
+    color: #666;
+    font-style: italic;
+    caption-side: bottom;
+}
+
+.table-compact td,
+.table-compact th {
+    padding: 5px 8px;
+}
+
+.table-bordered {
+    border: 2px solid #333;
+}
+
+.table-bordered td,
+.table-bordered th {
+    border: 1px solid #333;
+}

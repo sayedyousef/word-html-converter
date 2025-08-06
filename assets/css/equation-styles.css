@@ -1,0 +1,74 @@
+/* Styles for mathematical equations */
+.equation {
+    margin: 1em 0;
+    position: relative;
+}
+
+.display-equation,
+.display-math {
+    display: block;
+    text-align: center;
+    margin: 1.5em 0;
+    padding: 1em;
+    overflow-x: auto;
+    background: #f9f9f9;
+    border-radius: 5px;
+    border: 1px solid #e0e0e0;
+}
+
+.inline-equation,
+.inline-math {
+    display: inline;
+    padding: 0 0.3em;
+    background: rgba(0, 102, 204, 0.05);
+    border-radius: 3px;
+}
+
+.office-math-equations {
+    margin-top: 2em;
+    padding: 1.5em;
+    background: #f0f7ff;
+    border-radius: 8px;
+    border: 1px solid #cce0ff;
+}
+
+.office-math-equations h3 {
+    color: #0066cc;
+    margin-top: 0;
+}
+
+.equation-note {
+    font-size: 0.9em;
+    color: #666;
+    font-style: italic;
+}
+
+.equation-number {
+    position: absolute;
+    right: 1em;
+    color: #666;
+    font-size: 0.9em;
+    font-weight: normal;
+}
+
+.MathJax {
+    font-size: 1.1em;
+}
+
+.MathJax_Display {
+    margin: 1em 0 !important;
+}
+
+.equation-error {
+    color: #d00;
+    border: 2px solid #d00;
+    padding: 0.5em;
+    background: #ffe6e6;
+    font-family: monospace;
+    border-radius: 5px;
+}
+
+.equation:hover {
+    background: #f0f7ff;
+    transition: background 0.3s ease;
+}

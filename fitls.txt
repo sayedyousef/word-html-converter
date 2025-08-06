@@ -1,0 +1,34 @@
+ Volume in drive D is Data
+ Volume Serial Number is 5084-CC1C
+
+ Directory of D:\Development\HTML Conversion
+
+08/06/2025  11:53 AM    <DIR>          .
+08/06/2025  11:53 AM    <DIR>          ..
+08/06/2025  11:38 AM    <DIR>          assets
+08/06/2025  11:40 AM             1,191 config.py
+08/06/2025  11:34 AM            11,844 css_manager.py
+07/31/2025  01:58 PM             7,321 document_parser.py
+08/06/2025  11:33 AM            25,019 enhanced_doc_processor.py
+07/31/2025  01:52 PM             1,049 equation_handler.py
+08/06/2025  11:53 AM                 0 fitls.txt
+07/31/2025  01:52 PM             4,783 html_builder.py
+07/31/2025  02:05 PM             3,890 html_converter.py
+08/06/2025  11:33 AM            16,593 integrated_converter.py
+07/31/2025  01:50 PM             1,105 logger.py
+08/06/2025  11:45 AM    <DIR>          logs
+07/31/2025  02:10 PM             1,430 main.py
+08/06/2025  11:46 AM             1,733 main2.py
+08/06/2025  11:52 AM             6,174 main3.py
+08/06/2025  11:33 AM            32,139 mammoth_converter.py
+07/31/2025  01:52 PM               884 models.py
+08/06/2025  11:34 AM            20,355 old_css_files_collection.css
+07/31/2025  01:52 PM                98 requirements.txt
+08/06/2025  11:34 AM            20,793 setup_css_script.py
+08/06/2025  11:51 AM               169 test.py
+08/06/2025  11:48 AM             1,424 test_conversion.py
+07/31/2025  01:54 PM             2,085 utils.py
+07/31/2025  01:47 PM                43 workspace.code-workspace
+08/06/2025  11:45 AM    <DIR>          __pycache__
+              22 File(s)        160,122 bytes
+               5 Dir(s)  53,996,515,328 bytes free
