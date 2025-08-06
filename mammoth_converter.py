@@ -250,7 +250,7 @@ class MammothConverter:
 
     def _convert_to_latex_format(self, equation_text):
         """Convert extracted equation text to LaTeX format."""
-        # This is a basic conversion - you might need to enhance this
+        # This is a basic conversion - you might need to enhance this 
         latex = equation_text
         
         # Common replacements
