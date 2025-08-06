@@ -1,0 +1,78 @@
+2025-08-06 14:55:41,319 - logger - INFO - ============================================================
+2025-08-06 14:55:41,320 - logger - INFO - Document Processing Started
+2025-08-06 14:55:41,320 - logger - INFO - Input folder: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\مقالات بعد الاخراج\الرياضيات والفيزياء
+2025-08-06 14:55:41,321 - logger - INFO - Output folder: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html
+2025-08-06 14:55:41,321 - logger - INFO - External CSS: True
+2025-08-06 14:55:41,321 - logger - INFO - ============================================================
+2025-08-06 14:55:42,804 - office_math_to_latex_converter - INFO - Converting Office Math to LaTeX in: التشابه (جاهزة للنشر) .docx
+2025-08-06 14:55:43,152 - office_math_to_latex_converter - INFO - Saved LaTeX version to: C:\Users\eyousef\AppData\Local\Temp\tmp82a6kfwn.docx
+2025-08-06 14:55:43,153 - office_math_to_latex_converter - INFO - Converted 53 Office Math equations to LaTeX
+2025-08-06 14:55:43,153 - word_anchor_adder - INFO - Adding anchors to: tmp82a6kfwn.docx
+2025-08-06 14:55:43,325 - word_anchor_adder - INFO - Found 36 Office Math paragraphs
+2025-08-06 14:55:43,653 - word_anchor_adder - INFO - Saved: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\article_001_التشابه_(جاهزة_للنشر)_\التشابه (جاهزة للنشر) _anchored.docx
+2025-08-06 14:55:43,653 - word_anchor_adder - INFO - Total anchors: 69 (Office Math + LaTeX + Images)
+2025-08-06 14:55:43,654 - mammoth_converter - INFO - Converting [1]: tmp82a6kfwn.docx
+2025-08-06 14:55:43,711 - mammoth_converter - ERROR - Error converting C:\Users\eyousef\AppData\Local\Temp\tmp82a6kfwn.docx: 'MammothConverter' object has no attribute 'input_folder'
+Traceback (most recent call last):
+  File "d:\Development\HTML Conversion\mammoth_converter.py", line 81, in _convert_document
+    relative_path = docx_path.parent.relative_to(self.input_folder)
+AttributeError: 'MammothConverter' object has no attribute 'input_folder'
+2025-08-06 14:55:43,716 - office_math_to_latex_converter - INFO - Converting Office Math to LaTeX in: الدائرة (جاهزة للنشر).docx
+2025-08-06 14:55:43,982 - office_math_to_latex_converter - INFO - Saved LaTeX version to: C:\Users\eyousef\AppData\Local\Temp\tmpipje3ix7.docx
+2025-08-06 14:55:43,982 - office_math_to_latex_converter - INFO - Converted 30 Office Math equations to LaTeX
+2025-08-06 14:55:43,983 - word_anchor_adder - INFO - Adding anchors to: tmpipje3ix7.docx
+2025-08-06 14:55:44,156 - word_anchor_adder - INFO - Found 23 Office Math paragraphs
+2025-08-06 14:55:44,352 - word_anchor_adder - INFO - Saved: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\article_002_الدائرة_(جاهزة_للنشر)\الدائرة (جاهزة للنشر)_anchored.docx
+2025-08-06 14:55:44,352 - word_anchor_adder - INFO - Total anchors: 43 (Office Math + LaTeX + Images)
+2025-08-06 14:55:44,352 - mammoth_converter - INFO - Converting [2]: tmpipje3ix7.docx
+2025-08-06 14:55:44,404 - mammoth_converter - ERROR - Error converting C:\Users\eyousef\AppData\Local\Temp\tmpipje3ix7.docx: 'MammothConverter' object has no attribute 'input_folder'
+Traceback (most recent call last):
+  File "d:\Development\HTML Conversion\mammoth_converter.py", line 81, in _convert_document
+    relative_path = docx_path.parent.relative_to(self.input_folder)
+AttributeError: 'MammothConverter' object has no attribute 'input_folder'
+2025-08-06 14:55:44,407 - office_math_to_latex_converter - INFO - Converting Office Math to LaTeX in: الدالة واحد لواحد (جاهزة للنشر).docx
+2025-08-06 14:55:44,582 - office_math_to_latex_converter - INFO - Saved LaTeX version to: C:\Users\eyousef\AppData\Local\Temp\tmpb0qtukis.docx
+2025-08-06 14:55:44,583 - office_math_to_latex_converter - INFO - Converted 21 Office Math equations to LaTeX
+2025-08-06 14:55:44,584 - word_anchor_adder - INFO - Adding anchors to: tmpb0qtukis.docx
+2025-08-06 14:55:44,649 - word_anchor_adder - INFO - Found 5 Office Math paragraphs
+2025-08-06 14:55:44,718 - word_anchor_adder - INFO - Saved: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\article_003_الدالة_واحد_لواحد_(جاهزة_للنشر)\الدالة واحد لواحد (جاهزة للنشر)_anchored.docx
+2025-08-06 14:55:44,719 - word_anchor_adder - INFO - Total anchors: 25 (Office Math + LaTeX + Images)
+2025-08-06 14:55:44,719 - mammoth_converter - INFO - Converting [3]: tmpb0qtukis.docx
+2025-08-06 14:55:44,742 - mammoth_converter - ERROR - Error converting C:\Users\eyousef\AppData\Local\Temp\tmpb0qtukis.docx: 'MammothConverter' object has no attribute 'input_folder'
+Traceback (most recent call last):
+  File "d:\Development\HTML Conversion\mammoth_converter.py", line 81, in _convert_document
+    relative_path = docx_path.parent.relative_to(self.input_folder)
+AttributeError: 'MammothConverter' object has no attribute 'input_folder'
+2025-08-06 14:55:44,746 - office_math_to_latex_converter - INFO - Converting Office Math to LaTeX in: العدد الأولي (جاهزة للنشر).docx
+2025-08-06 14:55:45,047 - office_math_to_latex_converter - INFO - Saved LaTeX version to: C:\Users\eyousef\AppData\Local\Temp\tmpwzbnp9f5.docx
+2025-08-06 14:55:45,048 - office_math_to_latex_converter - INFO - Converted 59 Office Math equations to LaTeX
+2025-08-06 14:55:45,048 - word_anchor_adder - INFO - Adding anchors to: tmpwzbnp9f5.docx
+2025-08-06 14:55:45,184 - word_anchor_adder - INFO - Found 41 Office Math paragraphs
+2025-08-06 14:55:45,330 - word_anchor_adder - INFO - Saved: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\article_004_العدد_الأولي_(جاهزة_للنشر)\العدد الأولي (جاهزة للنشر)_anchored.docx
+2025-08-06 14:55:45,331 - word_anchor_adder - INFO - Total anchors: 26 (Office Math + LaTeX + Images)
+2025-08-06 14:55:45,331 - mammoth_converter - INFO - Converting [4]: tmpwzbnp9f5.docx
+2025-08-06 14:55:45,367 - mammoth_converter - ERROR - Error converting C:\Users\eyousef\AppData\Local\Temp\tmpwzbnp9f5.docx: 'MammothConverter' object has no attribute 'input_folder'
+Traceback (most recent call last):
+  File "d:\Development\HTML Conversion\mammoth_converter.py", line 81, in _convert_document
+    relative_path = docx_path.parent.relative_to(self.input_folder)
+AttributeError: 'MammothConverter' object has no attribute 'input_folder'
+2025-08-06 14:55:45,370 - office_math_to_latex_converter - INFO - Converting Office Math to LaTeX in: الفضاء المتري (جاهزة للنشر).docx
+2025-08-06 14:55:45,595 - office_math_to_latex_converter - INFO - Saved LaTeX version to: C:\Users\eyousef\AppData\Local\Temp\tmps3xn3ptl.docx
+2025-08-06 14:55:45,596 - office_math_to_latex_converter - INFO - Converted 53 Office Math equations to LaTeX
+2025-08-06 14:55:45,596 - word_anchor_adder - INFO - Adding anchors to: tmps3xn3ptl.docx
+2025-08-06 14:55:45,702 - word_anchor_adder - INFO - Found 18 Office Math paragraphs
+2025-08-06 14:55:45,842 - word_anchor_adder - INFO - Saved: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\article_005_الفضاء_المتري_(جاهزة_للنشر)\الفضاء المتري (جاهزة للنشر)_anchored.docx
+2025-08-06 14:55:45,843 - word_anchor_adder - INFO - Total anchors: 57 (Office Math + LaTeX + Images)
+2025-08-06 14:55:45,843 - mammoth_converter - INFO - Converting [5]: tmps3xn3ptl.docx
+2025-08-06 14:55:45,869 - mammoth_converter - ERROR - Error converting C:\Users\eyousef\AppData\Local\Temp\tmps3xn3ptl.docx: 'MammothConverter' object has no attribute 'input_folder'
+Traceback (most recent call last):
+  File "d:\Development\HTML Conversion\mammoth_converter.py", line 81, in _convert_document
+    relative_path = docx_path.parent.relative_to(self.input_folder)
+AttributeError: 'MammothConverter' object has no attribute 'input_folder'
+2025-08-06 14:55:45,871 - logger - ERROR - Error during processing: 'MammothConverter' object has no attribute 'total_equations'
+Traceback (most recent call last):
+  File "d:\Development\HTML Conversion\main3.py", line 65, in main
+    processor.process_all_documents(Config.INPUT_FOLDER, Config.OUTPUT_FOLDER)
+  File "d:\Development\HTML Conversion\unified_document_processor.py", line 80, in process_all_documents
+    print(f"Total equations: {mammoth.total_equations}")
+AttributeError: 'MammothConverter' object has no attribute 'total_equations'

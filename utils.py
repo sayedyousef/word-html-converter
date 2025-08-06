@@ -37,8 +37,8 @@ def detect_latex_equations(text: str) -> Tuple[bool, List[str]]:
     latex_patterns = [
         r'\$[^$]+\$',                    # Inline math $...$
         r'\$\$[^$]+\$\$',                # Display math $$...$$
-        r'\\[[^\]]+\\]',                 # Display \[...\]
-        r'\\([^)]+\\)',                  # Inline \(...\)
+        r'\\\[[^\]]+\\\]',               # Display \[...\]  <- FIXED
+        r'\\\([^)]+\\\)',                # Inline \(...\)   <- FIXED
         r'\\begin\{equation\}.*?\\end\{equation\}',  # Equation environment
         r'\\begin\{align\}.*?\\end\{align\}',        # Align environment
     ]

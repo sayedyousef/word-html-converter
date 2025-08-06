@@ -13,6 +13,7 @@ import tempfile
 import shutil
 import os
 import json
+from config import Config
 
 class MammothConverter:
     """Enhanced converter using mammoth with all features."""
@@ -41,7 +42,8 @@ class MammothConverter:
     def convert_folder(self, input_folder: Path, output_folder: Path):
         """Convert all Word documents in folder."""
         self.input_folder = input_folder
-        
+        self.output_folder = output_folder  
+
         # Find all .docx files
         docx_files = list(input_folder.rglob("*.docx"))
         docx_files = [f for f in docx_files if not f.name.startswith("~")]
@@ -161,7 +163,7 @@ class MammothConverter:
         except Exception as e:
             self.logger.error(f"Error converting {docx_path}: {e}", exc_info=True)
 
-    def _convert_with_equation_markers_fixed(self, docx_path):
+    def     _convert_with_equation_markers_fixed(self, docx_path):
         """Enhanced version - Convert document with Office Math equations preserved in place."""
         # Create a temporary copy
         with tempfile.NamedTemporaryFile(suffix='.docx', delete=False) as tmp:
@@ -261,7 +263,9 @@ class MammothConverter:
                 else:
                     equation_html = f'{anchor_html}<span class="equation inline-math">{eq_data["latex"]}</span>'
                 
-                html_content = html_content.replace(marker.strip(), equation_html)
+                #html_content = html_content.replace(marker.strip(), equation_html)
+                html_content = html_content.replace(marker, equation_html)
+
             
             self.logger.info(f"  Processed {len(equation_map)} Office Math equations with anchors")
             
@@ -285,6 +289,22 @@ class MammothConverter:
             # Clean up temp file
             if os.path.exists(temp_path):
                 os.remove(temp_path)
+
+    def create_word_documents_with_anchors(self):
+        """Create Word documents identical to originals but with anchors added."""
+        
+        self.logger.info("=" * 60)
+        self.logger.info("Creating Word Documents with Anchors")
+        self.logger.info("=" * 60)
+        from word_anchor_adder import WordAnchorAdder
+        
+        anchor_adder = WordAnchorAdder()
+        anchor_adder.process_folder(self.input_folder, self.output_folder)
+        
+        self.logger.info("Finished creating anchored Word documents")
+
+
+
 
     def _extract_math_text_from_element(self, math_elem):
         """Extract text from a specific math element."""
@@ -353,7 +373,9 @@ class MammothConverter:
                 raw_result = mammoth.extract_raw_text(f)
                 raw_text = raw_result.value
                 
-                latex_patterns = [r'\$[^$\n]+\$', r'\$\$[^$]+\$\$', r'\\[[(]']
+                #latex_patterns = [r'\$[^$\n]+\$', r'\$\$[^$]+\$\$', r'\\[[(]']
+                latex_patterns = [r'\$[^$\n]+\$', r'\$\$[^$]+\$\$', r'\\\[', r'\\\(']
+
                 for pattern in latex_patterns:
                     if re.search(pattern, raw_text):
                         has_latex = True

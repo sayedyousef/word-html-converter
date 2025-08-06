@@ -1,0 +1,49 @@
+2025-08-06 15:03:10,206 - logger - INFO - ============================================================
+2025-08-06 15:03:10,207 - logger - INFO - Document Processing Started
+2025-08-06 15:03:10,207 - logger - INFO - Input folder: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\مقالات بعد الاخراج\test
+2025-08-06 15:03:10,207 - logger - INFO - Output folder: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html
+2025-08-06 15:03:10,208 - logger - INFO - External CSS: True
+2025-08-06 15:03:10,208 - logger - INFO - ============================================================
+2025-08-06 15:03:11,290 - office_math_to_latex_converter - INFO - Converting Office Math to LaTeX in: الدائرة (جاهزة للنشر).docx
+2025-08-06 15:03:11,571 - office_math_to_latex_converter - INFO - Saved LaTeX version to: C:\Users\eyousef\AppData\Local\Temp\tmp66nlpc49.docx
+2025-08-06 15:03:11,572 - office_math_to_latex_converter - INFO - Converted 30 Office Math equations to LaTeX
+2025-08-06 15:03:11,572 - word_anchor_adder - INFO - Adding anchors to: tmp66nlpc49.docx
+2025-08-06 15:03:11,727 - word_anchor_adder - INFO - Found 23 Office Math paragraphs
+2025-08-06 15:03:11,970 - word_anchor_adder - INFO - Saved: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\article_001_الدائرة_(جاهزة_للنشر)\الدائرة (جاهزة للنشر)_anchored.docx
+2025-08-06 15:03:11,971 - word_anchor_adder - INFO - Total anchors: 43 (Office Math + LaTeX + Images)
+2025-08-06 15:03:11,972 - mammoth_converter - INFO - Converting [1]: tmp66nlpc49.docx
+2025-08-06 15:03:12,045 - mammoth_converter - ERROR - Error converting C:\Users\eyousef\AppData\Local\Temp\tmp66nlpc49.docx: 'C:\\Users\\eyousef\\AppData\\Local\\Temp' does not start with 'D:\\Work 3 (20-Oct-24)\\2 Side projects May 25\\Encyclopedia\\articles\\مقالات بعد الاخراج\\test'
+Traceback (most recent call last):
+  File "d:\Development\HTML Conversion\mammoth_converter.py", line 81, in _convert_document
+    relative_path = docx_path.parent.relative_to(self.input_folder)
+  File "d:\Anaconda3\lib\pathlib.py", line 908, in relative_to
+    raise ValueError("{!r} does not start with {!r}"
+ValueError: 'C:\\Users\\eyousef\\AppData\\Local\\Temp' does not start with 'D:\\Work 3 (20-Oct-24)\\2 Side projects May 25\\Encyclopedia\\articles\\مقالات بعد الاخراج\\test'
+2025-08-06 15:03:12,186 - office_math_to_latex_converter - INFO - Converting Office Math to LaTeX in: الدالة واحد لواحد (جاهزة للنشر).docx
+2025-08-06 15:03:12,289 - office_math_to_latex_converter - INFO - Saved LaTeX version to: C:\Users\eyousef\AppData\Local\Temp\tmp2lst0126.docx
+2025-08-06 15:03:12,290 - office_math_to_latex_converter - INFO - Converted 1 Office Math equations to LaTeX
+2025-08-06 15:03:12,290 - word_anchor_adder - INFO - Adding anchors to: tmp2lst0126.docx
+2025-08-06 15:03:12,351 - word_anchor_adder - INFO - Saved: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\article_002_الدالة_واحد_لواحد_(جاهزة_للنشر)\الدالة واحد لواحد (جاهزة للنشر)_anchored.docx
+2025-08-06 15:03:12,352 - word_anchor_adder - INFO - Total anchors: 2 (Office Math + LaTeX + Images)
+2025-08-06 15:03:12,352 - mammoth_converter - INFO - Converting [2]: tmp2lst0126.docx
+2025-08-06 15:03:12,363 - mammoth_converter - ERROR - Error converting C:\Users\eyousef\AppData\Local\Temp\tmp2lst0126.docx: 'C:\\Users\\eyousef\\AppData\\Local\\Temp' does not start with 'D:\\Work 3 (20-Oct-24)\\2 Side projects May 25\\Encyclopedia\\articles\\مقالات بعد الاخراج\\test'
+Traceback (most recent call last):
+  File "d:\Development\HTML Conversion\mammoth_converter.py", line 81, in _convert_document
+    relative_path = docx_path.parent.relative_to(self.input_folder)
+  File "d:\Anaconda3\lib\pathlib.py", line 908, in relative_to
+    raise ValueError("{!r} does not start with {!r}"
+ValueError: 'C:\\Users\\eyousef\\AppData\\Local\\Temp' does not start with 'D:\\Work 3 (20-Oct-24)\\2 Side projects May 25\\Encyclopedia\\articles\\مقالات بعد الاخراج\\test'
+2025-08-06 15:03:12,366 - office_math_to_latex_converter - INFO - Converting Office Math to LaTeX in: الكيمياء الحيوية (بانتظار الترجمة).docx
+2025-08-06 15:03:12,501 - office_math_to_latex_converter - INFO - No Office Math equations found
+2025-08-06 15:03:12,514 - word_anchor_adder - INFO - Adding anchors to: tmpfr23qj2z.docx
+2025-08-06 15:03:13,466 - word_anchor_adder - INFO - Saved: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\article_003_الكيمياء_الحيوية_(بانتظار_الترجمة)\الكيمياء الحيوية (بانتظار الترجمة)_anchored.docx
+2025-08-06 15:03:13,467 - word_anchor_adder - INFO - Total anchors: 19 (Office Math + LaTeX + Images)
+2025-08-06 15:03:13,467 - mammoth_converter - INFO - Converting [3]: tmpfr23qj2z.docx
+2025-08-06 15:03:13,549 - mammoth_converter - ERROR - Error converting C:\Users\eyousef\AppData\Local\Temp\tmpfr23qj2z.docx: 'C:\\Users\\eyousef\\AppData\\Local\\Temp' does not start with 'D:\\Work 3 (20-Oct-24)\\2 Side projects May 25\\Encyclopedia\\articles\\مقالات بعد الاخراج\\test'
+Traceback (most recent call last):
+  File "d:\Development\HTML Conversion\mammoth_converter.py", line 81, in _convert_document
+    relative_path = docx_path.parent.relative_to(self.input_folder)
+  File "d:\Anaconda3\lib\pathlib.py", line 908, in relative_to
+    raise ValueError("{!r} does not start with {!r}"
+ValueError: 'C:\\Users\\eyousef\\AppData\\Local\\Temp' does not start with 'D:\\Work 3 (20-Oct-24)\\2 Side projects May 25\\Encyclopedia\\articles\\مقالات بعد الاخراج\\test'
+2025-08-06 15:03:13,553 - logger - INFO - Processing completed successfully!

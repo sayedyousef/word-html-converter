@@ -1,0 +1,98 @@
+2025-08-06 14:32:41,919 - logger - INFO - ============================================================
+2025-08-06 14:32:41,920 - logger - INFO - Enhanced Word to HTML Converter Started
+2025-08-06 14:32:41,921 - logger - INFO - Input folder: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\مقالات بعد الاخراج\الرياضيات والفيزياء
+2025-08-06 14:32:41,921 - logger - INFO - Output folder: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html
+2025-08-06 14:32:41,921 - logger - INFO - External CSS: True
+2025-08-06 14:32:41,921 - logger - INFO - Generate anchored docs: True
+2025-08-06 14:32:41,922 - logger - INFO - ============================================================
+2025-08-06 14:32:41,939 - logger - INFO - CSS files copied to D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\assets\css
+2025-08-06 14:32:41,941 - logger - INFO - Processing 5 documents from: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\مقالات بعد الاخراج\الرياضيات والفيزياء
+2025-08-06 14:32:41,942 - mammoth_converter - INFO - Found 5 documents
+2025-08-06 14:32:41,943 - mammoth_converter - INFO - Converting [1]: التشابه (جاهزة للنشر) .docx
+2025-08-06 14:32:42,912 - mammoth_converter - INFO -   Detected equation type: office_math
+2025-08-06 14:32:42,996 - mammoth_converter - ERROR - Error in equation marker conversion: xpath() got an unexpected keyword argument 'namespaces'
+2025-08-06 14:32:44,241 - mammoth_converter - INFO - Saved: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\001_التشابه (جاهزة للنشر)\التشابه (جاهزة للنشر).html
+2025-08-06 14:32:44,242 - mammoth_converter - INFO - Converting [2]: الدائرة (جاهزة للنشر).docx
+2025-08-06 14:32:45,393 - mammoth_converter - INFO -   Detected equation type: office_math
+2025-08-06 14:32:45,457 - mammoth_converter - ERROR - Error in equation marker conversion: xpath() got an unexpected keyword argument 'namespaces'
+2025-08-06 14:32:46,682 - mammoth_converter - INFO - Saved: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\002_الدائرة (جاهزة للنشر)\الدائرة (جاهزة للنشر).html
+2025-08-06 14:32:46,682 - mammoth_converter - INFO - Converting [3]: الدالة واحد لواحد (جاهزة للنشر).docx
+2025-08-06 14:32:47,104 - mammoth_converter - INFO -   Detected equation type: office_math
+2025-08-06 14:32:47,141 - mammoth_converter - ERROR - Error in equation marker conversion: xpath() got an unexpected keyword argument 'namespaces'
+2025-08-06 14:32:47,562 - mammoth_converter - INFO - Saved: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\003_الدالة واحد لواحد (جاهزة للنشر)\الدالة واحد لواحد (جاهزة للنشر).html
+2025-08-06 14:32:47,562 - mammoth_converter - INFO - Converting [4]: العدد الأولي (جاهزة للنشر).docx
+2025-08-06 14:32:48,713 - mammoth_converter - INFO -   Detected equation type: office_math
+2025-08-06 14:32:48,781 - mammoth_converter - ERROR - Error in equation marker conversion: xpath() got an unexpected keyword argument 'namespaces'
+2025-08-06 14:32:50,109 - mammoth_converter - INFO - Saved: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\004_العدد الأولي (جاهزة للنشر)\العدد الأولي (جاهزة للنشر).html
+2025-08-06 14:32:50,110 - mammoth_converter - INFO - Converting [5]: الفضاء المتري (جاهزة للنشر).docx
+2025-08-06 14:32:50,979 - mammoth_converter - INFO -   Detected equation type: office_math
+2025-08-06 14:32:51,044 - mammoth_converter - ERROR - Error in equation marker conversion: xpath() got an unexpected keyword argument 'namespaces'
+2025-08-06 14:32:52,021 - mammoth_converter - INFO - Saved: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\005_الفضاء المتري (جاهزة للنشر)\الفضاء المتري (جاهزة للنشر).html
+2025-08-06 14:32:52,021 - mammoth_converter - INFO - ============================================================
+2025-08-06 14:32:52,022 - mammoth_converter - INFO - Conversion Summary:
+2025-08-06 14:32:52,022 - mammoth_converter - INFO -   Total equations found: 0
+2025-08-06 14:32:52,022 - mammoth_converter - INFO -   Total footnotes: 0
+2025-08-06 14:32:52,023 - mammoth_converter - INFO -   Total images: 37
+2025-08-06 14:32:52,023 - mammoth_converter - INFO - ============================================================
+2025-08-06 14:32:52,023 - mammoth_converter - INFO - ============================================================
+2025-08-06 14:32:52,024 - mammoth_converter - INFO - Creating Word Documents with Anchors
+2025-08-06 14:32:52,024 - mammoth_converter - INFO - ============================================================
+2025-08-06 14:32:52,026 - word_anchor_adder - INFO - Processing 5 documents
+2025-08-06 14:32:52,026 - word_anchor_adder - INFO - Adding anchors to: التشابه (جاهزة للنشر) .docx
+2025-08-06 14:32:52,117 - word_anchor_adder - INFO - Found 53 Office Math paragraphs
+2025-08-06 14:32:52,376 - word_anchor_adder - INFO - Saved: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\with_anchors\التشابه (جاهزة للنشر) _anchored.docx
+2025-08-06 14:32:52,376 - word_anchor_adder - INFO - Total anchors: 62 (Office Math + LaTeX + Images)
+2025-08-06 14:32:52,376 - word_anchor_adder - INFO - [1/5] Completed التشابه (جاهزة للنشر) .docx
+2025-08-06 14:32:52,377 - word_anchor_adder - INFO - Adding anchors to: الدائرة (جاهزة للنشر).docx
+2025-08-06 14:32:52,546 - word_anchor_adder - INFO - Found 30 Office Math paragraphs
+2025-08-06 14:32:52,683 - word_anchor_adder - INFO - Saved: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\with_anchors\الدائرة (جاهزة للنشر)_anchored.docx
+2025-08-06 14:32:52,683 - word_anchor_adder - INFO - Total anchors: 39 (Office Math + LaTeX + Images)
+2025-08-06 14:32:52,684 - word_anchor_adder - INFO - [2/5] Completed الدائرة (جاهزة للنشر).docx
+2025-08-06 14:32:52,684 - word_anchor_adder - INFO - Adding anchors to: الدالة واحد لواحد (جاهزة للنشر).docx
+2025-08-06 14:32:52,722 - word_anchor_adder - INFO - Found 21 Office Math paragraphs
+2025-08-06 14:32:52,785 - word_anchor_adder - INFO - Saved: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\with_anchors\الدالة واحد لواحد (جاهزة للنشر)_anchored.docx
+2025-08-06 14:32:52,786 - word_anchor_adder - INFO - Total anchors: 25 (Office Math + LaTeX + Images)
+2025-08-06 14:32:52,786 - word_anchor_adder - INFO - [3/5] Completed الدالة واحد لواحد (جاهزة للنشر).docx
+2025-08-06 14:32:52,786 - word_anchor_adder - INFO - Adding anchors to: العدد الأولي (جاهزة للنشر).docx
+2025-08-06 14:32:52,882 - word_anchor_adder - INFO - Found 59 Office Math paragraphs
+2025-08-06 14:32:53,019 - word_anchor_adder - INFO - Saved: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\with_anchors\العدد الأولي (جاهزة للنشر)_anchored.docx
+2025-08-06 14:32:53,020 - word_anchor_adder - INFO - Total anchors: 26 (Office Math + LaTeX + Images)
+2025-08-06 14:32:53,020 - word_anchor_adder - INFO - [4/5] Completed العدد الأولي (جاهزة للنشر).docx
+2025-08-06 14:32:53,021 - word_anchor_adder - INFO - Adding anchors to: الفضاء المتري (جاهزة للنشر).docx
+2025-08-06 14:32:53,132 - word_anchor_adder - INFO - Found 53 Office Math paragraphs
+2025-08-06 14:32:53,246 - word_anchor_adder - INFO - Saved: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\with_anchors\الفضاء المتري (جاهزة للنشر)_anchored.docx
+2025-08-06 14:32:53,247 - word_anchor_adder - INFO - Total anchors: 58 (Office Math + LaTeX + Images)
+2025-08-06 14:32:53,247 - word_anchor_adder - INFO - [5/5] Completed الفضاء المتري (جاهزة للنشر).docx
+2025-08-06 14:32:53,248 - mammoth_converter - INFO - Finished creating anchored Word documents
+2025-08-06 14:32:53,248 - word_anchor_adder - INFO - Processing 5 documents
+2025-08-06 14:32:53,249 - word_anchor_adder - INFO - Adding anchors to: التشابه (جاهزة للنشر) .docx
+2025-08-06 14:32:53,348 - word_anchor_adder - INFO - Found 53 Office Math paragraphs
+2025-08-06 14:32:53,664 - word_anchor_adder - INFO - Saved: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\with_anchors\التشابه (جاهزة للنشر) _anchored.docx
+2025-08-06 14:32:53,665 - word_anchor_adder - INFO - Total anchors: 62 (Office Math + LaTeX + Images)
+2025-08-06 14:32:53,665 - word_anchor_adder - INFO - [1/5] Completed التشابه (جاهزة للنشر) .docx
+2025-08-06 14:32:53,666 - word_anchor_adder - INFO - Adding anchors to: الدائرة (جاهزة للنشر).docx
+2025-08-06 14:32:53,787 - word_anchor_adder - INFO - Found 30 Office Math paragraphs
+2025-08-06 14:32:53,941 - word_anchor_adder - INFO - Saved: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\with_anchors\الدائرة (جاهزة للنشر)_anchored.docx
+2025-08-06 14:32:53,941 - word_anchor_adder - INFO - Total anchors: 39 (Office Math + LaTeX + Images)
+2025-08-06 14:32:53,941 - word_anchor_adder - INFO - [2/5] Completed الدائرة (جاهزة للنشر).docx
+2025-08-06 14:32:53,942 - word_anchor_adder - INFO - Adding anchors to: الدالة واحد لواحد (جاهزة للنشر).docx
+2025-08-06 14:32:53,983 - word_anchor_adder - INFO - Found 21 Office Math paragraphs
+2025-08-06 14:32:54,045 - word_anchor_adder - INFO - Saved: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\with_anchors\الدالة واحد لواحد (جاهزة للنشر)_anchored.docx
+2025-08-06 14:32:54,045 - word_anchor_adder - INFO - Total anchors: 25 (Office Math + LaTeX + Images)
+2025-08-06 14:32:54,046 - word_anchor_adder - INFO - [3/5] Completed الدالة واحد لواحد (جاهزة للنشر).docx
+2025-08-06 14:32:54,046 - word_anchor_adder - INFO - Adding anchors to: العدد الأولي (جاهزة للنشر).docx
+2025-08-06 14:32:54,151 - word_anchor_adder - INFO - Found 59 Office Math paragraphs
+2025-08-06 14:32:54,301 - word_anchor_adder - INFO - Saved: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\with_anchors\العدد الأولي (جاهزة للنشر)_anchored.docx
+2025-08-06 14:32:54,301 - word_anchor_adder - INFO - Total anchors: 26 (Office Math + LaTeX + Images)
+2025-08-06 14:32:54,301 - word_anchor_adder - INFO - [4/5] Completed العدد الأولي (جاهزة للنشر).docx
+2025-08-06 14:32:54,302 - word_anchor_adder - INFO - Adding anchors to: الفضاء المتري (جاهزة للنشر).docx
+2025-08-06 14:32:54,421 - word_anchor_adder - INFO - Found 53 Office Math paragraphs
+2025-08-06 14:32:54,534 - word_anchor_adder - INFO - Saved: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\with_anchors\الفضاء المتري (جاهزة للنشر)_anchored.docx
+2025-08-06 14:32:54,535 - word_anchor_adder - INFO - Total anchors: 58 (Office Math + LaTeX + Images)
+2025-08-06 14:32:54,535 - word_anchor_adder - INFO - [5/5] Completed الفضاء المتري (جاهزة للنشر).docx
+2025-08-06 14:32:54,535 - logger - INFO - ============================================================
+2025-08-06 14:32:54,536 - logger - INFO - Conversion completed successfully!
+2025-08-06 14:32:54,536 - logger - INFO - Total equations processed: 0
+2025-08-06 14:32:54,537 - logger - INFO - Total images processed: 37
+2025-08-06 14:32:54,537 - logger - INFO - Total footnotes processed: 0
+2025-08-06 14:32:54,537 - logger - INFO - ============================================================

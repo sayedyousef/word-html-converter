@@ -1,0 +1,245 @@
+2025-08-06 13:02:39,898 - logger - INFO - ============================================================
+2025-08-06 13:02:39,899 - logger - INFO - Enhanced Word to HTML Converter Started
+2025-08-06 13:02:39,900 - logger - INFO - Input folder: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\مقالات بعد الاخراج
+2025-08-06 13:02:39,900 - logger - INFO - Output folder: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html
+2025-08-06 13:02:39,900 - logger - INFO - External CSS: True
+2025-08-06 13:02:39,900 - logger - INFO - Generate anchored docs: True
+2025-08-06 13:02:39,901 - logger - INFO - ============================================================
+2025-08-06 13:02:40,073 - logger - INFO - CSS files copied to D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\assets\css
+2025-08-06 13:02:40,082 - logger - INFO - Processing 45 documents from: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\مقالات بعد الاخراج
+2025-08-06 13:02:40,087 - mammoth_converter - INFO - Found 45 documents
+2025-08-06 13:02:40,088 - mammoth_converter - INFO - Converting [1]: الكيمياء الحيوية (بانتظار الترجمة).docx
+2025-08-06 13:02:42,580 - mammoth_converter - INFO -   Detected equation type: none
+2025-08-06 13:02:46,568 - mammoth_converter - WARNING - الكيمياء الحيوية (بانتظار الترجمة).docx: Message(type='warning', message='Unrecognised paragraph style: List Paragraph (Style ID: ListParagraph)')
+2025-08-06 13:02:46,569 - mammoth_converter - WARNING - الكيمياء الحيوية (بانتظار الترجمة).docx: Message(type='warning', message='Unrecognised run style: anchor-text (Style ID: anchor-text)')
+2025-08-06 13:02:46,600 - mammoth_converter - INFO -   Saved 23 anchors
+2025-08-06 13:02:46,601 - mammoth_converter - INFO - Saved: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\001_الكيمياء الحيوية (بانتظار الترجمة)\الكيمياء الحيوية (بانتظار الترجمة).html
+2025-08-06 13:02:46,602 - mammoth_converter - INFO - Converting [2]: الكيمياء الحيوية (بانتظار الترجمة).docx
+2025-08-06 13:02:50,293 - mammoth_converter - INFO -   Detected equation type: none
+2025-08-06 13:02:53,121 - mammoth_converter - WARNING - الكيمياء الحيوية (بانتظار الترجمة).docx: Message(type='warning', message='Unrecognised paragraph style: List Paragraph (Style ID: ListParagraph)')
+2025-08-06 13:02:53,123 - mammoth_converter - WARNING - الكيمياء الحيوية (بانتظار الترجمة).docx: Message(type='warning', message='Unrecognised run style: anchor-text (Style ID: anchor-text)')
+2025-08-06 13:02:53,125 - mammoth_converter - INFO -   Saved 23 anchors
+2025-08-06 13:02:53,126 - mammoth_converter - INFO - Saved: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\test\002_الكيمياء الحيوية (بانتظار الترجمة)\الكيمياء الحيوية (بانتظار الترجمة).html
+2025-08-06 13:02:53,126 - mammoth_converter - INFO - Converting [3]: التناص (جاهزة للنشر).docx
+2025-08-06 13:02:54,283 - mammoth_converter - INFO -   Detected equation type: none
+2025-08-06 13:02:55,241 - mammoth_converter - WARNING - التناص (جاهزة للنشر).docx: Message(type='warning', message='Unrecognised paragraph style: List Paragraph (Style ID: ListParagraph)')
+2025-08-06 13:02:55,243 - mammoth_converter - INFO -   Saved 1 anchors
+2025-08-06 13:02:55,244 - mammoth_converter - INFO - Saved: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\الآداب واللغات\003_التناص (جاهزة للنشر)\التناص (جاهزة للنشر).html
+2025-08-06 13:02:55,244 - mammoth_converter - INFO - Converting [4]: المعاجم العربية التراثية (جاهزة للنشر).docx
+2025-08-06 13:02:57,909 - mammoth_converter - INFO -   Detected equation type: none
+2025-08-06 13:03:01,241 - mammoth_converter - WARNING - المعاجم العربية التراثية (جاهزة للنشر).docx: Message(type='warning', message='Unrecognised paragraph style: List Paragraph (Style ID: ListParagraph)')
+2025-08-06 13:03:01,309 - mammoth_converter - INFO -   Saved 3 anchors
+2025-08-06 13:03:01,310 - mammoth_converter - INFO - Saved: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\الآداب واللغات\004_المعاجم العربية التراثية (جاهزة للنشر)\المعاجم العربية التراثية (جاهزة للنشر).html
+2025-08-06 13:03:01,311 - mammoth_converter - INFO - Converting [5]: أمين الخولي (جاهزة للنشر) .docx
+2025-08-06 13:03:07,704 - mammoth_converter - INFO -   Detected equation type: none
+2025-08-06 13:03:11,018 - mammoth_converter - INFO -   Saved 5 anchors
+2025-08-06 13:03:11,018 - mammoth_converter - INFO - Saved: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\الآداب واللغات\005_أمين الخولي (جاهزة للنشر)\أمين الخولي (جاهزة للنشر).html
+2025-08-06 13:03:11,018 - mammoth_converter - INFO - Converting [6]: إلياس زيات (جاهزة للنشر).docx
+2025-08-06 13:03:11,580 - mammoth_converter - INFO -   Detected equation type: none
+2025-08-06 13:03:12,128 - mammoth_converter - INFO -   Saved 3 anchors
+2025-08-06 13:03:12,132 - mammoth_converter - INFO - Saved: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\الآداب واللغات\006_إلياس زيات (جاهزة للنشر)\إلياس زيات (جاهزة للنشر).html
+2025-08-06 13:03:12,133 - mammoth_converter - INFO - Converting [7]: حسن العطار (جاهزة للنشر).docx
+2025-08-06 13:03:13,171 - mammoth_converter - INFO -   Detected equation type: none
+2025-08-06 13:03:14,342 - mammoth_converter - INFO -   Saved 2 anchors
+2025-08-06 13:03:14,343 - mammoth_converter - INFO - Saved: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\الآداب واللغات\007_حسن العطار (جاهزة للنشر)\حسن العطار (جاهزة للنشر).html
+2025-08-06 13:03:14,343 - mammoth_converter - INFO - Converting [8]: حسن فتحي (جاهزة للنشر).docx
+2025-08-06 13:03:15,195 - mammoth_converter - INFO -   Detected equation type: none
+2025-08-06 13:03:16,204 - mammoth_converter - WARNING - حسن فتحي (جاهزة للنشر).docx: Message(type='warning', message='Unrecognised run style: wixui-rich-text__text (Style ID: wixui-rich-texttext)')
+2025-08-06 13:03:16,211 - mammoth_converter - INFO -   Saved 4 anchors
+2025-08-06 13:03:16,211 - mammoth_converter - INFO - Saved: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\الآداب واللغات\008_حسن فتحي (جاهزة للنشر)\حسن فتحي (جاهزة للنشر).html
+2025-08-06 13:03:16,212 - mammoth_converter - INFO - Converting [9]: سليم النقاش (جاهزة للنشر)  .docx
+2025-08-06 13:03:17,088 - mammoth_converter - INFO -   Detected equation type: none
+2025-08-06 13:03:17,879 - mammoth_converter - INFO -   Saved 2 anchors
+2025-08-06 13:03:17,881 - mammoth_converter - INFO - Saved: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\الآداب واللغات\009_سليم النقاش (جاهزة للنشر)\سليم النقاش (جاهزة للنشر).html
+2025-08-06 13:03:17,881 - mammoth_converter - INFO - Converting [10]: غالب هلسا (جاهزة للنشر).docx
+2025-08-06 13:03:19,111 - mammoth_converter - INFO -   Detected equation type: none
+2025-08-06 13:03:20,319 - mammoth_converter - WARNING - غالب هلسا (جاهزة للنشر).docx: Message(type='warning', message='Unrecognised paragraph style: No Spacing (Style ID: NoSpacing)')
+2025-08-06 13:03:20,319 - mammoth_converter - WARNING - غالب هلسا (جاهزة للنشر).docx: Message(type='warning', message='Unrecognised paragraph style: List Paragraph (Style ID: ListParagraph)')
+2025-08-06 13:03:20,331 - mammoth_converter - INFO -   Saved 4 anchors
+2025-08-06 13:03:20,332 - mammoth_converter - INFO - Saved: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\الآداب واللغات\010_غالب هلسا (جاهزة للنشر)\غالب هلسا (جاهزة للنشر).html
+2025-08-06 13:03:20,333 - mammoth_converter - INFO - Converting [11]: كتاب العين (جاهزة للنشر).docx
+2025-08-06 13:03:21,245 - mammoth_converter - INFO -   Detected equation type: none
+2025-08-06 13:03:22,539 - mammoth_converter - WARNING - كتاب العين (جاهزة للنشر).docx: Message(type='warning', message='Unrecognised paragraph style: List Paragraph (Style ID: ListParagraph)')
+2025-08-06 13:03:22,542 - mammoth_converter - INFO -   Saved 4 anchors
+2025-08-06 13:03:22,542 - mammoth_converter - INFO - Saved: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\الآداب واللغات\011_كتاب العين (جاهزة للنشر)\كتاب العين (جاهزة للنشر).html
+2025-08-06 13:03:22,543 - mammoth_converter - INFO - Converting [12]: ابن ماجه (جاهز للنشر).docx
+2025-08-06 13:03:23,166 - mammoth_converter - INFO -   Detected equation type: none
+2025-08-06 13:03:23,693 - mammoth_converter - WARNING - ابن ماجه (جاهز للنشر).docx: Message(type='warning', message='Unrecognised run style: familyname (Style ID: familyname)')
+2025-08-06 13:03:23,696 - mammoth_converter - INFO -   Saved 1 anchors
+2025-08-06 13:03:23,696 - mammoth_converter - INFO - Saved: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\الاسلام وعلومه\012_ابن ماجه (جاهز للنشر)\ابن ماجه (جاهز للنشر).html
+2025-08-06 13:03:23,697 - mammoth_converter - INFO - Converting [13]: الطبيعيات في علم الكلام (جاهزة للنشر).docx
+2025-08-06 13:03:26,022 - mammoth_converter - INFO -   Detected equation type: none
+2025-08-06 13:03:27,894 - mammoth_converter - WARNING - الطبيعيات في علم الكلام (جاهزة للنشر).docx: Message(type='warning', message='Unrecognised paragraph style: List Paragraph (Style ID: ListParagraph)')
+2025-08-06 13:03:27,897 - mammoth_converter - INFO -   Saved 2 anchors
+2025-08-06 13:03:27,897 - mammoth_converter - INFO - Saved: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\الاسلام وعلومه\013_الطبيعيات في علم الكلام (جاهزة للنشر)\الطبيعيات في علم الكلام (جاهزة للنشر).html
+2025-08-06 13:03:27,898 - mammoth_converter - INFO - Converting [14]: أبو يعلى الفراء (جاهزة للنشر).docx
+2025-08-06 13:03:28,804 - mammoth_converter - INFO -   Detected equation type: none
+2025-08-06 13:03:29,891 - mammoth_converter - WARNING - أبو يعلى الفراء (جاهزة للنشر).docx: Message(type='warning', message='Unrecognised paragraph style: List Paragraph (Style ID: ListParagraph)')
+2025-08-06 13:03:29,904 - mammoth_converter - INFO -   Saved 5 anchors
+2025-08-06 13:03:29,905 - mammoth_converter - INFO - Saved: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\الاسلام وعلومه\014_أبو يعلى الفراء (جاهزة للنشر)\أبو يعلى الفراء (جاهزة للنشر).html
+2025-08-06 13:03:29,905 - mammoth_converter - INFO - Converting [15]: حسين الجسر (جاهزة للنشر).docx
+2025-08-06 13:03:30,372 - mammoth_converter - INFO -   Detected equation type: none
+2025-08-06 13:03:30,780 - mammoth_converter - INFO -   Saved 1 anchors
+2025-08-06 13:03:30,780 - mammoth_converter - INFO - Saved: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\الاسلام وعلومه\015_حسين الجسر (جاهزة للنشر)\حسين الجسر (جاهزة للنشر).html
+2025-08-06 13:03:30,780 - mammoth_converter - INFO - Converting [16]: مسعر بن كدام (جاهزة للنشر).docx
+2025-08-06 13:03:31,875 - mammoth_converter - INFO -   Detected equation type: none
+2025-08-06 13:03:33,278 - mammoth_converter - WARNING - مسعر بن كدام (جاهزة للنشر).docx: Message(type='warning', message='Unrecognised paragraph style: List Paragraph (Style ID: ListParagraph)')
+2025-08-06 13:03:33,278 - mammoth_converter - WARNING - مسعر بن كدام (جاهزة للنشر).docx: Message(type='warning', message='Unrecognised run style: Footnote Text Char (Style ID: FootnoteTextChar)')
+2025-08-06 13:03:33,284 - mammoth_converter - INFO -   Saved 1 anchors
+2025-08-06 13:03:33,285 - mammoth_converter - INFO - Saved: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\الاسلام وعلومه\016_مسعر بن كدام (جاهزة للنشر)\مسعر بن كدام (جاهزة للنشر).html
+2025-08-06 13:03:33,286 - mammoth_converter - INFO - Converting [17]: السلع العامة (جاهزة للنشر).docx
+2025-08-06 13:03:35,191 - mammoth_converter - INFO -   Detected equation type: none
+2025-08-06 13:03:37,420 - mammoth_converter - WARNING - السلع العامة (جاهزة للنشر).docx: Message(type='warning', message='Unrecognised paragraph style: Style1 (Style ID: Style1)')
+2025-08-06 13:03:37,428 - mammoth_converter - INFO -   Saved 1 anchors
+2025-08-06 13:03:37,429 - mammoth_converter - INFO - Saved: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\الاقتصاد والمال\017_السلع العامة (جاهزة للنشر)\السلع العامة (جاهزة للنشر).html
+2025-08-06 13:03:37,429 - mammoth_converter - INFO - Converting [18]: التشابه (جاهزة للنشر) .docx
+2025-08-06 13:03:38,991 - mammoth_converter - INFO -   Detected equation type: office_math
+2025-08-06 13:03:39,078 - mammoth_converter - ERROR - Error in equation marker conversion: xpath() got an unexpected keyword argument 'namespaces'
+2025-08-06 13:03:40,668 - mammoth_converter - INFO - Saved: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\الرياضيات والفيزياء\018_التشابه (جاهزة للنشر)\التشابه (جاهزة للنشر).html
+2025-08-06 13:03:40,670 - mammoth_converter - INFO - Converting [19]: الدائرة (جاهزة للنشر).docx
+2025-08-06 13:03:42,362 - mammoth_converter - INFO -   Detected equation type: office_math
+2025-08-06 13:03:42,511 - mammoth_converter - ERROR - Error in equation marker conversion: xpath() got an unexpected keyword argument 'namespaces'
+2025-08-06 13:03:44,595 - mammoth_converter - INFO - Saved: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\الرياضيات والفيزياء\019_الدائرة (جاهزة للنشر)\الدائرة (جاهزة للنشر).html
+2025-08-06 13:03:44,596 - mammoth_converter - INFO - Converting [20]: الدالة واحد لواحد (جاهزة للنشر).docx
+2025-08-06 13:03:45,207 - mammoth_converter - INFO -   Detected equation type: office_math
+2025-08-06 13:03:45,252 - mammoth_converter - ERROR - Error in equation marker conversion: xpath() got an unexpected keyword argument 'namespaces'
+2025-08-06 13:03:45,854 - mammoth_converter - INFO - Saved: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\الرياضيات والفيزياء\020_الدالة واحد لواحد (جاهزة للنشر)\الدالة واحد لواحد (جاهزة للنشر).html
+2025-08-06 13:03:45,855 - mammoth_converter - INFO - Converting [21]: العدد الأولي (جاهزة للنشر).docx
+2025-08-06 13:03:47,331 - mammoth_converter - INFO -   Detected equation type: office_math
+2025-08-06 13:03:47,415 - mammoth_converter - ERROR - Error in equation marker conversion: xpath() got an unexpected keyword argument 'namespaces'
+2025-08-06 13:03:50,280 - mammoth_converter - INFO - Saved: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\الرياضيات والفيزياء\021_العدد الأولي (جاهزة للنشر)\العدد الأولي (جاهزة للنشر).html
+2025-08-06 13:03:50,281 - mammoth_converter - INFO - Converting [22]: الفضاء المتري (جاهزة للنشر).docx
+2025-08-06 13:03:53,164 - mammoth_converter - INFO -   Detected equation type: office_math
+2025-08-06 13:03:53,298 - mammoth_converter - ERROR - Error in equation marker conversion: xpath() got an unexpected keyword argument 'namespaces'
+2025-08-06 13:03:55,427 - mammoth_converter - INFO - Saved: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\الرياضيات والفيزياء\022_الفضاء المتري (جاهزة للنشر)\الفضاء المتري (جاهزة للنشر).html
+2025-08-06 13:03:55,429 - mammoth_converter - INFO - Converting [23]: إستر أزهري (جاهزة للنشر).docx
+2025-08-06 13:03:56,313 - mammoth_converter - INFO -   Detected equation type: none
+2025-08-06 13:03:57,006 - mammoth_converter - INFO -   Saved 1 anchors
+2025-08-06 13:03:57,007 - mammoth_converter - INFO - Saved: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\تاريخ وجغرافيا\023_إستر أزهري (جاهزة للنشر)\إستر أزهري (جاهزة للنشر).html
+2025-08-06 13:03:57,007 - mammoth_converter - INFO - Converting [24]: بولينا حسون (جاهزة للنشر).docx
+2025-08-06 13:03:57,501 - mammoth_converter - INFO -   Detected equation type: none
+2025-08-06 13:03:58,100 - mammoth_converter - INFO -   Saved 1 anchors
+2025-08-06 13:03:58,101 - mammoth_converter - INFO - Saved: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\تاريخ وجغرافيا\024_بولينا حسون (جاهزة للنشر)\بولينا حسون (جاهزة للنشر).html
+2025-08-06 13:03:58,102 - mammoth_converter - INFO - Converting [25]: جمعية العهد (جاهزة للنشر).docx
+2025-08-06 13:04:00,024 - mammoth_converter - INFO -   Detected equation type: none
+2025-08-06 13:04:02,274 - mammoth_converter - WARNING - جمعية العهد (جاهزة للنشر).docx: Message(type='warning', message='Unrecognised paragraph style: List Paragraph (Style ID: ListParagraph)')
+2025-08-06 13:04:02,274 - mammoth_converter - WARNING - جمعية العهد (جاهزة للنشر).docx: Message(type='warning', message='Unrecognised paragraph style: هامش عربي (المتن الداخلي) (Style ID: a)')
+2025-08-06 13:04:02,275 - mammoth_converter - WARNING - جمعية العهد (جاهزة للنشر).docx: Message(type='warning', message='Unrecognised run style: عربي (Style ID: a0)')
+2025-08-06 13:04:02,278 - mammoth_converter - INFO -   Saved 2 anchors
+2025-08-06 13:04:02,279 - mammoth_converter - INFO - Saved: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\تاريخ وجغرافيا\025_جمعية العهد (جاهزة للنشر)\جمعية العهد (جاهزة للنشر).html
+2025-08-06 13:04:02,279 - mammoth_converter - INFO - Converting [26]: زينب فواز (جاهزة للنشر).docx
+2025-08-06 13:04:02,929 - mammoth_converter - INFO -   Detected equation type: none
+2025-08-06 13:04:03,416 - mammoth_converter - WARNING - زينب فواز (جاهزة للنشر).docx: Message(type='warning', message='Unrecognised paragraph style: List Paragraph (Style ID: ListParagraph)')
+2025-08-06 13:04:03,418 - mammoth_converter - INFO -   Saved 3 anchors
+2025-08-06 13:04:03,419 - mammoth_converter - INFO - Saved: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\تاريخ وجغرافيا\026_زينب فواز (جاهزة للنشر)\زينب فواز (جاهزة للنشر).html
+2025-08-06 13:04:03,419 - mammoth_converter - INFO - Converting [27]: ساطع الحصري (جاهزة للنشر).docx
+2025-08-06 13:04:06,131 - mammoth_converter - INFO -   Detected equation type: none
+2025-08-06 13:04:09,063 - mammoth_converter - WARNING - ساطع الحصري (جاهزة للنشر).docx: Message(type='warning', message='Unrecognised paragraph style: List Paragraph (Style ID: ListParagraph)')
+2025-08-06 13:04:09,066 - mammoth_converter - INFO -   Saved 5 anchors
+2025-08-06 13:04:09,067 - mammoth_converter - INFO - Saved: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\تاريخ وجغرافيا\027_ساطع الحصري (جاهزة للنشر)\ساطع الحصري (جاهزة للنشر).html
+2025-08-06 13:04:09,067 - mammoth_converter - INFO - Converting [28]: سوق عكاظ (جاهزة للنشر).docx
+2025-08-06 13:04:10,755 - mammoth_converter - INFO -   Detected equation type: none
+2025-08-06 13:04:12,664 - mammoth_converter - INFO -   Saved 3 anchors
+2025-08-06 13:04:12,665 - mammoth_converter - INFO - Saved: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\تاريخ وجغرافيا\028_سوق عكاظ (جاهزة للنشر)\سوق عكاظ (جاهزة للنشر).html
+2025-08-06 13:04:12,665 - mammoth_converter - INFO - Converting [29]: صفقة الأسلحة التشيكية (جاهزة للنشر).docx
+2025-08-06 13:04:13,164 - mammoth_converter - INFO -   Detected equation type: none
+2025-08-06 13:04:13,630 - mammoth_converter - INFO -   Saved 1 anchors
+2025-08-06 13:04:13,631 - mammoth_converter - INFO - Saved: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\تاريخ وجغرافيا\029_صفقة الأسلحة التشيكية (جاهزة للنشر)\صفقة الأسلحة التشيكية (جاهزة للنشر).html
+2025-08-06 13:04:13,631 - mammoth_converter - INFO - Converting [30]: مجلي نصراوين (جاهزة للنشر).docx
+2025-08-06 13:04:14,228 - mammoth_converter - INFO -   Detected equation type: none
+2025-08-06 13:04:14,935 - mammoth_converter - INFO -   Saved 1 anchors
+2025-08-06 13:04:14,935 - mammoth_converter - INFO - Saved: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\تاريخ وجغرافيا\030_مجلي نصراوين (جاهزة للنشر)\مجلي نصراوين (جاهزة للنشر).html
+2025-08-06 13:04:14,936 - mammoth_converter - INFO - Converting [31]: مريانا مراش (جاهزة للنشر).docx
+2025-08-06 13:04:15,444 - mammoth_converter - INFO -   Detected equation type: none
+2025-08-06 13:04:16,100 - mammoth_converter - INFO -   Saved 2 anchors
+2025-08-06 13:04:16,100 - mammoth_converter - INFO - Saved: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\تاريخ وجغرافيا\031_مريانا مراش (جاهزة للنشر)\مريانا مراش (جاهزة للنشر).html
+2025-08-06 13:04:16,101 - mammoth_converter - INFO - Converting [32]: مسلم بن مسلم الجرمي (جاهزة للنشر).docx
+2025-08-06 13:04:16,546 - mammoth_converter - INFO -   Detected equation type: none
+2025-08-06 13:04:17,081 - mammoth_converter - INFO -   Saved 1 anchors
+2025-08-06 13:04:17,083 - mammoth_converter - INFO - Saved: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\تاريخ وجغرافيا\032_مسلم بن مسلم الجرمي (جاهزة للنشر)\مسلم بن مسلم الجرمي (جاهزة للنشر).html
+2025-08-06 13:04:17,084 - mammoth_converter - INFO - Converting [33]: نعمان قساطلي (جاهزة للنشر).docx
+2025-08-06 13:04:17,950 - mammoth_converter - INFO -   Detected equation type: none
+2025-08-06 13:04:19,046 - mammoth_converter - INFO -   Saved 1 anchors
+2025-08-06 13:04:19,046 - mammoth_converter - INFO - Saved: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\تاريخ وجغرافيا\033_نعمان قساطلي (جاهزة للنشر)\نعمان قساطلي (جاهزة للنشر).html
+2025-08-06 13:04:19,047 - mammoth_converter - INFO - Converting [34]: هارون بن يحيى (جاهزة للنشر).docx
+2025-08-06 13:04:19,601 - mammoth_converter - INFO -   Detected equation type: none
+2025-08-06 13:04:20,172 - mammoth_converter - INFO -   Saved 1 anchors
+2025-08-06 13:04:20,172 - mammoth_converter - INFO - Saved: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\تاريخ وجغرافيا\034_هارون بن يحيى (جاهزة للنشر)\هارون بن يحيى (جاهزة للنشر).html
+2025-08-06 13:04:20,173 - mammoth_converter - INFO - Converting [35]: هنا كسباني (جاهزة للنشر).docx
+2025-08-06 13:04:20,798 - mammoth_converter - INFO -   Detected equation type: none
+2025-08-06 13:04:21,311 - mammoth_converter - INFO -   Saved 2 anchors
+2025-08-06 13:04:21,312 - mammoth_converter - INFO - Saved: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\تاريخ وجغرافيا\035_هنا كسباني (جاهزة للنشر)\هنا كسباني (جاهزة للنشر).html
+2025-08-06 13:04:21,312 - mammoth_converter - INFO - Converting [36]: ياسين الهاشمي (جاهزة للنشر).docx
+2025-08-06 13:04:23,951 - mammoth_converter - INFO -   Detected equation type: none
+2025-08-06 13:04:27,524 - mammoth_converter - WARNING - ياسين الهاشمي (جاهزة للنشر).docx: Message(type='warning', message='Unrecognised paragraph style: List Paragraph (Style ID: ListParagraph)')
+2025-08-06 13:04:27,540 - mammoth_converter - WARNING - ياسين الهاشمي (جاهزة للنشر).docx: Message(type='warning', message='Unrecognised run style: fn (Style ID: fn)')
+2025-08-06 13:04:27,540 - mammoth_converter - WARNING - ياسين الهاشمي (جاهزة للنشر).docx: Message(type='warning', message='Unrecognised run style: Subtitle1 (Style ID: Subtitle1)')
+2025-08-06 13:04:27,545 - mammoth_converter - INFO -   Saved 1 anchors
+2025-08-06 13:04:27,546 - mammoth_converter - INFO - Saved: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\تاريخ وجغرافيا\036_ياسين الهاشمي (جاهزة للنشر)\ياسين الهاشمي (جاهزة للنشر).html
+2025-08-06 13:04:27,546 - mammoth_converter - INFO - Converting [37]: الصيدلة (جاهزة للنشر).docx
+2025-08-06 13:04:29,304 - mammoth_converter - INFO -   Detected equation type: none
+2025-08-06 13:04:30,525 - mammoth_converter - WARNING - الصيدلة (جاهزة للنشر).docx: Message(type='warning', message='Unrecognised paragraph style: List Paragraph (Style ID: ListParagraph)')
+2025-08-06 13:04:30,525 - mammoth_converter - WARNING - الصيدلة (جاهزة للنشر).docx: Message(type='warning', message='Unrecognised paragraph style: Normal (Web) (Style ID: NormalWeb)')
+2025-08-06 13:04:30,543 - mammoth_converter - INFO -   Saved 10 anchors
+2025-08-06 13:04:30,543 - mammoth_converter - INFO - Saved: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\طب وصيدلة\037_الصيدلة (جاهزة للنشر)\الصيدلة (جاهزة للنشر).html
+2025-08-06 13:04:30,544 - mammoth_converter - INFO - Converting [38]: المكملات الغذائية (جاهزة للنشر).docx
+2025-08-06 13:04:31,764 - mammoth_converter - INFO -   Detected equation type: none
+2025-08-06 13:04:32,919 - mammoth_converter - INFO -   Saved 3 anchors
+2025-08-06 13:04:32,919 - mammoth_converter - INFO - Saved: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\طب وصيدلة\038_المكملات الغذائية (جاهزة للنشر)\المكملات الغذائية (جاهزة للنشر).html
+2025-08-06 13:04:32,920 - mammoth_converter - INFO - Converting [39]: البروتينات - (جاهزة للنشر).docx
+2025-08-06 13:04:33,450 - mammoth_converter - INFO -   Detected equation type: none
+2025-08-06 13:04:33,939 - mammoth_converter - WARNING - البروتينات - (جاهزة للنشر).docx: Message(type='warning', message='Unrecognised paragraph style: EndNote Bibliography (Style ID: EndNoteBibliography)')
+2025-08-06 13:04:33,942 - mammoth_converter - INFO -   Saved 4 anchors
+2025-08-06 13:04:33,942 - mammoth_converter - INFO - Saved: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\علوم الأحياء والكيمياء\039_البروتينات - (جاهزة للنشر)\البروتينات - (جاهزة للنشر).html
+2025-08-06 13:04:33,943 - mammoth_converter - INFO - Converting [40]: الدورة الشهرية (جاهزة للنشر).docx
+2025-08-06 13:04:34,547 - mammoth_converter - INFO -   Detected equation type: none
+2025-08-06 13:04:35,049 - mammoth_converter - WARNING - الدورة الشهرية (جاهزة للنشر).docx: Message(type='warning', message='Unrecognised paragraph style: List Paragraph (Style ID: ListParagraph)')
+2025-08-06 13:04:35,050 - mammoth_converter - WARNING - الدورة الشهرية (جاهزة للنشر).docx: Message(type='warning', message='Unrecognised run style: bk_cite_avail (Style ID: bkciteavail)')
+2025-08-06 13:04:35,053 - mammoth_converter - INFO -   Saved 2 anchors
+2025-08-06 13:04:35,053 - mammoth_converter - INFO - Saved: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\علوم الأحياء والكيمياء\040_الدورة الشهرية (جاهزة للنشر)\الدورة الشهرية (جاهزة للنشر).html
+2025-08-06 13:04:35,054 - mammoth_converter - INFO - Converting [41]: الغشاء الخلوي-مترجم (جاهزة للنشر).docx
+2025-08-06 13:04:36,581 - mammoth_converter - INFO -   Detected equation type: none
+2025-08-06 13:04:37,940 - mammoth_converter - WARNING - الغشاء الخلوي-مترجم (جاهزة للنشر).docx: Message(type='warning', message='Unrecognised paragraph style: List Paragraph (Style ID: ListParagraph)')
+2025-08-06 13:04:37,941 - mammoth_converter - INFO -   Found 1 LaTeX equations
+2025-08-06 13:04:37,943 - mammoth_converter - INFO -   Saved 8 anchors
+2025-08-06 13:04:37,944 - mammoth_converter - INFO - Saved: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\علوم الأحياء والكيمياء\041_الغشاء الخلوي-مترجم (جاهزة للنشر)\الغشاء الخلوي-مترجم (جاهزة للنشر).html
+2025-08-06 13:04:37,944 - mammoth_converter - INFO - Converting [42]: النواتج الطبيعية (جاهزة للنشر).docx
+2025-08-06 13:04:41,505 - mammoth_converter - INFO -   Detected equation type: none
+2025-08-06 13:04:44,631 - mammoth_converter - WARNING - النواتج الطبيعية (جاهزة للنشر).docx: Message(type='warning', message='Unrecognised paragraph style: List Paragraph (Style ID: ListParagraph)')
+2025-08-06 13:04:44,634 - mammoth_converter - INFO -   Saved 19 anchors
+2025-08-06 13:04:44,634 - mammoth_converter - INFO - Saved: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\علوم الأحياء والكيمياء\042_النواتج الطبيعية (جاهزة للنشر)\النواتج الطبيعية (جاهزة للنشر).html
+2025-08-06 13:04:44,634 - mammoth_converter - INFO - Converting [43]: فيروس كورونا (جاهزة للنشر).docx
+2025-08-06 13:04:46,145 - mammoth_converter - INFO -   Detected equation type: none
+2025-08-06 13:04:47,711 - mammoth_converter - WARNING - فيروس كورونا (جاهزة للنشر).docx: Message(type='warning', message='Unrecognised paragraph style: Heading 3a (Style ID: Heading3a)')
+2025-08-06 13:04:47,711 - mammoth_converter - WARNING - فيروس كورونا (جاهزة للنشر).docx: Message(type='warning', message='Unrecognised paragraph style: EndNote Bibliography (Style ID: EndNoteBibliography)')
+2025-08-06 13:04:47,716 - mammoth_converter - INFO -   Saved 2 anchors
+2025-08-06 13:04:47,716 - mammoth_converter - INFO - Saved: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\علوم الأحياء والكيمياء\043_فيروس كورونا (جاهزة للنشر)\فيروس كورونا (جاهزة للنشر).html
+2025-08-06 13:04:47,717 - mammoth_converter - INFO - Converting [44]: لينا ماري عبيد (جاهزة للنشر).docx
+2025-08-06 13:04:49,173 - mammoth_converter - INFO -   Detected equation type: none
+2025-08-06 13:04:50,990 - mammoth_converter - WARNING - لينا ماري عبيد (جاهزة للنشر).docx: Message(type='warning', message='Unrecognised run style: id-label (Style ID: id-label)')
+2025-08-06 13:04:50,990 - mammoth_converter - WARNING - لينا ماري عبيد (جاهزة للنشر).docx: Message(type='warning', message='Unrecognised run style: identifier (Style ID: identifier)')
+2025-08-06 13:04:50,994 - mammoth_converter - INFO -   Saved 1 anchors
+2025-08-06 13:04:50,995 - mammoth_converter - INFO - Saved: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\علوم الأحياء والكيمياء\044_لينا ماري عبيد (جاهزة للنشر)\لينا ماري عبيد (جاهزة للنشر).html
+2025-08-06 13:04:51,000 - mammoth_converter - INFO - Converting [45]: يوسف عوني حنّون (جاهزة للنشر).docx
+2025-08-06 13:04:53,740 - mammoth_converter - INFO -   Detected equation type: none
+2025-08-06 13:04:56,070 - mammoth_converter - WARNING - يوسف عوني حنّون (جاهزة للنشر).docx: Message(type='warning', message='Unrecognised run style: hlfld-contribauthor (Style ID: hlfld-contribauthor)')
+2025-08-06 13:04:56,070 - mammoth_converter - WARNING - يوسف عوني حنّون (جاهزة للنشر).docx: Message(type='warning', message='Unrecognised run style: ml-1 (Style ID: ml-1)')
+2025-08-06 13:04:56,071 - mammoth_converter - WARNING - يوسف عوني حنّون (جاهزة للنشر).docx: Message(type='warning', message='Unrecognised paragraph style: List Paragraph (Style ID: ListParagraph)')
+2025-08-06 13:04:56,074 - mammoth_converter - INFO -   Saved 1 anchors
+2025-08-06 13:04:56,074 - mammoth_converter - INFO - Saved: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\علوم الأحياء والكيمياء\045_يوسف عوني حنّون (جاهزة للنشر)\يوسف عوني حنّون (جاهزة للنشر).html
+2025-08-06 13:04:56,075 - mammoth_converter - INFO - ============================================================
+2025-08-06 13:04:56,075 - mammoth_converter - INFO - Conversion Summary:
+2025-08-06 13:04:56,076 - mammoth_converter - INFO -   Total equations found: 1
+2025-08-06 13:04:56,076 - mammoth_converter - INFO -   Total footnotes: 0
+2025-08-06 13:04:56,076 - mammoth_converter - INFO -   Total images: 197
+2025-08-06 13:04:56,077 - mammoth_converter - INFO - ============================================================
+2025-08-06 13:04:56,077 - mammoth_converter - INFO - ============================================================
+2025-08-06 13:04:56,078 - mammoth_converter - INFO - Creating Word Documents with Anchors
+2025-08-06 13:04:56,078 - mammoth_converter - INFO - ============================================================
+2025-08-06 13:04:56,081 - logger - ERROR - Error during conversion: No module named 'word_anchor_adder'
+Traceback (most recent call last):
+  File "d:\Development\HTML Conversion\main3.py", line 95, in main
+    converter.create_word_documents_with_anchors()
+  File "d:\Development\HTML Conversion\mammoth_converter.py", line 298, in create_word_documents_with_anchors
+    from word_anchor_adder import WordAnchorAdder
+ModuleNotFoundError: No module named 'word_anchor_adder'
