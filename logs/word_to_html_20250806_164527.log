@@ -1,0 +1,55 @@
+2025-08-06 16:45:27,813 - logger - INFO - ============================================================
+2025-08-06 16:45:27,813 - logger - INFO - Document Processing Started
+2025-08-06 16:45:27,814 - logger - INFO - Input folder: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\مقالات بعد الاخراج\test
+2025-08-06 16:45:27,814 - logger - INFO - Output folder: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html
+2025-08-06 16:45:27,814 - logger - INFO - External CSS: True
+2025-08-06 16:45:27,815 - logger - INFO - ============================================================
+2025-08-06 16:45:27,955 - office_math_to_latex_converter - INFO - Converting Office Math to LaTeX in: الدائرة (جاهزة للنشر).docx
+2025-08-06 16:45:28,104 - office_math_to_latex_converter - INFO - Saved LaTeX version to: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\001_الدائرة (جاهزة للنشر)\الدائرة (جاهزة للنشر)_latex.docx
+2025-08-06 16:45:28,104 - office_math_to_latex_converter - INFO - Converted 30 Office Math equations to LaTeX
+2025-08-06 16:45:28,119 - word_anchor_adder - INFO - Adding anchors to: الدائرة (جاهزة للنشر)_latex.docx
+2025-08-06 16:45:28,224 - word_anchor_adder - INFO - Found 23 Office Math paragraphs
+2025-08-06 16:45:28,346 - word_anchor_adder - INFO - Saved: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\001_الدائرة (جاهزة للنشر)\الدائرة (جاهزة للنشر)_anchor.docx
+2025-08-06 16:45:28,347 - word_anchor_adder - INFO - Total anchors: 43 (Office Math + LaTeX + Images)
+2025-08-06 16:45:28,348 - mammoth_converter - INFO - Converting [D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html]: الدائرة (جاهزة للنشر)_anchored.docx
+2025-08-06 16:45:28,386 - mammoth_converter - ERROR - Error converting D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\001_الدائرة (جاهزة للنشر)\الدائرة (جاهزة للنشر)_anchored.docx: expected str, bytes or os.PathLike object, not NoneType
+Traceback (most recent call last):
+  File "d:\Development\HTML Conversion\mammoth_converter.py", line 90, in _convert_document
+    relative_path = docx_path.parent.relative_to(self.input_folder)
+  File "d:\Anaconda3\lib\pathlib.py", line 899, in relative_to
+    to_drv, to_root, to_parts = self._parse_args(other)
+  File "d:\Anaconda3\lib\pathlib.py", line 667, in _parse_args
+    a = os.fspath(a)
+TypeError: expected str, bytes or os.PathLike object, not NoneType
+2025-08-06 16:45:28,391 - office_math_to_latex_converter - INFO - Converting Office Math to LaTeX in: الدالة واحد لواحد (جاهزة للنشر).docx
+2025-08-06 16:45:28,437 - office_math_to_latex_converter - INFO - Saved LaTeX version to: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\002_الدالة واحد لواحد (جاهزة للنشر)\الدالة واحد لواحد (جاهزة للنشر)_latex.docx
+2025-08-06 16:45:28,437 - office_math_to_latex_converter - INFO - Converted 1 Office Math equations to LaTeX
+2025-08-06 16:45:28,440 - word_anchor_adder - INFO - Adding anchors to: الدالة واحد لواحد (جاهزة للنشر)_latex.docx
+2025-08-06 16:45:28,497 - word_anchor_adder - INFO - Saved: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\002_الدالة واحد لواحد (جاهزة للنشر)\الدالة واحد لواحد (جاهزة للنشر)_anchor.docx
+2025-08-06 16:45:28,503 - word_anchor_adder - INFO - Total anchors: 2 (Office Math + LaTeX + Images)
+2025-08-06 16:45:28,504 - mammoth_converter - INFO - Converting [D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html]: الدالة واحد لواحد (جاهزة للنشر)_anchored.docx
+2025-08-06 16:45:28,512 - mammoth_converter - ERROR - Error converting D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\002_الدالة واحد لواحد (جاهزة للنشر)\الدالة واحد لواحد (جاهزة للنشر)_anchored.docx: expected str, bytes or os.PathLike object, not NoneType
+Traceback (most recent call last):
+  File "d:\Development\HTML Conversion\mammoth_converter.py", line 90, in _convert_document
+    relative_path = docx_path.parent.relative_to(self.input_folder)
+  File "d:\Anaconda3\lib\pathlib.py", line 899, in relative_to
+    to_drv, to_root, to_parts = self._parse_args(other)
+  File "d:\Anaconda3\lib\pathlib.py", line 667, in _parse_args
+    a = os.fspath(a)
+TypeError: expected str, bytes or os.PathLike object, not NoneType
+2025-08-06 16:45:28,516 - office_math_to_latex_converter - INFO - Converting Office Math to LaTeX in: الكيمياء الحيوية (بانتظار الترجمة).docx
+2025-08-06 16:45:28,606 - office_math_to_latex_converter - INFO - No Office Math equations found
+2025-08-06 16:45:28,612 - word_anchor_adder - INFO - Adding anchors to: الكيمياء الحيوية (بانتظار الترجمة)_latex.docx
+2025-08-06 16:45:29,203 - word_anchor_adder - INFO - Saved: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\003_الكيمياء الحيوية (بانتظار الترجمة)\الكيمياء الحيوية (بانتظار الترجمة)_anchor.docx
+2025-08-06 16:45:29,204 - word_anchor_adder - INFO - Total anchors: 19 (Office Math + LaTeX + Images)
+2025-08-06 16:45:29,205 - mammoth_converter - INFO - Converting [D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html]: الكيمياء الحيوية (بانتظار الترجمة)_anchored.docx
+2025-08-06 16:45:29,283 - mammoth_converter - ERROR - Error converting D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\003_الكيمياء الحيوية (بانتظار الترجمة)\الكيمياء الحيوية (بانتظار الترجمة)_anchored.docx: expected str, bytes or os.PathLike object, not NoneType
+Traceback (most recent call last):
+  File "d:\Development\HTML Conversion\mammoth_converter.py", line 90, in _convert_document
+    relative_path = docx_path.parent.relative_to(self.input_folder)
+  File "d:\Anaconda3\lib\pathlib.py", line 899, in relative_to
+    to_drv, to_root, to_parts = self._parse_args(other)
+  File "d:\Anaconda3\lib\pathlib.py", line 667, in _parse_args
+    a = os.fspath(a)
+TypeError: expected str, bytes or os.PathLike object, not NoneType
+2025-08-06 16:45:29,284 - logger - INFO - Processing completed successfully!

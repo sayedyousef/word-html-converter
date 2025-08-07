@@ -1,0 +1,29 @@
+2025-08-06 15:19:40,956 - logger - INFO - ============================================================
+2025-08-06 15:19:40,957 - logger - INFO - Document Processing Started
+2025-08-06 15:19:40,957 - logger - INFO - Input folder: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\مقالات بعد الاخراج\test
+2025-08-06 15:19:40,958 - logger - INFO - Output folder: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html
+2025-08-06 15:19:40,958 - logger - INFO - External CSS: True
+2025-08-06 15:19:40,958 - logger - INFO - ============================================================
+2025-08-06 15:19:41,433 - office_math_to_latex_converter - INFO - Converting Office Math to LaTeX in: الدائرة (جاهزة للنشر).docx
+2025-08-06 15:19:41,605 - office_math_to_latex_converter - INFO - Saved LaTeX version to: C:\Users\eyousef\AppData\Local\Temp\tmph9k7ucrc.docx
+2025-08-06 15:19:41,605 - office_math_to_latex_converter - INFO - Converted 30 Office Math equations to LaTeX
+2025-08-06 15:19:41,615 - word_anchor_adder - INFO - Adding anchors to: tmph9k7ucrc.docx
+2025-08-06 15:19:41,732 - word_anchor_adder - INFO - Found 23 Office Math paragraphs
+2025-08-06 15:19:41,866 - word_anchor_adder - INFO - Saved: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\001_الدائرة (جاهزة للنشر)\الدائرة (جاهزة للنشر)_anchored.docx
+2025-08-06 15:19:41,867 - word_anchor_adder - INFO - Total anchors: 43 (Office Math + LaTeX + Images)
+2025-08-06 15:19:42,662 - mammoth_converter - INFO -   Detected equation type: office_math
+2025-08-06 15:19:42,726 - mammoth_converter - ERROR - Error in equation marker conversion: xpath() got an unexpected keyword argument 'namespaces'
+2025-08-06 15:19:44,163 - office_math_to_latex_converter - INFO - Converting Office Math to LaTeX in: الدالة واحد لواحد (جاهزة للنشر).docx
+2025-08-06 15:19:44,214 - office_math_to_latex_converter - INFO - Saved LaTeX version to: C:\Users\eyousef\AppData\Local\Temp\tmp8ysto5vo.docx
+2025-08-06 15:19:44,215 - office_math_to_latex_converter - INFO - Converted 1 Office Math equations to LaTeX
+2025-08-06 15:19:44,215 - word_anchor_adder - INFO - Adding anchors to: tmp8ysto5vo.docx
+2025-08-06 15:19:44,276 - word_anchor_adder - INFO - Saved: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\002_الدالة واحد لواحد (جاهزة للنشر)\الدالة واحد لواحد (جاهزة للنشر)_anchored.docx
+2025-08-06 15:19:44,276 - word_anchor_adder - INFO - Total anchors: 2 (Office Math + LaTeX + Images)
+2025-08-06 15:19:44,365 - mammoth_converter - INFO -   Detected equation type: latex
+2025-08-06 15:19:44,455 - office_math_to_latex_converter - INFO - Converting Office Math to LaTeX in: الكيمياء الحيوية (بانتظار الترجمة).docx
+2025-08-06 15:19:44,566 - office_math_to_latex_converter - INFO - No Office Math equations found
+2025-08-06 15:19:44,576 - word_anchor_adder - INFO - Adding anchors to: tmpygz59xtu.docx
+2025-08-06 15:19:45,220 - word_anchor_adder - INFO - Saved: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\003_الكيمياء الحيوية (بانتظار الترجمة)\الكيمياء الحيوية (بانتظار الترجمة)_anchored.docx
+2025-08-06 15:19:45,221 - word_anchor_adder - INFO - Total anchors: 19 (Office Math + LaTeX + Images)
+2025-08-06 15:19:46,655 - mammoth_converter - INFO -   Detected equation type: none
+2025-08-06 15:19:48,264 - logger - INFO - Processing completed successfully!

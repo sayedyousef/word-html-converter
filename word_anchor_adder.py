@@ -144,17 +144,29 @@ class WordAnchorAdder:
                 }
                 self.logger.debug(f"Added image anchor {anchor_id}")
     
-    def _add_bookmark_to_paragraph(self, paragraph, bookmark_name):
-        """Add bookmark to paragraph."""
-        bookmark_start = OxmlElement('w:bookmarkStart')
-        bookmark_start.set(qn('w:id'), str(self.anchor_counter))
-        bookmark_start.set(qn('w:name'), bookmark_name)
-        
-        bookmark_end = OxmlElement('w:bookmarkEnd')
-        bookmark_end.set(qn('w:id'), str(self.anchor_counter))
-        
-        paragraph._element.insert(0, bookmark_start)
-        paragraph._element.append(bookmark_end)
+    # word_anchor_adder.py
+    def _add_bookmark_to_paragraph(self, paragraph, anchor_id):
+        """
+        Insert bookmarkStart / bookmarkEnd immediately
+        before the first run to avoid creating a new paragraph
+        or visible text.
+        """
+        # ids must be unique per document
+        bookmark_id = str(self.anchor_counter)
+
+        bm_start = OxmlElement('w:bookmarkStart')
+        bm_start.set(qn('w:id'),  bookmark_id)
+        bm_start.set(qn('w:name'), anchor_id)
+
+        bm_end   = OxmlElement('w:bookmarkEnd')
+        bm_end.set(qn('w:id'),  bookmark_id)
+
+        # if there is no run yet, create one
+        first_run = paragraph.runs[0] if paragraph.runs else paragraph.add_run()
+        first_r = first_run._r                # underlying <w:r>
+
+        first_r.addprevious(bm_start)         # …<bookmarkStart/><w:r>…
+        first_r.addnext(bm_end)               # …<w:r/><bookmarkEnd/>…
     
 def process_folder(self, input_folder: Path, output_folder: Path):
     """Process all documents in folder."""

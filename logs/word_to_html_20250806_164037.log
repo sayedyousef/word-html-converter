@@ -1,0 +1,32 @@
+2025-08-06 16:40:37,162 - logger - INFO - ============================================================
+2025-08-06 16:40:37,164 - logger - INFO - Document Processing Started
+2025-08-06 16:40:37,164 - logger - INFO - Input folder: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\مقالات بعد الاخراج\test
+2025-08-06 16:40:37,165 - logger - INFO - Output folder: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html
+2025-08-06 16:40:37,165 - logger - INFO - External CSS: True
+2025-08-06 16:40:37,166 - logger - INFO - ============================================================
+2025-08-06 16:40:37,357 - office_math_to_latex_converter - INFO - Converting Office Math to LaTeX in: الدائرة (جاهزة للنشر).docx
+2025-08-06 16:40:37,538 - office_math_to_latex_converter - INFO - Saved LaTeX version to: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\001_الدائرة (جاهزة للنشر)\الدائرة (جاهزة للنشر)_latex.docx
+2025-08-06 16:40:37,539 - office_math_to_latex_converter - INFO - Converted 30 Office Math equations to LaTeX
+2025-08-06 16:40:37,539 - word_anchor_adder - INFO - Adding anchors to: الدائرة (جاهزة للنشر)_latex.docx
+2025-08-06 16:40:37,652 - word_anchor_adder - INFO - Found 23 Office Math paragraphs
+2025-08-06 16:40:37,793 - word_anchor_adder - INFO - Saved: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\001_الدائرة (جاهزة للنشر)\الدائرة (جاهزة للنشر)_anchor.docx
+2025-08-06 16:40:37,793 - word_anchor_adder - INFO - Total anchors: 43 (Office Math + LaTeX + Images)
+2025-08-06 16:40:37,794 - mammoth_converter - INFO - Converting [D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html]: الدائرة (جاهزة للنشر)_anchored.docx
+2025-08-06 16:40:37,834 - mammoth_converter - ERROR - Error converting D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\001_الدائرة (جاهزة للنشر)\الدائرة (جاهزة للنشر)_anchored.docx: expected str, bytes or os.PathLike object, not int
+Traceback (most recent call last):
+  File "d:\Development\HTML Conversion\mammoth_converter.py", line 87, in _convert_document
+    self.input_folder = Path(input_folder) if input_folder else self.input_folder
+  File "d:\Anaconda3\lib\pathlib.py", line 1042, in __new__
+    self = cls._from_parts(args, init=False)
+  File "d:\Anaconda3\lib\pathlib.py", line 683, in _from_parts
+    drv, root, parts = self._parse_args(args)
+  File "d:\Anaconda3\lib\pathlib.py", line 667, in _parse_args
+    a = os.fspath(a)
+TypeError: expected str, bytes or os.PathLike object, not int
+2025-08-06 16:40:37,840 - logger - ERROR - Error during processing: name 'temp_latex_doc' is not defined
+Traceback (most recent call last):
+  File "d:\Development\HTML Conversion\main3.py", line 65, in main
+    processor.process_all_documents(Config.INPUT_FOLDER, Config.OUTPUT_FOLDER)
+  File "d:\Development\HTML Conversion\unified_document_processor.py", line 156, in process_all_documents
+    if temp_latex_doc.exists():
+NameError: name 'temp_latex_doc' is not defined

@@ -1,0 +1,58 @@
+2025-08-06 16:22:08,490 - logger - INFO - ============================================================
+2025-08-06 16:22:08,490 - logger - INFO - Document Processing Started
+2025-08-06 16:22:08,490 - logger - INFO - Input folder: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\مقالات بعد الاخراج\test
+2025-08-06 16:22:08,491 - logger - INFO - Output folder: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html
+2025-08-06 16:22:08,491 - logger - INFO - External CSS: True
+2025-08-06 16:22:08,492 - logger - INFO - ============================================================
+2025-08-06 16:22:08,989 - office_math_to_latex_converter - INFO - Converting Office Math to LaTeX in: الدائرة (جاهزة للنشر).docx
+2025-08-06 16:22:09,288 - office_math_to_latex_converter - INFO - Saved LaTeX version to: C:\Users\eyousef\AppData\Local\Temp\tmprlvwm6oz.docx
+2025-08-06 16:22:09,289 - office_math_to_latex_converter - INFO - Converted 30 Office Math equations to LaTeX
+2025-08-06 16:22:09,289 - word_anchor_adder - INFO - Adding anchors to: tmprlvwm6oz.docx
+2025-08-06 16:22:09,427 - word_anchor_adder - INFO - Found 23 Office Math paragraphs
+2025-08-06 16:22:09,622 - word_anchor_adder - INFO - Saved: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\001_الدائرة (جاهزة للنشر)\الدائرة (جاهزة للنشر)_anchored.docx
+2025-08-06 16:22:09,622 - word_anchor_adder - INFO - Total anchors: 43 (Office Math + LaTeX + Images)
+2025-08-06 16:22:09,624 - mammoth_converter - INFO - Converting [1]: الدائرة (جاهزة للنشر)_anchored.docx
+2025-08-06 16:22:09,694 - mammoth_converter - ERROR - Error converting D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\001_الدائرة (جاهزة للنشر)\الدائرة (جاهزة للنشر)_anchored.docx: 'MammothConverter' object has no attribute 'input_folder'
+Traceback (most recent call last):
+  File "d:\Development\HTML Conversion\mammoth_converter.py", line 81, in _convert_document
+    relative_path = docx_path.parent.relative_to(self.input_folder)
+AttributeError: 'MammothConverter' object has no attribute 'input_folder'
+2025-08-06 16:22:09,807 - unified_document_processor - ERROR - Error processing الدائرة (جاهزة للنشر).docx: 'MammothConverter' object has no attribute 'total_equations'
+Traceback (most recent call last):
+  File "d:\Development\HTML Conversion\unified_document_processor.py", line 129, in process_all_documents
+    self.total_equations += mammoth.total_equations
+AttributeError: 'MammothConverter' object has no attribute 'total_equations'
+2025-08-06 16:22:09,810 - office_math_to_latex_converter - INFO - Converting Office Math to LaTeX in: الدالة واحد لواحد (جاهزة للنشر).docx
+2025-08-06 16:22:09,898 - office_math_to_latex_converter - INFO - Saved LaTeX version to: C:\Users\eyousef\AppData\Local\Temp\tmp4mr0_tt3.docx
+2025-08-06 16:22:09,898 - office_math_to_latex_converter - INFO - Converted 1 Office Math equations to LaTeX
+2025-08-06 16:22:09,899 - word_anchor_adder - INFO - Adding anchors to: tmp4mr0_tt3.docx
+2025-08-06 16:22:09,962 - word_anchor_adder - INFO - Saved: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\002_الدالة واحد لواحد (جاهزة للنشر)\الدالة واحد لواحد (جاهزة للنشر)_anchored.docx
+2025-08-06 16:22:09,962 - word_anchor_adder - INFO - Total anchors: 2 (Office Math + LaTeX + Images)
+2025-08-06 16:22:09,964 - mammoth_converter - INFO - Converting [2]: الدالة واحد لواحد (جاهزة للنشر)_anchored.docx
+2025-08-06 16:22:09,994 - mammoth_converter - ERROR - Error converting D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\002_الدالة واحد لواحد (جاهزة للنشر)\الدالة واحد لواحد (جاهزة للنشر)_anchored.docx: 'MammothConverter' object has no attribute 'input_folder'
+Traceback (most recent call last):
+  File "d:\Development\HTML Conversion\mammoth_converter.py", line 81, in _convert_document
+    relative_path = docx_path.parent.relative_to(self.input_folder)
+AttributeError: 'MammothConverter' object has no attribute 'input_folder'
+2025-08-06 16:22:09,995 - unified_document_processor - ERROR - Error processing الدالة واحد لواحد (جاهزة للنشر).docx: 'MammothConverter' object has no attribute 'total_equations'
+Traceback (most recent call last):
+  File "d:\Development\HTML Conversion\unified_document_processor.py", line 129, in process_all_documents
+    self.total_equations += mammoth.total_equations
+AttributeError: 'MammothConverter' object has no attribute 'total_equations'
+2025-08-06 16:22:09,997 - office_math_to_latex_converter - INFO - Converting Office Math to LaTeX in: الكيمياء الحيوية (بانتظار الترجمة).docx
+2025-08-06 16:22:10,139 - office_math_to_latex_converter - INFO - No Office Math equations found
+2025-08-06 16:22:10,158 - word_anchor_adder - INFO - Adding anchors to: tmpasprz4_v.docx
+2025-08-06 16:22:11,084 - word_anchor_adder - INFO - Saved: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\003_الكيمياء الحيوية (بانتظار الترجمة)\الكيمياء الحيوية (بانتظار الترجمة)_anchored.docx
+2025-08-06 16:22:11,084 - word_anchor_adder - INFO - Total anchors: 19 (Office Math + LaTeX + Images)
+2025-08-06 16:22:11,086 - mammoth_converter - INFO - Converting [3]: الكيمياء الحيوية (بانتظار الترجمة)_anchored.docx
+2025-08-06 16:22:11,229 - mammoth_converter - ERROR - Error converting D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\003_الكيمياء الحيوية (بانتظار الترجمة)\الكيمياء الحيوية (بانتظار الترجمة)_anchored.docx: 'MammothConverter' object has no attribute 'input_folder'
+Traceback (most recent call last):
+  File "d:\Development\HTML Conversion\mammoth_converter.py", line 81, in _convert_document
+    relative_path = docx_path.parent.relative_to(self.input_folder)
+AttributeError: 'MammothConverter' object has no attribute 'input_folder'
+2025-08-06 16:22:11,231 - unified_document_processor - ERROR - Error processing الكيمياء الحيوية (بانتظار الترجمة).docx: 'MammothConverter' object has no attribute 'total_equations'
+Traceback (most recent call last):
+  File "d:\Development\HTML Conversion\unified_document_processor.py", line 129, in process_all_documents
+    self.total_equations += mammoth.total_equations
+AttributeError: 'MammothConverter' object has no attribute 'total_equations'
+2025-08-06 16:22:11,234 - logger - INFO - Processing completed successfully!

@@ -20,6 +20,11 @@ class MammothConverter:
     
     def __init__(self):
         self.logger = logging.getLogger(__name__)
+        self.total_equations = 0
+        self.total_footnotes = 0
+        self.total_images = 0
+        self.input_folder = None
+        self.output_folder = None
         
         # Enhanced style map with more mappings
         self.style_map = """
@@ -51,9 +56,9 @@ class MammothConverter:
         self.logger.info(f"Found {len(docx_files)} documents")
         
         # Track statistics
-        self.total_equations = 0
-        self.total_footnotes = 0
-        self.total_images = 0
+        #self.total_equations = 0
+        #self.total_footnotes = 0
+        #self.total_images = 0
         
         for idx, docx_file in enumerate(docx_files, 1):
             self._convert_document(docx_file, output_folder, idx)
@@ -66,7 +71,8 @@ class MammothConverter:
         self.logger.info(f"  Total images: {self.total_images}")
         self.logger.info("=" * 60)
     
-    def _convert_document(self, docx_path: Path, output_base: Path, index: int):
+    def _convert_document(self, docx_path: Path, output_base: Path, index: int, 
+                     input_folder: Path = None, output_folder: Path = None):
         """Convert single document with enhanced features."""
         try:
             self.logger.info(f"Converting [{index}]: {docx_path.name}")
@@ -78,6 +84,9 @@ class MammothConverter:
             metadata = self._extract_metadata(docx_path)
             
             # Get relative path to preserve folder structure
+            #self.input_folder = input_folder or self.input_folder
+            #self.input_folder = Path(input_folder) if input_folder else self.input_folder
+
             relative_path = docx_path.parent.relative_to(self.input_folder)
             
             # Create output structure
@@ -163,109 +172,125 @@ class MammothConverter:
         except Exception as e:
             self.logger.error(f"Error converting {docx_path}: {e}", exc_info=True)
 
-    def     _convert_with_equation_markers_fixed(self, docx_path):
-        """Enhanced version - Convert document with Office Math equations preserved in place."""
-        # Create a temporary copy
-        with tempfile.NamedTemporaryFile(suffix='.docx', delete=False) as tmp:
-            shutil.copy2(docx_path, tmp.name)
-            temp_path = tmp.name
+    def _convert_with_equation_markers_fixed(self, docx_path):
+        """Convert document with Office Math equations - FIXED VERSION."""
+        import tempfile
+        import os
+        import shutil
+        from lxml import etree
+        import zipfile
+        
+        self.logger.info("Converting with equation markers (fixed)...")
+        
+        # Create temp copy
+        temp_fd, temp_path = tempfile.mkstemp(suffix='.docx')
+        os.close(temp_fd)
+        shutil.copy2(docx_path, temp_path)
         
         equation_map = {}
-        equation_positions = {}  # Track positions for anchors
+        equation_positions = {}
+        equation_counter = 0
         
         try:
-            # Open with python-docx
-            doc = docx.Document(temp_path)
-            eq_counter = 0
-            
-            # Process each paragraph
-            for para_idx, paragraph in enumerate(doc.paragraphs):
-                # Check if paragraph has Office Math
-                math_elements = paragraph._element.xpath('.//m:oMath', namespaces={
-                    'm': 'http://schemas.openxmlformats.org/officeDocument/2006/math'
-                })
+            # Process the document XML
+            with zipfile.ZipFile(temp_path, 'r') as zip_ref:
+                # Read document.xml
+                doc_xml = zip_ref.read('word/document.xml')
+                root = etree.fromstring(doc_xml)
                 
-                if math_elements:
-                    para_text = paragraph.text
-                    equation_markers = []
+                # Define namespaces
+                ns = {
+                    'w': 'http://schemas.openxmlformats.org/wordprocessingml/2006/main',
+                    'm': 'http://schemas.openxmlformats.org/officeDocument/2006/math'
+                }
+                
+                # Find all paragraphs with math
+                para_index = 0
+                for para in root.findall('.//w:p', ns):
+                    para_index += 1
                     
-                    # Process each equation in the paragraph
-                    for math_idx, math_elem in enumerate(math_elements):
-                        eq_counter += 1
-                        marker = f" [EQUATION_{eq_counter}_HERE] "
-                        anchor_id = f"eq-anchor-{eq_counter}"  # Add anchor ID
-                        
-                        # Extract equation text
-                        equation_text = self._extract_math_text_from_element(math_elem)
-                        latex_equation = self._convert_to_latex_format_enhanced(equation_text)
-                        
-                        # Store equation with anchor
-                        equation_map[marker] = {
-                            'latex': latex_equation,
-                            'anchor': anchor_id,
-                            'position': f"para_{para_idx}_eq_{math_idx}"
-                        }
-                        
-                        equation_positions[eq_counter] = {
-                            'paragraph': para_idx,
-                            'index': math_idx
-                        }
-                        
-                        equation_markers.append(marker)
-                        
-                        # Register anchor
-                        self.anchor_registry[anchor_id] = {
-                            'type': 'office_math_equation',
-                            'content': equation_text,
-                            'latex': latex_equation,
-                            'paragraph': para_idx,
-                            'position': math_idx
-                        }
+                    # Check for Office Math elements
+                    math_elements = para.findall('.//m:oMath', ns)
                     
-                    # Clear paragraph and rebuild with markers
-                    paragraph.clear()
-                    
-                    # Add text with markers interspersed
-                    if para_text.strip():
-                        paragraph.add_run(para_text + " ")
-                    
-                    # Add all equation markers
-                    for marker in equation_markers:
-                        paragraph.add_run(marker)
+                    if math_elements:
+                        for math_idx, math_elem in enumerate(math_elements):
+                            equation_counter += 1
+                            
+                            # Extract text from math element using findall instead of xpath
+                            text_parts = []
+                            for t_elem in math_elem.findall('.//m:t', ns):
+                                if t_elem.text:
+                                    text_parts.append(t_elem.text.strip())
+                            
+                            equation_text = ' '.join(text_parts)
+                            
+                            # Convert to LaTeX
+                            latex_equation = self._convert_to_latex_format_enhanced(equation_text)
+                            
+                            # Create unique marker
+                            marker = f"[EQUATION_{equation_counter}]"
+                            anchor_id = f"eq-{equation_counter}"
+                            
+                            # Store in map
+                            equation_map[marker] = {
+                                'latex': latex_equation,
+                                'anchor': anchor_id,
+                                'original': equation_text
+                            }
+                            
+                            # Track position
+                            equation_positions[equation_counter] = {
+                                'paragraph': para_index,
+                                'index_in_para': math_idx
+                            }
+                            
+                            # Replace math element with marker text
+                            # Create text element with marker
+                            marker_elem = etree.Element('{%s}t' % ns['w'])
+                            marker_elem.text = marker
+                            
+                            # Replace math element with text run containing marker
+                            run = etree.Element('{%s}r' % ns['w'])
+                            run.append(marker_elem)
+                            
+                            # Replace the math element
+                            parent = math_elem.getparent()
+                            parent.replace(math_elem, run)
+                
+                # Write modified XML back
+                modified_xml = etree.tostring(root, encoding='unicode')
+                
+                # Update the docx file
+                with zipfile.ZipFile(temp_path, 'a') as zip_out:
+                    # Remove old document.xml
+                    zip_out.writestr('word/document.xml', modified_xml)
             
-            # Save modified document
-            doc.save(temp_path)
-            
-            # Convert with mammoth
+            # Now convert with mammoth
             with open(temp_path, "rb") as docx_file:
                 result = mammoth.convert_to_html(
                     docx_file,
                     style_map=self.style_map,
                     convert_image=mammoth.images.img_element(self._image_handler_with_anchor)
                 )
-            
-            html_content = result.value
-            
-            # Check for warnings (but suppress oMath and EQUATION warnings)
-            if result.messages:
+                html_content = result.value
+                
+                # Log conversion messages
                 for msg in result.messages:
-                    msg_str = str(msg)
-                    if not any(term in msg_str for term in ['oMath', 'EQUATION_']):
+                    if msg.type == 'warning':
                         self.logger.warning(f"{docx_path.name}: {msg}")
             
             # Replace markers with equations AND anchors
             for marker, eq_data in equation_map.items():
                 anchor_html = f'<a id="{eq_data["anchor"]}" class="equation-anchor"></a>'
                 
-                # Determine if display or inline
-                if '$$' in eq_data['latex']:
-                    equation_html = f'{anchor_html}<div class="equation display-math">{eq_data["latex"]}</div>'
+                # Wrap equation with proper tags
+                if '$$' in eq_data['latex'] or len(eq_data['latex']) > 50:
+                    equation_html = f'{anchor_html}<div class="equation display-math">$${eq_data["latex"]}$$</div>'
                 else:
-                    equation_html = f'{anchor_html}<span class="equation inline-math">{eq_data["latex"]}</span>'
+                    equation_html = f'{anchor_html}<span class="equation inline-math">${eq_data["latex"]}$</span>'
                 
-                #html_content = html_content.replace(marker.strip(), equation_html)
+                # Replace marker in HTML
                 html_content = html_content.replace(marker, equation_html)
-
             
             self.logger.info(f"  Processed {len(equation_map)} Office Math equations with anchors")
             
@@ -276,7 +301,7 @@ class MammothConverter:
             
         except Exception as e:
             self.logger.error(f"Error in equation marker conversion: {e}")
-            # Fall back to regular conversion
+            # Fall back to regular conversion without equations
             with open(docx_path, "rb") as docx_file:
                 result = mammoth.convert_to_html(
                     docx_file,
@@ -289,6 +314,7 @@ class MammothConverter:
             # Clean up temp file
             if os.path.exists(temp_path):
                 os.remove(temp_path)
+
 
     def create_word_documents_with_anchors(self):
         """Create Word documents identical to originals but with anchors added."""
@@ -307,17 +333,20 @@ class MammothConverter:
 
 
     def _extract_math_text_from_element(self, math_elem):
-        """Extract text from a specific math element."""
+        """Extract text from a specific math element - FIXED VERSION."""
         text_parts = []
         
-        # Find all text nodes within this math element
-        for text_elem in math_elem.xpath('.//m:t', namespaces={
-            'm': 'http://schemas.openxmlformats.org/officeDocument/2006/math'
-        }):
+        # Instead of using xpath with namespaces, use a different approach
+        # Option 1: Use find with namespaces
+        ns = {'m': 'http://schemas.openxmlformats.org/officeDocument/2006/math'}
+        
+        # Find all text elements within this math element
+        for text_elem in math_elem.findall('.//m:t', ns):
             if text_elem.text:
                 text_parts.append(text_elem.text.strip())
         
         return ' '.join(text_parts)
+
 
     def _convert_to_latex_format_enhanced(self, equation_text):
         """Enhanced version - Convert extracted equation text to LaTeX format."""

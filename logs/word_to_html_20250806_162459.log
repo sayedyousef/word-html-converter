@@ -1,0 +1,43 @@
+2025-08-06 16:24:59,509 - logger - INFO - ============================================================
+2025-08-06 16:24:59,510 - logger - INFO - Document Processing Started
+2025-08-06 16:24:59,510 - logger - INFO - Input folder: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\مقالات بعد الاخراج\test
+2025-08-06 16:24:59,511 - logger - INFO - Output folder: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html
+2025-08-06 16:24:59,511 - logger - INFO - External CSS: True
+2025-08-06 16:24:59,511 - logger - INFO - ============================================================
+2025-08-06 16:24:59,673 - office_math_to_latex_converter - INFO - Converting Office Math to LaTeX in: الدائرة (جاهزة للنشر).docx
+2025-08-06 16:24:59,837 - office_math_to_latex_converter - INFO - Saved LaTeX version to: C:\Users\eyousef\AppData\Local\Temp\tmpqvj7wrec.docx
+2025-08-06 16:24:59,838 - office_math_to_latex_converter - INFO - Converted 30 Office Math equations to LaTeX
+2025-08-06 16:24:59,838 - word_anchor_adder - INFO - Adding anchors to: tmpqvj7wrec.docx
+2025-08-06 16:24:59,942 - word_anchor_adder - INFO - Found 23 Office Math paragraphs
+2025-08-06 16:25:00,081 - word_anchor_adder - INFO - Saved: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\001_الدائرة (جاهزة للنشر)\الدائرة (جاهزة للنشر)_anchored.docx
+2025-08-06 16:25:00,081 - word_anchor_adder - INFO - Total anchors: 43 (Office Math + LaTeX + Images)
+2025-08-06 16:25:00,082 - mammoth_converter - INFO - Converting [1]: الدائرة (جاهزة للنشر)_anchored.docx
+2025-08-06 16:25:00,143 - mammoth_converter - ERROR - Error converting D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\001_الدائرة (جاهزة للنشر)\الدائرة (جاهزة للنشر)_anchored.docx: 'MammothConverter' object has no attribute 'input_folder'
+Traceback (most recent call last):
+  File "d:\Development\HTML Conversion\mammoth_converter.py", line 85, in _convert_document
+    relative_path = docx_path.parent.relative_to(self.input_folder)
+AttributeError: 'MammothConverter' object has no attribute 'input_folder'
+2025-08-06 16:25:00,148 - office_math_to_latex_converter - INFO - Converting Office Math to LaTeX in: الدالة واحد لواحد (جاهزة للنشر).docx
+2025-08-06 16:25:00,198 - office_math_to_latex_converter - INFO - Saved LaTeX version to: C:\Users\eyousef\AppData\Local\Temp\tmptup575_m.docx
+2025-08-06 16:25:00,198 - office_math_to_latex_converter - INFO - Converted 1 Office Math equations to LaTeX
+2025-08-06 16:25:00,198 - word_anchor_adder - INFO - Adding anchors to: tmptup575_m.docx
+2025-08-06 16:25:00,253 - word_anchor_adder - INFO - Saved: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\002_الدالة واحد لواحد (جاهزة للنشر)\الدالة واحد لواحد (جاهزة للنشر)_anchored.docx
+2025-08-06 16:25:00,253 - word_anchor_adder - INFO - Total anchors: 2 (Office Math + LaTeX + Images)
+2025-08-06 16:25:00,254 - mammoth_converter - INFO - Converting [2]: الدالة واحد لواحد (جاهزة للنشر)_anchored.docx
+2025-08-06 16:25:00,281 - mammoth_converter - ERROR - Error converting D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\002_الدالة واحد لواحد (جاهزة للنشر)\الدالة واحد لواحد (جاهزة للنشر)_anchored.docx: 'MammothConverter' object has no attribute 'input_folder'
+Traceback (most recent call last):
+  File "d:\Development\HTML Conversion\mammoth_converter.py", line 85, in _convert_document
+    relative_path = docx_path.parent.relative_to(self.input_folder)
+AttributeError: 'MammothConverter' object has no attribute 'input_folder'
+2025-08-06 16:25:00,288 - office_math_to_latex_converter - INFO - Converting Office Math to LaTeX in: الكيمياء الحيوية (بانتظار الترجمة).docx
+2025-08-06 16:25:00,377 - office_math_to_latex_converter - INFO - No Office Math equations found
+2025-08-06 16:25:00,384 - word_anchor_adder - INFO - Adding anchors to: tmp5cnego24.docx
+2025-08-06 16:25:01,043 - word_anchor_adder - INFO - Saved: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\003_الكيمياء الحيوية (بانتظار الترجمة)\الكيمياء الحيوية (بانتظار الترجمة)_anchored.docx
+2025-08-06 16:25:01,044 - word_anchor_adder - INFO - Total anchors: 19 (Office Math + LaTeX + Images)
+2025-08-06 16:25:01,044 - mammoth_converter - INFO - Converting [3]: الكيمياء الحيوية (بانتظار الترجمة)_anchored.docx
+2025-08-06 16:25:01,154 - mammoth_converter - ERROR - Error converting D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\003_الكيمياء الحيوية (بانتظار الترجمة)\الكيمياء الحيوية (بانتظار الترجمة)_anchored.docx: 'MammothConverter' object has no attribute 'input_folder'
+Traceback (most recent call last):
+  File "d:\Development\HTML Conversion\mammoth_converter.py", line 85, in _convert_document
+    relative_path = docx_path.parent.relative_to(self.input_folder)
+AttributeError: 'MammothConverter' object has no attribute 'input_folder'
+2025-08-06 16:25:01,157 - logger - INFO - Processing completed successfully!

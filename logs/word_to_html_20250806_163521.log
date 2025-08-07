@@ -1,0 +1,55 @@
+2025-08-06 16:35:21,285 - logger - INFO - ============================================================
+2025-08-06 16:35:21,286 - logger - INFO - Document Processing Started
+2025-08-06 16:35:21,286 - logger - INFO - Input folder: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\مقالات بعد الاخراج\test
+2025-08-06 16:35:21,287 - logger - INFO - Output folder: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html
+2025-08-06 16:35:21,287 - logger - INFO - External CSS: True
+2025-08-06 16:35:21,287 - logger - INFO - ============================================================
+2025-08-06 16:35:21,535 - office_math_to_latex_converter - INFO - Converting Office Math to LaTeX in: الدائرة (جاهزة للنشر).docx
+2025-08-06 16:35:21,711 - office_math_to_latex_converter - INFO - Saved LaTeX version to: C:\Users\eyousef\AppData\Local\Temp\tmp4mwr5qxk.docx
+2025-08-06 16:35:21,711 - office_math_to_latex_converter - INFO - Converted 30 Office Math equations to LaTeX
+2025-08-06 16:35:21,719 - word_anchor_adder - INFO - Adding anchors to: tmp4mwr5qxk.docx
+2025-08-06 16:35:21,840 - word_anchor_adder - INFO - Found 23 Office Math paragraphs
+2025-08-06 16:35:21,962 - word_anchor_adder - INFO - Saved: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\001_الدائرة (جاهزة للنشر)\الدائرة (جاهزة للنشر)_anchored.docx
+2025-08-06 16:35:21,963 - word_anchor_adder - INFO - Total anchors: 43 (Office Math + LaTeX + Images)
+2025-08-06 16:35:21,964 - mammoth_converter - INFO - Converting [D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html]: الدائرة (جاهزة للنشر)_anchored.docx
+2025-08-06 16:35:22,018 - mammoth_converter - ERROR - Error converting D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\001_الدائرة (جاهزة للنشر)\الدائرة (جاهزة للنشر)_anchored.docx: expected str, bytes or os.PathLike object, not int
+Traceback (most recent call last):
+  File "d:\Development\HTML Conversion\mammoth_converter.py", line 87, in _convert_document
+    relative_path = docx_path.parent.relative_to(self.input_folder)
+  File "d:\Anaconda3\lib\pathlib.py", line 899, in relative_to
+    to_drv, to_root, to_parts = self._parse_args(other)
+  File "d:\Anaconda3\lib\pathlib.py", line 667, in _parse_args
+    a = os.fspath(a)
+TypeError: expected str, bytes or os.PathLike object, not int
+2025-08-06 16:35:22,027 - office_math_to_latex_converter - INFO - Converting Office Math to LaTeX in: الدالة واحد لواحد (جاهزة للنشر).docx
+2025-08-06 16:35:22,074 - office_math_to_latex_converter - INFO - Saved LaTeX version to: C:\Users\eyousef\AppData\Local\Temp\tmpo6ikfdl8.docx
+2025-08-06 16:35:22,074 - office_math_to_latex_converter - INFO - Converted 1 Office Math equations to LaTeX
+2025-08-06 16:35:22,074 - word_anchor_adder - INFO - Adding anchors to: tmpo6ikfdl8.docx
+2025-08-06 16:35:22,136 - word_anchor_adder - INFO - Saved: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\002_الدالة واحد لواحد (جاهزة للنشر)\الدالة واحد لواحد (جاهزة للنشر)_anchored.docx
+2025-08-06 16:35:22,136 - word_anchor_adder - INFO - Total anchors: 2 (Office Math + LaTeX + Images)
+2025-08-06 16:35:22,137 - mammoth_converter - INFO - Converting [D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html]: الدالة واحد لواحد (جاهزة للنشر)_anchored.docx
+2025-08-06 16:35:22,166 - mammoth_converter - ERROR - Error converting D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\002_الدالة واحد لواحد (جاهزة للنشر)\الدالة واحد لواحد (جاهزة للنشر)_anchored.docx: expected str, bytes or os.PathLike object, not int
+Traceback (most recent call last):
+  File "d:\Development\HTML Conversion\mammoth_converter.py", line 87, in _convert_document
+    relative_path = docx_path.parent.relative_to(self.input_folder)
+  File "d:\Anaconda3\lib\pathlib.py", line 899, in relative_to
+    to_drv, to_root, to_parts = self._parse_args(other)
+  File "d:\Anaconda3\lib\pathlib.py", line 667, in _parse_args
+    a = os.fspath(a)
+TypeError: expected str, bytes or os.PathLike object, not int
+2025-08-06 16:35:22,172 - office_math_to_latex_converter - INFO - Converting Office Math to LaTeX in: الكيمياء الحيوية (بانتظار الترجمة).docx
+2025-08-06 16:35:22,265 - office_math_to_latex_converter - INFO - No Office Math equations found
+2025-08-06 16:35:22,275 - word_anchor_adder - INFO - Adding anchors to: tmpg9hhydcv.docx
+2025-08-06 16:35:22,859 - word_anchor_adder - INFO - Saved: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\003_الكيمياء الحيوية (بانتظار الترجمة)\الكيمياء الحيوية (بانتظار الترجمة)_anchored.docx
+2025-08-06 16:35:22,872 - word_anchor_adder - INFO - Total anchors: 19 (Office Math + LaTeX + Images)
+2025-08-06 16:35:22,874 - mammoth_converter - INFO - Converting [D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html]: الكيمياء الحيوية (بانتظار الترجمة)_anchored.docx
+2025-08-06 16:35:22,963 - mammoth_converter - ERROR - Error converting D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\003_الكيمياء الحيوية (بانتظار الترجمة)\الكيمياء الحيوية (بانتظار الترجمة)_anchored.docx: expected str, bytes or os.PathLike object, not int
+Traceback (most recent call last):
+  File "d:\Development\HTML Conversion\mammoth_converter.py", line 87, in _convert_document
+    relative_path = docx_path.parent.relative_to(self.input_folder)
+  File "d:\Anaconda3\lib\pathlib.py", line 899, in relative_to
+    to_drv, to_root, to_parts = self._parse_args(other)
+  File "d:\Anaconda3\lib\pathlib.py", line 667, in _parse_args
+    a = os.fspath(a)
+TypeError: expected str, bytes or os.PathLike object, not int
+2025-08-06 16:35:22,972 - logger - INFO - Processing completed successfully!

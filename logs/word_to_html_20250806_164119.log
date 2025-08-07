@@ -1,0 +1,61 @@
+2025-08-06 16:41:19,165 - logger - INFO - ============================================================
+2025-08-06 16:41:19,166 - logger - INFO - Document Processing Started
+2025-08-06 16:41:19,166 - logger - INFO - Input folder: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\مقالات بعد الاخراج\test
+2025-08-06 16:41:19,167 - logger - INFO - Output folder: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html
+2025-08-06 16:41:19,167 - logger - INFO - External CSS: True
+2025-08-06 16:41:19,167 - logger - INFO - ============================================================
+2025-08-06 16:41:19,332 - office_math_to_latex_converter - INFO - Converting Office Math to LaTeX in: الدائرة (جاهزة للنشر).docx
+2025-08-06 16:41:19,523 - office_math_to_latex_converter - INFO - Saved LaTeX version to: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\001_الدائرة (جاهزة للنشر)\الدائرة (جاهزة للنشر)_latex.docx
+2025-08-06 16:41:19,523 - office_math_to_latex_converter - INFO - Converted 30 Office Math equations to LaTeX
+2025-08-06 16:41:19,523 - word_anchor_adder - INFO - Adding anchors to: الدائرة (جاهزة للنشر)_latex.docx
+2025-08-06 16:41:19,642 - word_anchor_adder - INFO - Found 23 Office Math paragraphs
+2025-08-06 16:41:19,776 - word_anchor_adder - INFO - Saved: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\001_الدائرة (جاهزة للنشر)\الدائرة (جاهزة للنشر)_anchor.docx
+2025-08-06 16:41:19,776 - word_anchor_adder - INFO - Total anchors: 43 (Office Math + LaTeX + Images)
+2025-08-06 16:41:19,777 - mammoth_converter - INFO - Converting [D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html]: الدائرة (جاهزة للنشر)_anchored.docx
+2025-08-06 16:41:19,815 - mammoth_converter - ERROR - Error converting D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\001_الدائرة (جاهزة للنشر)\الدائرة (جاهزة للنشر)_anchored.docx: expected str, bytes or os.PathLike object, not int
+Traceback (most recent call last):
+  File "d:\Development\HTML Conversion\mammoth_converter.py", line 87, in _convert_document
+    self.input_folder = Path(input_folder) if input_folder else self.input_folder
+  File "d:\Anaconda3\lib\pathlib.py", line 1042, in __new__
+    self = cls._from_parts(args, init=False)
+  File "d:\Anaconda3\lib\pathlib.py", line 683, in _from_parts
+    drv, root, parts = self._parse_args(args)
+  File "d:\Anaconda3\lib\pathlib.py", line 667, in _parse_args
+    a = os.fspath(a)
+TypeError: expected str, bytes or os.PathLike object, not int
+2025-08-06 16:41:19,818 - office_math_to_latex_converter - INFO - Converting Office Math to LaTeX in: الدالة واحد لواحد (جاهزة للنشر).docx
+2025-08-06 16:41:19,863 - office_math_to_latex_converter - INFO - Saved LaTeX version to: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\002_الدالة واحد لواحد (جاهزة للنشر)\الدالة واحد لواحد (جاهزة للنشر)_latex.docx
+2025-08-06 16:41:19,863 - office_math_to_latex_converter - INFO - Converted 1 Office Math equations to LaTeX
+2025-08-06 16:41:19,864 - word_anchor_adder - INFO - Adding anchors to: الدالة واحد لواحد (جاهزة للنشر)_latex.docx
+2025-08-06 16:41:19,919 - word_anchor_adder - INFO - Saved: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\002_الدالة واحد لواحد (جاهزة للنشر)\الدالة واحد لواحد (جاهزة للنشر)_anchor.docx
+2025-08-06 16:41:19,919 - word_anchor_adder - INFO - Total anchors: 2 (Office Math + LaTeX + Images)
+2025-08-06 16:41:19,920 - mammoth_converter - INFO - Converting [D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html]: الدالة واحد لواحد (جاهزة للنشر)_anchored.docx
+2025-08-06 16:41:19,930 - mammoth_converter - ERROR - Error converting D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\002_الدالة واحد لواحد (جاهزة للنشر)\الدالة واحد لواحد (جاهزة للنشر)_anchored.docx: expected str, bytes or os.PathLike object, not int
+Traceback (most recent call last):
+  File "d:\Development\HTML Conversion\mammoth_converter.py", line 87, in _convert_document
+    self.input_folder = Path(input_folder) if input_folder else self.input_folder
+  File "d:\Anaconda3\lib\pathlib.py", line 1042, in __new__
+    self = cls._from_parts(args, init=False)
+  File "d:\Anaconda3\lib\pathlib.py", line 683, in _from_parts
+    drv, root, parts = self._parse_args(args)
+  File "d:\Anaconda3\lib\pathlib.py", line 667, in _parse_args
+    a = os.fspath(a)
+TypeError: expected str, bytes or os.PathLike object, not int
+2025-08-06 16:41:19,936 - office_math_to_latex_converter - INFO - Converting Office Math to LaTeX in: الكيمياء الحيوية (بانتظار الترجمة).docx
+2025-08-06 16:41:20,044 - office_math_to_latex_converter - INFO - No Office Math equations found
+2025-08-06 16:41:20,051 - word_anchor_adder - INFO - Adding anchors to: الكيمياء الحيوية (بانتظار الترجمة)_latex.docx
+2025-08-06 16:41:20,698 - word_anchor_adder - INFO - Saved: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\003_الكيمياء الحيوية (بانتظار الترجمة)\الكيمياء الحيوية (بانتظار الترجمة)_anchor.docx
+2025-08-06 16:41:20,699 - word_anchor_adder - INFO - Total anchors: 19 (Office Math + LaTeX + Images)
+2025-08-06 16:41:20,700 - mammoth_converter - INFO - Converting [D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html]: الكيمياء الحيوية (بانتظار الترجمة)_anchored.docx
+2025-08-06 16:41:20,786 - mammoth_converter - ERROR - Error converting D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\003_الكيمياء الحيوية (بانتظار الترجمة)\الكيمياء الحيوية (بانتظار الترجمة)_anchored.docx: expected str, bytes or os.PathLike object, not int
+Traceback (most recent call last):
+  File "d:\Development\HTML Conversion\mammoth_converter.py", line 87, in _convert_document
+    self.input_folder = Path(input_folder) if input_folder else self.input_folder
+  File "d:\Anaconda3\lib\pathlib.py", line 1042, in __new__
+    self = cls._from_parts(args, init=False)
+  File "d:\Anaconda3\lib\pathlib.py", line 683, in _from_parts
+    drv, root, parts = self._parse_args(args)
+  File "d:\Anaconda3\lib\pathlib.py", line 667, in _parse_args
+    a = os.fspath(a)
+TypeError: expected str, bytes or os.PathLike object, not int
+2025-08-06 16:41:20,788 - logger - INFO - Processing completed successfully!

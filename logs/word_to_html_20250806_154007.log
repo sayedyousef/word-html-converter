@@ -1,0 +1,34 @@
+2025-08-06 15:40:07,779 - logger - INFO - ============================================================
+2025-08-06 15:40:07,780 - logger - INFO - Document Processing Started
+2025-08-06 15:40:07,780 - logger - INFO - Input folder: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\مقالات بعد الاخراج\test
+2025-08-06 15:40:07,780 - logger - INFO - Output folder: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html
+2025-08-06 15:40:07,781 - logger - INFO - External CSS: True
+2025-08-06 15:40:07,781 - logger - INFO - ============================================================
+2025-08-06 15:40:08,666 - office_math_to_latex_converter - INFO - Converting Office Math to LaTeX in: الدائرة (جاهزة للنشر).docx
+2025-08-06 15:40:08,858 - office_math_to_latex_converter - INFO - Saved LaTeX version to: C:\Users\eyousef\AppData\Local\Temp\tmp05whf4gi.docx
+2025-08-06 15:40:08,859 - office_math_to_latex_converter - INFO - Converted 30 Office Math equations to LaTeX
+2025-08-06 15:40:08,859 - word_anchor_adder - INFO - Adding anchors to: tmp05whf4gi.docx
+2025-08-06 15:40:08,964 - word_anchor_adder - INFO - Found 23 Office Math paragraphs
+2025-08-06 15:40:09,096 - word_anchor_adder - INFO - Saved: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\001_الدائرة (جاهزة للنشر)\الدائرة (جاهزة للنشر)_anchored.docx
+2025-08-06 15:40:09,096 - word_anchor_adder - INFO - Total anchors: 43 (Office Math + LaTeX + Images)
+2025-08-06 15:40:10,069 - mammoth_converter - INFO -   Detected equation type: office_math
+2025-08-06 15:40:10,070 - mammoth_converter - INFO - Converting with equation markers (fixed)...
+2025-08-06 15:40:11,059 - mammoth_converter - WARNING - الدائرة (جاهزة للنشر)_anchored.docx: Message(type='warning', message='An unrecognised element was ignored: {http://schemas.openxmlformats.org/officeDocument/2006/math}oMathPara')
+2025-08-06 15:40:11,059 - mammoth_converter - WARNING - الدائرة (جاهزة للنشر)_anchored.docx: Message(type='warning', message='Unrecognised run style: rynqvb (Style ID: rynqvb)')
+2025-08-06 15:40:11,060 - mammoth_converter - WARNING - الدائرة (جاهزة للنشر)_anchored.docx: Message(type='warning', message='Unrecognised paragraph style: List Paragraph (Style ID: ListParagraph)')
+2025-08-06 15:40:11,060 - mammoth_converter - WARNING - الدائرة (جاهزة للنشر)_anchored.docx: Message(type='warning', message='Unrecognised paragraph style: q-text (Style ID: q-text)')
+2025-08-06 15:40:11,061 - mammoth_converter - INFO -   Processed 28 Office Math equations with anchors
+2025-08-06 15:40:11,070 - office_math_to_latex_converter - INFO - Converting Office Math to LaTeX in: الدالة واحد لواحد (جاهزة للنشر).docx
+2025-08-06 15:40:11,127 - office_math_to_latex_converter - INFO - Saved LaTeX version to: C:\Users\eyousef\AppData\Local\Temp\tmpyvtxowqr.docx
+2025-08-06 15:40:11,128 - office_math_to_latex_converter - INFO - Converted 1 Office Math equations to LaTeX
+2025-08-06 15:40:11,128 - word_anchor_adder - INFO - Adding anchors to: tmpyvtxowqr.docx
+2025-08-06 15:40:11,185 - word_anchor_adder - INFO - Saved: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\002_الدالة واحد لواحد (جاهزة للنشر)\الدالة واحد لواحد (جاهزة للنشر)_anchored.docx
+2025-08-06 15:40:11,185 - word_anchor_adder - INFO - Total anchors: 2 (Office Math + LaTeX + Images)
+2025-08-06 15:40:11,283 - mammoth_converter - INFO -   Detected equation type: latex
+2025-08-06 15:40:11,356 - office_math_to_latex_converter - INFO - Converting Office Math to LaTeX in: الكيمياء الحيوية (بانتظار الترجمة).docx
+2025-08-06 15:40:11,470 - office_math_to_latex_converter - INFO - No Office Math equations found
+2025-08-06 15:40:11,478 - word_anchor_adder - INFO - Adding anchors to: tmpt4sciqyh.docx
+2025-08-06 15:40:12,077 - word_anchor_adder - INFO - Saved: D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html\003_الكيمياء الحيوية (بانتظار الترجمة)\الكيمياء الحيوية (بانتظار الترجمة)_anchored.docx
+2025-08-06 15:40:12,078 - word_anchor_adder - INFO - Total anchors: 19 (Office Math + LaTeX + Images)
+2025-08-06 15:40:13,585 - mammoth_converter - INFO -   Detected equation type: none
+2025-08-06 15:40:15,283 - logger - INFO - Processing completed successfully!
