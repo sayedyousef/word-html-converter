@@ -1,0 +1,85 @@
+LaTeX Equations from: الدالة واحد لواحد (جاهزة للنشر).docx
+======================================================================
+
+Equation 1:
+  Original text: f
+  LaTeX: f
+  Conversion method: Direct parsing
+----------------------------------------
+
+Equation 2:
+  Original text: x1 ≠ x2
+  LaTeX: {x}_{1} \neq {x}_{2}
+  Conversion method: Direct parsing
+----------------------------------------
+
+Equation 3:
+  Original text: f(x1) ≠ f(x2) 
+  LaTeX: f({x}_{1}) \neq f({x}_{2}) 
+  Conversion method: Direct parsing
+----------------------------------------
+
+Equation 4:
+  Original text: f(x1) = f(x2)
+  LaTeX: f({x}_{1}) = f({x}_{2})
+  Conversion method: Direct parsing
+----------------------------------------
+
+Equation 5:
+  Original text: x1 = x2 
+  LaTeX: {x}_{1} = {x}_{2} 
+  Conversion method: Direct parsing
+----------------------------------------
+
+Equation 6:
+  Original text: x+an=k=0nnkxkan-k
+  LaTeX: \left(x+a\right)^{n}=\sum_{k=0}^{n} \left(\frac{n}{k}\right){x}^{k}{a}^{n-k}
+  Conversion method: Direct parsing
+----------------------------------------
+
+
+======================================================================
+Complete LaTeX Document:
+======================================================================
+
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage[utf8]{inputenc}
+\usepackage[arabic]{babel}
+
+\begin{document}
+
+\section{Equations}
+
+% Equation 1: f
+\begin{equation}
+  f
+\end{equation}
+
+% Equation 2: x1 ≠ x2
+\begin{equation}
+  {x}_{1} \neq {x}_{2}
+\end{equation}
+
+% Equation 3: f(x1) ≠ f(x2) 
+\begin{equation}
+  f({x}_{1}) \neq f({x}_{2}) 
+\end{equation}
+
+% Equation 4: f(x1) = f(x2)
+\begin{equation}
+  f({x}_{1}) = f({x}_{2})
+\end{equation}
+
+% Equation 5: x1 = x2 
+\begin{equation}
+  {x}_{1} = {x}_{2} 
+\end{equation}
+
+% Equation 6: x+an=k=0nnkxkan-k
+\begin{equation}
+  \left(x+a\right)^{n}=\sum_{k=0}^{n} \left(\frac{n}{k}\right){x}^{k}{a}^{n-k}
+\end{equation}
+
+\end{document}

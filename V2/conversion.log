@@ -1,0 +1,113 @@
+2025-08-07 11:06:45 - main - INFO - Starting Word Equation Converter
+2025-08-07 11:09:14 - main - INFO - Starting Word Equation Converter
+2025-08-07 11:10:15 - main - INFO - Starting Word Equation Converter
+2025-08-07 11:10:15 - main - INFO - Processing complete
+2025-08-07 11:10:45 - main - INFO - Starting Word Equation Converter
+2025-08-07 11:10:45 - main - INFO - Processing complete
+2025-08-07 11:11:06 - main - INFO - Starting Word Equation Converter
+2025-08-07 11:11:06 - file_processor - INFO - Found 4 files to process
+2025-08-07 11:11:06 - main - INFO - Processing complete
+2025-08-07 11:12:08 - main - INFO - Starting Word Equation Converter
+2025-08-07 11:12:08 - file_processor - INFO - Found 1 files to process
+2025-08-07 11:12:08 - main - INFO - Processing complete
+2025-08-07 11:12:31 - main - INFO - Starting Word Equation Converter
+2025-08-07 11:12:31 - file_processor - INFO - Found 1 files to process
+2025-08-07 11:12:31 - main - INFO - Processing batch 1
+2025-08-07 11:12:31 - main - INFO - Processing complete
+2025-08-07 11:17:59 - main - INFO - Starting Word Equation Converter
+2025-08-07 11:17:59 - file_processor - INFO - Found 1 files to process
+2025-08-07 11:17:59 - main - INFO - Processing batch 1
+2025-08-07 11:17:59 - file_processor - INFO - Processing: الدالة واحد لواحد (جاهزة للنشر).docx
+2025-08-07 11:17:59 - equation_converter - INFO - Extracting equations from الدالة واحد لواحد (جاهزة للنشر).docx
+2025-08-07 11:17:59 - equation_converter - INFO - Found 10 equations: 5 OMML, 0 LaTeX, 0 field-based
+2025-08-07 11:17:59 - file_processor - INFO - Saved equations to الدالة واحد لواحد (جاهزة للنشر)_equations.txt
+2025-08-07 11:17:59 - main - INFO - Processing complete
+2025-08-07 11:51:08 - main - INFO - Starting Word to HTML/LaTeX Converter
+2025-08-07 11:51:08 - document_processor - INFO - Found 1 files to process
+2025-08-07 11:51:08 - main - INFO - Processing batch 1 (1 files)
+2025-08-07 11:51:08 - doc_to_html_latex - INFO - Converting الدالة واحد لواحد (جاهزة للنشر).docx to HTML
+2025-08-07 11:51:08 - document_processor - ERROR - Failed to process الدالة واحد لواحد (جاهزة للنشر).docx: name 'pypandoc' is not defined
+2025-08-07 11:51:08 - document_processor - INFO - Summary saved to D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html2\processing_summary.json
+2025-08-07 11:51:08 - main - INFO - Processing complete: 0 successful, 1 failed
+2025-08-07 11:51:54 - main - INFO - Starting Word to HTML/LaTeX Converter
+2025-08-07 11:51:54 - document_processor - INFO - Found 1 files to process
+2025-08-07 11:51:54 - main - INFO - Processing batch 1 (1 files)
+2025-08-07 11:51:54 - doc_to_html_latex - INFO - Converting الدالة واحد لواحد (جاهزة للنشر).docx to HTML
+2025-08-07 11:51:54 - document_processor - ERROR - Failed to process الدالة واحد لواحد (جاهزة للنشر).docx: name 'pypandoc' is not defined
+2025-08-07 11:51:54 - document_processor - INFO - Summary saved to D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html2\processing_summary.json
+2025-08-07 11:51:54 - main - INFO - Processing complete: 0 successful, 1 failed
+2025-08-07 11:52:45 - main - INFO - Starting Word to HTML/LaTeX Converter
+2025-08-07 11:52:45 - document_processor - INFO - Found 1 files to process
+2025-08-07 11:52:45 - main - INFO - Processing batch 1 (1 files)
+2025-08-07 11:52:45 - doc_to_html_latex - INFO - Converting الدالة واحد لواحد (جاهزة للنشر).docx to HTML
+2025-08-07 11:52:45 - document_processor - ERROR - Failed to process الدالة واحد لواحد (جاهزة للنشر).docx: No pandoc was found: either install pandoc and add it
+to your PATH or or call pypandoc.download_pandoc(...) or
+install pypandoc wheels with included pandoc.
+2025-08-07 11:52:45 - document_processor - INFO - Summary saved to D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html2\processing_summary.json
+2025-08-07 11:52:45 - main - INFO - Processing complete: 0 successful, 1 failed
+2025-08-07 11:53:43 - main - INFO - Starting Word to HTML/LaTeX Converter
+2025-08-07 11:53:43 - document_processor - INFO - Found 1 files to process
+2025-08-07 11:53:43 - main - INFO - Processing batch 1 (1 files)
+2025-08-07 11:53:43 - doc_to_html_latex - INFO - Converting الدالة واحد لواحد (جاهزة للنشر).docx to HTML
+2025-08-07 11:53:43 - document_processor - ERROR - Failed to process الدالة واحد لواحد (جاهزة للنشر).docx: No pandoc was found: either install pandoc and add it
+to your PATH or or call pypandoc.download_pandoc(...) or
+install pypandoc wheels with included pandoc.
+2025-08-07 11:53:43 - document_processor - INFO - Summary saved to D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html2\processing_summary.json
+2025-08-07 11:53:43 - main - INFO - Processing complete: 0 successful, 1 failed
+2025-08-07 12:07:55 - main - INFO - Starting Word to HTML/LaTeX Converter
+2025-08-07 12:07:55 - document_processor - INFO - Found 1 files to process
+2025-08-07 12:07:55 - main - INFO - Processing batch 1 (1 files)
+2025-08-07 12:07:55 - doc_to_html_latex - INFO - Converting الدالة واحد لواحد (جاهزة للنشر).docx to HTML
+2025-08-07 12:08:00 - document_processor - ERROR - Failed to process الدالة واحد لواحد (جاهزة للنشر).docx: name 're' is not defined
+2025-08-07 12:08:00 - document_processor - INFO - Summary saved to D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html2\processing_summary.json
+2025-08-07 12:08:00 - main - INFO - Processing complete: 0 successful, 1 failed
+2025-08-07 12:08:35 - main - INFO - Starting Word to HTML/LaTeX Converter
+2025-08-07 12:08:35 - document_processor - INFO - Found 1 files to process
+2025-08-07 12:08:35 - main - INFO - Processing batch 1 (1 files)
+2025-08-07 12:08:35 - doc_to_html_latex - INFO - Converting الدالة واحد لواحد (جاهزة للنشر).docx to HTML
+2025-08-07 12:08:38 - doc_to_html_latex - INFO - HTML saved to الدالة واحد لواحد (جاهزة للنشر).html
+2025-08-07 12:08:38 - document_processor - INFO - Processed الدالة واحد لواحد (جاهزة للنشر).docx -> الدالة واحد لواحد (جاهزة للنشر).html
+2025-08-07 12:08:38 - document_processor - INFO - Summary saved to D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html2\processing_summary.json
+2025-08-07 12:08:38 - main - INFO - Processing complete: 1 successful, 0 failed
+2025-08-07 12:11:34 - main - INFO - Starting Word to HTML/LaTeX Converter
+2025-08-07 12:11:34 - document_processor - INFO - Found 1 files to process
+2025-08-07 12:11:34 - main - INFO - Processing batch 1 (1 files)
+2025-08-07 12:11:34 - equation_replacer - INFO - Processing الدالة واحد لواحد (جاهزة للنشر).docx
+2025-08-07 12:11:34 - equation_replacer - INFO - Converting to markdown...
+2025-08-07 12:11:37 - equation_replacer - INFO - Replacing equations with LaTeX text...
+2025-08-07 12:11:37 - equation_replacer - INFO - Converting back to Word document...
+2025-08-07 12:11:37 - equation_replacer - INFO - Equation mapping saved to الدالة واحد لواحد (جاهزة للنشر)_latex_equations.json
+2025-08-07 12:11:37 - equation_replacer - INFO - Processed document saved to الدالة واحد لواحد (جاهزة للنشر)_latex.docx
+2025-08-07 12:11:37 - equation_replacer - INFO - Found and replaced 5 equations
+2025-08-07 12:11:37 - document_processor - INFO - Processed الدالة واحد لواحد (جاهزة للنشر).docx -> الدالة واحد لواحد (جاهزة للنشر)_latex.docx
+2025-08-07 12:11:37 - document_processor - INFO - Summary saved to D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\html2\processing_summary.json
+2025-08-07 12:11:37 - main - INFO - Processing complete: 1 successful, 0 failed
+2025-08-07 12:17:56 - equation_replacer - INFO - Modified document saved to D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\مقالات بعد الاخراج\test\الدالة واحد لواحد (جاهزة للنشر)_equations_text.docx
+2025-08-07 12:17:56 - equation_replacer - INFO - Replaced 5 equations with LaTeX text
+2025-08-07 12:17:56 - equation_replacer - INFO - Equation mapping saved to D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\مقالات بعد الاخراج\test\الدالة واحد لواحد (جاهزة للنشر)_equations_text_equations.json
+2025-08-07 12:17:56 - equation_replacer - INFO - Modified document saved to D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\مقالات بعد الاخراج\test\الدالة واحد لواحد (جاهزة للنشر)_temp.docx
+2025-08-07 12:17:56 - equation_replacer - INFO - Replaced 5 equations with LaTeX text
+2025-08-07 12:17:57 - equation_replacer - INFO - HTML saved to D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\مقالات بعد الاخراج\test\الدالة واحد لواحد (جاهزة للنشر).html
+2025-08-07 12:22:07 - word_com_replacer - INFO - Starting Word application...
+2025-08-07 12:22:08 - word_com_replacer - INFO - Opening الدالة واحد لواحد (جاهزة للنشر).docx...
+2025-08-07 12:22:09 - word_com_replacer - INFO - Found 5 equations
+2025-08-07 12:22:09 - word_com_replacer - WARNING - Could not process equation 5: (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', "Math objects can't include paragraph marks or break characters.", 'wdmain11.chm', 25673, -2146822095), None)
+2025-08-07 12:22:09 - word_com_replacer - WARNING - Could not process equation 2: (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', "Math objects can't include paragraph marks or break characters.", 'wdmain11.chm', 25673, -2146822095), None)
+2025-08-07 12:22:09 - word_com_replacer - INFO - Equation data saved to الدالة واحد لواحد (جاهزة للنشر)_equations.json
+2025-08-07 12:22:09 - word_com_replacer - INFO - Saving to الدالة واحد لواحد (جاهزة للنشر)_equations_text.docx...
+2025-08-07 12:22:10 - word_com_replacer - INFO - Successfully replaced 3 equations
+2025-08-07 12:23:31 - word_com_replacer - INFO - Starting Word application...
+2025-08-07 12:23:34 - word_com_replacer - INFO - Opening الدالة واحد لواحد (جاهزة للنشر).docx...
+2025-08-07 12:23:40 - word_com_replacer - INFO - Found 5 equations
+2025-08-07 12:23:40 - word_com_replacer - WARNING - Could not process equation 5: (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', "Math objects can't include paragraph marks or break characters.", 'wdmain11.chm', 25673, -2146822095), None)
+2025-08-07 12:23:40 - word_com_replacer - WARNING - Could not process equation 2: (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', "Math objects can't include paragraph marks or break characters.", 'wdmain11.chm', 25673, -2146822095), None)
+2025-08-07 12:23:41 - word_com_replacer - INFO - Equation data saved to الدالة واحد لواحد (جاهزة للنشر)_equations.json
+2025-08-07 12:23:41 - word_com_replacer - INFO - Saving to الدالة واحد لواحد (جاهزة للنشر)_equations_text.docx...
+2025-08-07 12:23:42 - word_com_replacer - INFO - Successfully replaced 3 equations
+2025-08-07 12:27:54 - word_com_replacer - INFO - Starting Word application...
+2025-08-07 12:27:54 - word_com_replacer - INFO - Opening الدالة واحد لواحد (جاهزة للنشر).docx...
+2025-08-07 12:27:54 - word_com_replacer - INFO - Found 5 equations
+2025-08-07 12:27:55 - word_com_replacer - WARNING - Could not process equation 5: (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', "Math objects can't include paragraph marks or break characters.", 'wdmain11.chm', 25673, -2146822095), None)
+2025-08-07 12:27:56 - word_com_replacer - WARNING - Could not process equation 2: (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', "Math objects can't include paragraph marks or break characters.", 'wdmain11.chm', 25673, -2146822095), None)
+2025-08-07 12:27:56 - word_com_replacer - INFO - Equation data saved to الدالة واحد لواحد (جاهزة للنشر)_equations.json
+2025-08-07 12:27:56 - word_com_replacer - INFO - Saving to D:\Work 3 (20-Oct-24)\2 Side projects May 25\Encyclopedia\articles\مقالات بعد الاخراج\test\الدالة واحد لواحد (جاهزة للنشر)_equations_text.docx...
